@@ -54,14 +54,12 @@ const FunFactsArchitecture = ({ title, tagline, children }) => {
           <div className="col-md-8">
             <div className="row">
               {dataCounters
-                .filter((v, i) => i < 3)
+                .filter((v, i) => i < 6)
                 .map((counter, i) => (
                   <div
-                    className="col-md-4 counter col-sm-6"
+                    className="col-md-3 counter col-sm-6"
                     key={counter.id}
-                    data-aos={"fade-up"}
-                    data-aos-delay={`${i}00`}
-                    data-aos-duration={700}
+                    
                   >
                     <h2 className="count white-color font-700 text-left">
                       <VisibilitySensor

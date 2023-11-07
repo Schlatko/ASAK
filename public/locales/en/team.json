@@ -1,0 +1,98 @@
+{   "header":"ЗАПОЗНАЙТЕ СЕ С НАШИЯ ЕКИП",
+    "subline":"ТРАДИЦИЯТА НИ ПРАВИ ПО-СИЛНИ",
+    
+    "team":[
+    {
+        "id": 1,
+        "name": "Димитър Карагъозов",
+        "role": "главен изпълнителен директор",
+        "image": "team/mitko.jpg",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "!#"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Виктория Карагъозов",
+        "role": "ФИНАНСОВ ДИРЕКТОР",
+        "image": "team/viki.JPEG",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "!#"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Николай Карагъозов",
+        "role": "ТЕХНИЧЕСКИ ДИРЕКТОР",
+        "image": "team/niki.JPEG",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "!#"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Grace Ross",
+        "role": "CEO / Founder",
+        "image": "team/team-04.jpg",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "graceross"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    }
+]
+}

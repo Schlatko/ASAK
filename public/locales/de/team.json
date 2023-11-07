@@ -1,0 +1,99 @@
+{   "header":"Unser Team",
+    "subline":"TRADITION MACHT UNS STÄRKER",
+    "text":"Gegründet wurde das Unternehmen 1990 von Eng. Dimitar Karagyozov und erfuhr im Jahr 2006 eine Neuregistrierung als EOOD (Einzelfirma mit beschränkter Haftung). Seit unserer Gründung haben wir uns einen festen Platz in der Branche erarbeitet und sind stolz darauf, unsere Werte von Kundenzufriedenheit, Zuverlässigkeit und Qualität in den Mittelpunkt unserer Arbeit zu stellen.",
+    
+    "team":[
+    {
+        "id": 1,
+        "name": "Dimitar Karagyozov",
+        "role": "CEO",
+        "image": "team/mitko.jpg",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "!#"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Viktoria Karagyozova",
+        "role": "CFO",
+        "image": "team/viki.JPEG",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "!#"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Nikolay Karagyozov",
+        "role": "CTO",
+        "image": "team/niki.JPEG",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "!#"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Grace Ross",
+        "role": "CEO / Founder",
+        "image": "team/team-04.jpg",
+        "social": [
+            {
+                "id": 1,
+                "icon": "facebook",
+                "link": "graceross"
+            },
+            {
+                "id": 2,
+                "icon": "twitter",
+                "link": "!#"
+            },
+            {
+                "id": 3,
+                "icon": "youtube",
+                "link": "!#"
+            }
+        ]
+    }
+]
+}

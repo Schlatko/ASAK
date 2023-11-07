@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeadingSection = ({ title, tagline, classAppend, font, children }) => {
+const HeadingSection = ({ title, tagline,text, classAppend, font, children }) => {
   return (
     <div
       className={"col-sm-8 section-heading " + (classAppend ? classAppend : "")}
@@ -21,6 +21,16 @@ const HeadingSection = ({ title, tagline, classAppend, font, children }) => {
           data-aos-duration={700}
         >
           {`- ${tagline} -`}
+        </h4>
+      )}
+      {text && (
+        <h4
+          className={" " + (font ? font : "")}
+          data-aos-delay={200}
+          data-aos={"fade-up"}
+          data-aos-duration={700}
+        >
+          {text}
         </h4>
       )}
       {children ? (

@@ -3,8 +3,13 @@ import ContactFormSix from "./ContactFormSix";
 import Icofont from "react-icofont";
 import Map from "../Maps/Map";
 import idea from "../../assets/images/backgroundIdea.svg"
+import { useTranslation } from "react-i18next";
 
-const ContactFour = () =>  (
+
+
+const ContactFour = () =>  {
+const { t } = useTranslation('contact');
+return (
     <>
       <section className="contact-us white-bg" id="contact">
         <div className="container">
@@ -13,7 +18,7 @@ const ContactFour = () =>  (
               <img className=""src={idea}></img>
             </div>
             <div className="col-about-left col-md-6 text-left">
-              <h2>Kontaktieren Sie uns</h2>
+              <h2>{t('contact.header')}</h2>
               <h4 className="text-uppercase"></h4>
               <ContactFormSix />
             </div>
@@ -60,5 +65,6 @@ const ContactFour = () =>  (
       </section>
     </>
   );
+};
 
 export default ContactFour;

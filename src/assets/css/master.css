@@ -435,7 +435,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 }
 
 .parallax-bg-17 {
-    background: url(../images/background/parallax-bg-18.jpg) center 0 no-repeat;
+    background: url(../images/background/ASAKBGBes.png) center 0 no-repeat;
     background-size: cover;
 }
 
@@ -616,6 +616,9 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 }
 .white-color {
 	color: #fff !important;
+}
+.green-color {
+	color: #0AA84A !important;
 }
 .white-color p, .white-color h1, .white-color h2, .white-color h3, .white-color h4, .white-color h5, .white-color h6 {
     color: #fff!important;
@@ -3495,6 +3498,92 @@ ul.footer-gallery li img {
     opacity: 1;
 }
 
+
+/*=============================================
+                Contact
+=============================================*/
+
+#contact {
+  position: fixed;
+  top: 150px;
+  left: 0px;
+  z-index: 999;
+
+ 
+  text-align: center;
+  line-height: 35px;
+  background: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+ 
+  text-decoration: none;
+  opacity: 0;
+box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.05);
+font-size:14px;
+
+padding: 0 30px;
+height: 48px;
+line-height: 46px;
+text-transform: uppercase;
+font-size: 14px;
+-webkit-transition: all .3s ease;
+transition: all .3s ease;
+font-weight: 500;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 1px;
+}
+#contact:hover {
+  background: #212121;
+color:#fff;
+}
+#contact.show {
+  opacity: 1;
+}
+
+#contact.mobile {
+  height: 10px;
+}
+
+
+#contact2 {
+  position: fixed;
+  top: 199px;
+  left: 0px;
+  z-index: 999;
+
+ 
+  text-align: center;
+  line-height: 35px;
+  background: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+ 
+  text-decoration: none;
+  opacity: 0;
+box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.05);
+font-size:14px;
+
+padding: 0 30px;
+height: 48px;
+line-height: 46px;
+text-transform: uppercase;
+font-size: 14px;
+-webkit-transition: all .3s ease;
+transition: all .3s ease;
+font-weight: 500;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 1px;
+}
+#contact2:hover {
+  background: #212121;
+color:#fff;
+}
+#contact2.show {
+  opacity: 1;
+}
+
 /*=======================================================
       FLEX SLIDER
 ========================================================*/
@@ -4538,7 +4627,11 @@ ul.footer-gallery li img {
 }
 
 .service-cover-bg {
-	background-image: url(../images/title-bg/title-hero-4.jpg);
+	background-image: url(../images/offers.png);
+}
+
+.service-cover-bg2 {
+	background-image: url(../images/HeaderFormenbau.png);
 }
 
 .contact-cover-bg {
@@ -6070,13 +6163,36 @@ ul#myTab {
 #about .right_parallax,
 #chefs .left_parallax {
   z-index: -1;
+
+}
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
 
 #message-input-simple {margin-top: 20px;}
 .comment-form textarea, input {margin-bottom: 20px;}
 
 .product-slider .flex-control-thumbs {list-style: none; padding-left: 0;}
-.blockquote-custom {padding: 10px 20px; margin: 0 0 20px; font-size: 17.5px;}
+.blockquote-custom {padding: 10px 20px; margin: 0 0 20px; font-size: 17.5px;  border-radius: 25px;}
 .blockquote-custom .blockquote-footer {    
   display: block;
   font-size: 80%;

@@ -1,0 +1,38 @@
+{"slider":[
+    {
+      "id": 1,
+      "title": "Spritzguss und Formenbau",
+      "tagline": "Effiziente Kunststoffverarbeitung – maßgeschneiderte Lösungen für Ihre Anforderungen.",
+      "image": "slides/GranulatBG.png",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "Kontakt",
+          "link": "!#",
+          "type": "btn-color blue btn-circle"
+        },
+        {
+          "id": 2,
+          "text": "Leistungen",
+          "link": "/offers",
+          "type": "btn-color blue btn-circle"
+        }
+      
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Entwicklung und Fertigung",
+      "tagline": "Präzisionsformen für höchste Ansprüche – Ihr zuverlässiger Partner in der Kunststoffverarbeitung",
+      "image": "slides/MoldBG.png",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "REGISTER NOW",
+          "link": "!#",
+          "type":"btn-color btn-circle"
+        }
+      ]
+    }
+  ]
+}

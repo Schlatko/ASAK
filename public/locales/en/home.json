@@ -1,0 +1,51 @@
+
+    {
+        "header": "A.C.A.K.",
+        "tagline": "Efficient plastics processing - customised solutions for your requirements",
+        "text": "At our company, we value customer satisfaction, reliability, and quality above all else. We strive to provide our clients with top-notch injection molding services, customized to meet their unique needs and requirements.",
+        "services":
+        [
+          {
+            "id": 1,
+            "title": "PRODUCT DESIGN",
+            "text": "We work closely with our clients to optimize their plastic part designs for injection molding, ensuring that the parts can be produced with high efficiency and quality.",
+            "icon": "light-bulb"
+          },
+          {
+            "id": 2,
+            "title": "TOOL DESINGING AND PRODUCTION",
+            "text": "Our team of experts uses the latest technologies and materials to design and produce custom molds that meet the unique needs and requirements of each project.",
+            "icon": "rocket-alt-2"
+          },
+          {
+            "id": 3,
+            "title": "Injection molding production",
+            "text": "We use advanced injection molding machines to produce high-quality plastic parts with a fast turnaround time and strict quality control measures in place.",
+            "icon": "architecture-alt"
+          },
+          {
+            "id": 4,
+            "title": "ASSEMBLY AND FINISHING",
+            "text": "Our skilled technicians can perform a wide range of assembly and finishing services.",
+            "icon": "spanner"
+          },
+          {
+            "id": 5,
+            "title": "PROTOTYPING",
+            "text": "We offer rapid prototyping services to help our clients test and validate their plastic part designs before proceeding to full-scale production, saving time and money in the long run.",
+            "icon": "gears"
+          },
+          {
+            "id": 6,
+            "title": "Quality control",
+            "text": "We have a dedicated quality control team that performs various tests and inspections on our plastic parts to ensure that they meet the highest standards of quality and durability.",
+            "icon": "thumbs-up"
+          }
+        ]
+          
+      
+      }
+      
+      
+     
+  

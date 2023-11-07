@@ -1,26 +1,32 @@
 [
     {
         "id": 1,
-        "value": 5600,
-        "title": "Working Hours",
+        "value": "Schließkraft",
+        "title": "800 kN",
         "icon": "clock-time"
     },
     {
         "id": 2,
-        "value": 220,
-        "title": "Happy Clients",
+        "value": "Aufspannfläche",
+        "title": "340x340 mm",
         "icon": "slightly-smile"
     },
     {
         "id": 3,
-        "value": 108,
-        "title": "Awwwards",
+        "value": "Materialien",
+        "title": "POM, PUR, PC, PMMA, PE, ABS, uvm.",
         "icon": "trophy"
     },
     {
         "id": 4,
-        "value": 650,
-        "title": "Projects a Year",
+        "value": "Losgrößen",
+        "title": "Klein und Großstückzahlen.",
+        "icon": "coffee-cup"
+    },
+    {
+        "id": 4,
+        "value": "Losgrößen",
+        "title": "Klein und Großstückzahlen.",
         "icon": "coffee-cup"
     }
 ]

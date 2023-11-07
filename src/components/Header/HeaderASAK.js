@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 import Icofont from "react-icofont";
-import DropdownMenu from "../Navs/DropdownMenu";
+import DropdownMenuAsak from "../Navs/DropdownMenuAsak";
 import SearchOverlay from "../../elements/SearchOverlay";
 import AttributeNav from "../Navs/AttributeNav";
 import MainLogo from "../MainLogo";
 import CartSearchTop from "../Navs/CartSearchTop";
 import LanguageSelector from "../../elements/LanguageSelector"
+import LanguageSelectorde from "../../elements/LanguageSelectorde"
+import { useTranslation } from "react-i18next";
 
 
 const HeaderAsak = ({ type }) => {
@@ -18,6 +20,8 @@ const HeaderAsak = ({ type }) => {
     const menu = document.getElementById("navbar-menu");
     collapse ? menu.classList.remove("in") : menu.classList.add("in");
   };
+
+  const { t } = useTranslation('navbar-data-asak');
 
   const handleScroll = useCallback(() => {
     if (window.pageYOffset > 34) {
@@ -67,6 +71,7 @@ const HeaderAsak = ({ type }) => {
       >
         <SearchOverlay show={show} onClick={hideSearchForm} />
         <div className="container">
+          
           <button
             type="button"
             className={"navbar-toggler " + (collapse ? "collapsed" : "")}
@@ -77,12 +82,15 @@ const HeaderAsak = ({ type }) => {
             <Icofont icon="navigation-menu" />
           </button>
           <MainLogo showMenu={showMenu} />
-          <DropdownMenu />
+  
+          <DropdownMenuAsak />
          
-         <AttributeNav>
             
-            <LanguageSelector></LanguageSelector>
-            </AttributeNav>
+            
+          <LanguageSelector></LanguageSelector>
+            
+            
+          
           
         </div>
       </nav>

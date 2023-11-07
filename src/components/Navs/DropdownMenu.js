@@ -3,6 +3,8 @@ import DropdownItem from "./DropdownItem";
 import MegaDropdown from "./MegaDropdown";
 import dataNav from "../../data/Navbar/navbar-data-asak.json";
 import useWindowResizeListener from "../../helpers/useWindowResizeListener";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 
 const DropdownMenu = () => {
@@ -11,7 +13,10 @@ const DropdownMenu = () => {
   useWindowResizeListener();
 
   
-
+  const { t } = useTranslation('navbar-data-asak');
+ // {dataNav.map((dropdown, i) => (
+   //{t('navbar-data-asak', {returnObjects: true}).map((dropdown, i) => (
+     // {t("dataNav.title")}
   const handleHover = (e) => {
     e.preventDefault();
     const width = window.innerWidth;
@@ -36,7 +41,7 @@ const DropdownMenu = () => {
   return (
     <div className="collapse navbar-collapse" id="navbar-menu">
       <ul className="nav navbar-nav" data-in="fadeIn" data-out="fadeOut">
-        {dataNav.map((dropdown, i) => (
+      {t('header', {returnObjects: true}).map((dropdown, i) => (
           <li
             className={
               "dropdown nav-item " + (dropdown.megaMenu === true ? "megamenu-fw" : "")
@@ -46,6 +51,7 @@ const DropdownMenu = () => {
           >
             <a href="index" className="dropdown-toggle nav-link" data-toggle="dropdown">
               {dropdown.title}
+             
             </a>
             {dropdown.megaMenu ? (
               <MegaDropdown

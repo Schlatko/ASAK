@@ -1,0 +1,66 @@
+{
+    "header": "Formenbau",
+    "sub": "Wir sind spezialisiert auf die Entwicklung und Herstellung hochwertiger Spritzgussformen für unterschiedlichste Anwendungen in der Kunststoffindustrie. Unser Ziel ist es, Ihnen maßgeschneiderte Lösungen zu bieten, um Ihre Produktionsprozesse zu optimieren und Ihnen wettbewerbsfähige Vorteile zu verschaffen.",
+    "aftersub": "Alle Details in der Übersicht",
+    "tagline": "Test",
+    "text": "Der Spritzgussformenbau ist ein entscheidender Schritt in der Kunststoffverarbeitung. Hier entstehen die Werkzeuge, die für die Produktion von Kunststoffteilen durch Spritzgussverfahren verwendet werden. Spritzguss ermöglicht eine kostengünstige, schnelle und präzise Herstellung von Produkten in großen Stückzahlen. Die Qualität der Spritzgussformen beeinflusst maßgeblich die Endprodukte, daher ist eine professionelle Herstellung von höchster Bedeutung. Wir verstehen die Bedeutung eines effizienten und zuverlässigen Spritzgussformenbaus für Ihr Unternehmen. Daher bieten wir Ihnen:", 
+    "services":
+      [
+        {
+          "id": 1,
+          "title": "Maßgeschneiderte Lösungen",
+          "text": "Jedes Projekt ist einzigartig, und wir entwickeln unsere Spritzgussformen entsprechend Ihren individuellen Anforderungen und Spezifikationen. Egal ob Prototypenwerkzeuge, Spritzgusswerkzeuge & Heisskanalwerkzeuge wir bieten Ihnen ein breites Spektrum. Durch unseren eigenen Formenbau verkürzen wir deutlich die Durchlaufzeiten von Neu- und Bestandwerkzeugen. Änderungen und Optimierungen der Spritzgusswerkzeuge können genau deshalb von uns kurzfristig und problemlos durchgeführt werden. Dadurch kann die Serienfertigung so schnell wie möglich fortgesetzt werden.",
+          "icon": "gears"
+        },{
+          "id": 2,
+          "title": "Höchste Qualität",
+          "text": "Unser erfahrenes Team von Ingenieuren und Technikern arbeitet mit modernster Technologie und präzisen Fertigungsmethoden, um erstklassige Spritzgussformen zu liefern, die eine hohe Lebensdauer und Wiederholgenauigkeit gewährleisten.",
+          "icon": "light-bulb"
+        },
+        {
+          "id": 3,
+          "title": "Kurze Lieferzeiten",
+          "text": "Wir verstehen, dass Zeit in der Produktion entscheidend ist. Unsere effizienten Produktionsabläufe ermöglichen es uns, Ihnen kurze Lieferzeiten zu garantieren, ohne dabei Kompromisse bei der Qualität einzugehen.",
+          "icon": "architecture-alt"
+        },
+        {
+          "id": 4,
+          "title": "Kosteneffizienz",
+          "text": "Wir setzen auf intelligente Konstruktionen und optimierte Fertigungsverfahren, um die Kosten für die Spritzgussformen zu minimieren und Ihnen wettbewerbsfähige Preise zu bieten.",
+          "icon": "industries-2"
+        },
+        {
+          "id": 5,
+          "title": "Kundenorientierter Service",
+          "text": "Ihre Zufriedenheit steht bei uns an erster Stelle. Unser engagiertes Team unterstützt Sie während des gesamten Projekts und steht Ihnen bei Fragen und Anliegen zur Verfügung.",
+          "icon": "spanner"
+        }
+      ],
+      "accordion":
+        [
+          {
+            "id": 1,
+            "title": "Aluminiumformen",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
+          },
+          {
+            "id": 2,
+            "title": "Gehärterter Stahl",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
+          },
+          {
+            "id": 3,
+            "title": "Heißkanal",
+            "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+          },
+          {
+            "id": 4,
+            "title": "Fourth Accordion",
+            "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+          }
+        ]
+        
+
+      
+        
+  }

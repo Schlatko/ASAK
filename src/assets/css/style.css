@@ -9,8 +9,8 @@
    Secondary color is used for some hover on buttons.
 */
 :root {
-  --main-color: #d42e22;
-  --secondary-color: #ce1500;
+  --main-color: #0aa84a;
+  --secondary-color: #0aa84a;
 }
 
 .dropdown-menu {

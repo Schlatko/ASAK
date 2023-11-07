@@ -1,0 +1,38 @@
+{"slider":[
+    {
+      "id": 1,
+      "title": "Injection moulding and mould manufacturing",
+      "tagline": "Efficient plastics processing - customised solutions for your requirements",
+      "image": "slides/GranulatBG.png",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "Contact",
+          "link": "/contact",
+          "type": "btn-color blue btn-circle"
+        },
+        {
+          "id": 2,
+          "text": "Services",
+          "link": "/contact",
+          "type": "btn-color blue btn-circle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Development and production",
+      "tagline": "Precision moulds for the highest demands - your reliable partner in plastics processing",
+      "image": "slides/MoldBG.png",
+      "buttons": [
+        {
+          "id": 1,
+          "text": "контакт",
+          "link": "/contact",
+          "type":"btn-color btn-circle"
+        }
+      ]
+    }
+  ]
+}
+  

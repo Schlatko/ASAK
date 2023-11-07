@@ -1,0 +1,50 @@
+
+    {
+        "header": "A.C.A.K.",
+        "tagline": "Effiziente Kunststoffverarbeitung - maßgeschneiderte Lösungen für Ihre Anforderungen.",
+        "text": "In unserem Unternehmen stehen Kundenzufriedenheit, Zuverlässigkeit und Qualität an erster Stelle. Wir sind bestrebt, unseren Kunden erstklassige Spritzgießdienstleistungen zu bieten, die auf ihre individuellen Bedürfnisse und Anforderungen zugeschnitten sind.",
+        "services":
+      [
+        {
+          "id": 1,
+          "title": "Prototypen",
+          "text": "Wir bieten Rapid-Prototyping-Dienstleistungen an, um unseren Kunden zu helfen, ihre Kunststoffteil-Designs zu testen und zu validieren, bevor sie in die Serienproduktion gehen, was langfristig Zeit und Geld spart.",
+          "icon": "gears"
+        },{
+          "id": 2,
+          "title": "PRODUKTGESTALTUNG",
+          "text": "Wir arbeiten eng mit unseren Kunden zusammen, um ihre Kunststoffteile für das Spritzgießen zu optimieren und sicherzustellen, dass die Teile mit hoher Effizienz und Qualität hergestellt werden können.",
+          "icon": "light-bulb"
+        },
+        {
+          "id": 3,
+          "title": "Konstruktion und Herstellung von Werkzeugen",
+          "text": "Unser Expertenteam setzt die neuesten Technologien und Materialien ein, um maßgeschneiderte Formen zu entwerfen und herzustellen, die den einzigartigen Bedürfnissen und Anforderungen eines jeden Projekts entsprechen.",
+          "icon": "architecture-alt"
+        },
+        {
+          "id": 4,
+          "title": "Produktion im Spritzgussverfahren",
+          "text": "Wir verwenden fortschrittliche Spritzgussmaschinen, um qualitativ hochwertige Kunststoffteile mit einer schnellen Durchlaufzeit und strengen Qualitätskontrollmaßnahmen herzustellen.",
+          "icon": "industries-2"
+        },
+        {
+          "id": 5,
+          "title": "Montage und Endbearbeitung",
+          "text": "Unsere geschulten Techniker können eine breite Palette von Montage- und Endbearbeitungsarbeiten durchführen.",
+          "icon": "spanner"
+        },
+        {
+          "id": 6,
+          "title": "Qualitätskontrolle",
+          "text": "Wir verfügen über ein engagiertes Qualitätskontrollteam, das verschiedene Tests und Prüfungen an unseren Kunststoffteilen durchführt, um sicherzustellen, dass sie den höchsten Qualitäts- und Haltbarkeitsstandards entsprechen.",
+          "icon": "thumbs-up"
+        }
+      ]
+        
+    
+    }
+      
+      
+     
+  

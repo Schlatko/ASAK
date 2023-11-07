@@ -4,16 +4,18 @@ import 'swiper/swiper-bundle.css';
 import parse from "html-react-parser";
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
 
-const HeroSliderTwo = ({ data }) => {
+import { useTranslation } from "react-i18next";
+
+const HeroSliderTwo = () => {
   const params = {
-    loop: true,
+    loop: false,
     grabCursor: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
     autoplay: {
-      delay: 7000,
+      delay: 30,
       disableOnInteraction: false,
     },
     pagination: {
@@ -21,13 +23,14 @@ const HeroSliderTwo = ({ data }) => {
       clickable: true,
     },
   };
+  const { t } = useTranslation('slider');
 
   return (
     <section className="pt-0 pb-0">
       <div className="slider-bg flexslider">
         <ul className="slides">
           <Swiper {...params}>
-            {data.map((slide) => (
+          {t('slider', {returnObjects: true}).map((slide) => (
               <li key={slide.id}>
                 <div
                   className="slide-img"
