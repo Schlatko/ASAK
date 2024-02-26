@@ -7,7 +7,7 @@
         "id": 1,
         "name": "Dimitar Karagyozov",
         "role": "CEO",
-        "image": "team/mitko.jpg",
+        "image": "team/mitko.png",
         "social": [
             {
                 "id": 1,
@@ -30,7 +30,7 @@
         "id": 2,
         "name": "Viktoria Karagyozova",
         "role": "CFO",
-        "image": "team/viki.JPEG",
+        "image": "team/viki.png",
         "social": [
             {
                 "id": 1,
@@ -53,7 +53,7 @@
         "id": 3,
         "name": "Nikolay Karagyozov",
         "role": "CTO",
-        "image": "team/niki.JPEG",
+        "image": "team/niki.png",
         "social": [
             {
                 "id": 1,

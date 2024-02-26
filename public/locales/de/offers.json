@@ -8,7 +8,8 @@
     "id": 1,
     "icon": "calculations",
     "title": "Formenbau",
-    "text": "Präzise Formen, maßgeschneidert für Ihre Anforderungen. Unser Formenbau setzt Ihre Ideen in die Realität um."
+    "text": "Präzise Formen, maßgeschneidert für Ihre Anforderungen. Unser Formenbau setzt Ihre Ideen in die Realität um.",
+    "link": "/formenbau"
   },
   {
     "id": 2,
@@ -21,27 +22,24 @@
     "id": 3,
     "icon": "architecture-alt",
     "title": "3D Druck & Prototypen",
-    "text": "Innovative 3D Prototypen, die Ihre Visionen Wirklichkeit werden lassen. Entdecken Sie die Welt des Prototypenbaus mit uns."
+    "text": "Innovative 3D Prototypen, die Ihre Visionen Wirklichkeit werden lassen. Entdecken Sie die Welt des Prototypenbaus mit uns.",
+    "link": "/prototypen"
   },
   {
     "id": 4,
     "icon": "bolt",
     "title": "Dreh-, Bohr-, & Fräsarbeiten",
-    "text": "Präzisionsarbeit im Drehen, Bohren und Fräsen – unser Handwerk, Ihre Lösung. Verlassen Sie sich auf unsere Erfahrung in der Metallverarbeitung."
+    "text": "Präzisionsarbeit im Drehen, Bohren und Fräsen – unser Handwerk, Ihre Lösung. Verlassen Sie sich auf unsere Erfahrung in der Metallverarbeitung.",
+    "link": "/dbf"
   }
   ,
   {
     "id": 5,
     "icon": "meteor",
     "title": "Laserbeschriftungen",
-    "text": "Laserpräzision für Ihre Markierungslösungen. Hinterlassen Sie bleibenden Eindruck mit unseren Laserbeschriftungen."
+    "text": "Laserpräzision für Ihre Markierungslösungen. Hinterlassen Sie bleibenden Eindruck mit unseren Laserbeschriftungen.",
+    "link": "/laser"
   }
-  ,
-  {
-    "id": 6,
-    "icon": "wrench",
-    "title": "Montage",
-    "text": "Sorgfältige Montage, für ein perfektes Endergebnis. Ihre Baugruppen in erfahrenen Händen."
-  }
+  
 ]
 }

@@ -1,7 +1,10 @@
 import React from "react";
 import ContactFormFive from "./ContactFormFive";
+import { useTranslation } from "react-i18next";
 
-const ContactThree = () => (
+const ContactThree = () =>  {
+  const { t } = useTranslation('contact');
+  return (
   <section className="contact-us dark-bg">
     <div className="container">
       <div className="row">
@@ -9,7 +12,7 @@ const ContactThree = () => (
           <ContactFormFive />
         </div>
         <div className="col-md-4">
-          <h3 className="white-color">Postal Location</h3>
+          <h3 className="white-color">Ppppp</h3>
           <address>
             PO Box 16122 Toronto Eaton Centre,
             <br />
@@ -37,5 +40,6 @@ const ContactThree = () => (
     </div>
   </section>
 );
+};
 
 export default ContactThree;

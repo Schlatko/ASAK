@@ -8,7 +8,7 @@
         {
           "id": 1,
           "text": "Kontakt",
-          "link": "!#",
+          "link": "/contact",
           "type": "btn-color blue btn-circle"
         },
         {
@@ -28,10 +28,17 @@
       "buttons": [
         {
           "id": 1,
-          "text": "REGISTER NOW",
-          "link": "!#",
-          "type":"btn-color btn-circle"
+          "text": "Kontakt",
+          "link": "/contact",
+          "type": "btn-color blue btn-circle"
+        },
+        {
+          "id": 2,
+          "text": "Leistungen",
+          "link": "/offers",
+          "type": "btn-color blue btn-circle"
         }
+      
       ]
     }
   ]

@@ -2,7 +2,7 @@ import React from "react";
 
 const PageTitleContact = ({ title, tagline }) => (
   <section
-    className="title-hero-bg contact-cover-bg"
+    className="title-hero-bg2 contact-cover-bg"
     data-stellar-background-ratio="0.2"
   >
     <div className="container">

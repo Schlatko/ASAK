@@ -7,14 +7,7 @@
         "title": "Start",
         "link": "/",
         "megaMenu": false,
-        "sub": false, 
-        "subMenu": [
-            {
-                "id": 2.1,
-                "title": "Leer",
-                "link": "/about"
-               
-            }]
+        "sub": false
     },
     {
         "id": 3,
@@ -35,35 +28,30 @@
             },
             {
                 "id": 3.3,
-                "title": "Prototypen",
-                "link": "/blog-sidebar"
+                "title": "3D Druck & Prototypen",
+                "link": "/prototypen"
             },
             {
                 "id": 3.4,
-                "title": "Sondermaschinenbau",
-                "link": "/blog-sidebar"
+                "title": "Dreh-, Bohr-, & Fräsarbeiten",
+                "link": "/dbf"
             }
+            ,
+            {
+                "id": 3.5,
+                "title": "Laserbeschriftungen",
+                "link": "/laser"
+            }
+                 
         ]  
     },
     {
         "id": 4,
         "title": "Referenzen",
-        "link": "/portfolio",
+        "link": "/referenzen",
         "megaMenu": false,
-        "sub": false, 
-        "subMenu": [
-            {
-                "id": 4.1,
-                "title": "Gallerie",
-                "link": "/boxed"
-               
-            },
-            {
-                "id": 4.2,
-                "title": "Industrien & Partner",
-                "link": "/boxed-space"
-            }
-        ]
+        "sub": false
+       
     },
     {
         "id": 5,
@@ -82,21 +70,10 @@
     {
         "id": 6,
         "title": "Kontakt",
-        "link": "/shops",
+        "link": "/contact",
         "megaMenu": false,
-        "sub": false, 
-        "subMenu": [
-            {
-                "id": 5.1,
-                "title": "Geschichte",
-                "link": "/shop-fullwidth"
-            },
-            {
-                "id": 5.2,
-                "title": "Das Team",
-                "link": "/shop-standard"
-            }
-        ]  
+        "sub": false
+         
     }
 ]
 }

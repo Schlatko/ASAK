@@ -4,6 +4,7 @@ const ContactButtons = ({ children }) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobile, setIsMobile] = useState(false);
 
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.pageYOffset > 100) {
@@ -19,6 +20,10 @@ const ContactButtons = ({ children }) => {
             setIsMobile(false)
         }
     };
+
+  
+
+
 
     window.addEventListener("scroll", handleScroll, { passive: true });
 
@@ -51,15 +56,17 @@ const ContactButtons = ({ children }) => {
 
   return (
     <>
-      <a
+      <a 
         href="tel:+4915111682642"
         id="contact"
         className={scrolled ? "show" : ""}
         title="Rufen Sie uns an"
-       
+      
       >
+    
       <i class="icofont-headphone-alt-2"></i>
       </a>
+    
       <a
         href="info@asak-eu.com"
         id="contact2"

@@ -1,66 +1,63 @@
 {
-    "header": "Formenbau",
-    "sub": "Wir sind spezialisiert auf die Entwicklung und Herstellung hochwertiger Spritzgussformen für unterschiedlichste Anwendungen in der Kunststoffindustrie. Unser Ziel ist es, Ihnen maßgeschneiderte Lösungen zu bieten, um Ihre Produktionsprozesse zu optimieren und Ihnen wettbewerbsfähige Vorteile zu verschaffen.",
-    "aftersub": "Alle Details in der Übersicht",
-    "tagline": "Test",
-    "text": "Der Spritzgussformenbau ist ein entscheidender Schritt in der Kunststoffverarbeitung. Hier entstehen die Werkzeuge, die für die Produktion von Kunststoffteilen durch Spritzgussverfahren verwendet werden. Spritzguss ermöglicht eine kostengünstige, schnelle und präzise Herstellung von Produkten in großen Stückzahlen. Die Qualität der Spritzgussformen beeinflusst maßgeblich die Endprodukte, daher ist eine professionelle Herstellung von höchster Bedeutung. Wir verstehen die Bedeutung eines effizienten und zuverlässigen Spritzgussformenbaus für Ihr Unternehmen. Daher bieten wir Ihnen:", 
-    "services":
-      [
-        {
-          "id": 1,
-          "title": "Maßgeschneiderte Lösungen",
-          "text": "Jedes Projekt ist einzigartig, und wir entwickeln unsere Spritzgussformen entsprechend Ihren individuellen Anforderungen und Spezifikationen. Egal ob Prototypenwerkzeuge, Spritzgusswerkzeuge & Heisskanalwerkzeuge wir bieten Ihnen ein breites Spektrum. Durch unseren eigenen Formenbau verkürzen wir deutlich die Durchlaufzeiten von Neu- und Bestandwerkzeugen. Änderungen und Optimierungen der Spritzgusswerkzeuge können genau deshalb von uns kurzfristig und problemlos durchgeführt werden. Dadurch kann die Serienfertigung so schnell wie möglich fortgesetzt werden.",
-          "icon": "gears"
-        },{
-          "id": 2,
-          "title": "Höchste Qualität",
-          "text": "Unser erfahrenes Team von Ingenieuren und Technikern arbeitet mit modernster Technologie und präzisen Fertigungsmethoden, um erstklassige Spritzgussformen zu liefern, die eine hohe Lebensdauer und Wiederholgenauigkeit gewährleisten.",
-          "icon": "light-bulb"
-        },
-        {
-          "id": 3,
-          "title": "Kurze Lieferzeiten",
-          "text": "Wir verstehen, dass Zeit in der Produktion entscheidend ist. Unsere effizienten Produktionsabläufe ermöglichen es uns, Ihnen kurze Lieferzeiten zu garantieren, ohne dabei Kompromisse bei der Qualität einzugehen.",
-          "icon": "architecture-alt"
-        },
-        {
-          "id": 4,
-          "title": "Kosteneffizienz",
-          "text": "Wir setzen auf intelligente Konstruktionen und optimierte Fertigungsverfahren, um die Kosten für die Spritzgussformen zu minimieren und Ihnen wettbewerbsfähige Preise zu bieten.",
-          "icon": "industries-2"
-        },
-        {
-          "id": 5,
-          "title": "Kundenorientierter Service",
-          "text": "Ihre Zufriedenheit steht bei uns an erster Stelle. Unser engagiertes Team unterstützt Sie während des gesamten Projekts und steht Ihnen bei Fragen und Anliegen zur Verfügung.",
-          "icon": "spanner"
-        }
-      ],
-      "accordion":
-        [
-          {
-            "id": 1,
-            "title": "Aluminiumformen",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
-          },
-          {
-            "id": 2,
-            "title": "Gehärterter Stahl",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
-          },
-          {
-            "id": 3,
-            "title": "Heißkanal",
-            "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
-          },
-          {
-            "id": 4,
-            "title": "Fourth Accordion",
-            "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
-          }
-        ]
-        
+  "header": "Изработка на матрици при A.S.A.K.",
+
+  "sub": "MASTERING MOLDS DELIVERING EXCELLENCE",
+  "header2": "Избор на материали",
+  "sub2": "Изборът на материал зависи от фактори като броя на парчетата, материала на крайния продукт, размера на продукта и желаната точност. Важно е да се вземат предвид специфичните изисквания на всеки проект, за да се избере оптималната форма.",
+  "header3": "Избор на метод за инжектиране",
+  "sub3": "Формите за впръскване могат да бъдат класифицирани според метода на впръскване, т.е. начина, по който разтопеният пластмасов материал се вкарва във формата. Съществуват основно два основни типа методи за впръскване.",
+
+  "header4": "Подрези в шприцформи",
+  "sub4": "Изработването на подрези при шприцване изисква специални техники и механизми, тъй като те показват области в отливания детайл, които не могат да бъдат отделени чрез просто избутване на двете половини на матрицата. Прорезите могат да бъдат причинени от надвиснали структури или вътрешни особености, например.",
+
+
+  "aftersub": "Alle Details in der Übersicht",
+  "tagline": "Иновации чрез производство на форми: перфектни инструменти за вашия успех в областта на леенето под налягане.",
+  
+  "text": "Изграждането на формите за впръскване е ключов етап в обработката на пластмаси. Тук се създават инструментите, използвани за производството на пластмасови детайли чрез инжекционно формоване. Формоването чрез впръскване дава възможност за рентабилно, бързо и прецизно производство на продукти в големи количества. Качеството на шприцформите оказва значително влияние върху крайните продукти, поради което професионалното производство е от изключителна важност. Ние разбираме значението на ефективното и надеждно производство на шприцформи за вашата компания.", 
+
+  "services":
+    [
+      {
+        "id": 1,
+        "title": "Персонализирани решения",
+        "text": "Всеки проект е уникален и ние разработваме нашите шприцформи в съответствие с вашите индивидуални изисквания и спецификации. Независимо дали става въпрос за прототипни форми, форми за инжектиране или форми за горещо протичане, ние ви предлагаме широк спектър.",
+        "icon": "gears"
+      },
+      {
+        "id": 2,
+        "title": "Собствено производство на форми",
+        "text": "Благодарение на собственото ни производство на матрици, ние значително съкращаваме сроковете за изработка на нови и съществуващи матрици. Точно затова можем бързо и лесно да правим промени и оптимизации на инструментите за леене под налягане. Това означава, че серийното производство може да продължи възможно най-бързо.",
+        "icon": "gears"
+      },
+      {
+        "id": 3,
+        "title": "Най-високо качество",
+        "text": "Нашият опитен екип от инженери и техници работи с най-новите технологии и прецизни производствени методи, за да осигури първокласни шприцформи, които гарантират дълъг експлоатационен живот и повторяема точност.",
+        "icon": "light-bulb"
+      },
+      {
+        "id": 4,
+        "title": "Кратко време за доставка",
+        "text": "Наясно сме, че при производството времето е от съществено значение. Нашите ефективни производствени процеси ни позволяват да ви гарантираме кратки срокове за доставка, без да правим компромис с качеството.",
+        "icon": "architecture-alt"
+      },
+      {
+        "id": 5,
+        "title": "Разходна ефективност",
+        "text": "Разчитаме на интелигентни проекти и оптимизирани производствени процеси, за да сведем до минимум разходите за шприцформи и да ви предложим конкурентни цени.",
+        "icon": "industries-2"
+      },
+      {
+        "id": 6,
+        "title": "Ориентирано към клиента обслужване",
+        "text": "Вашето удовлетворение е наш основен приоритет. Нашият специализиран екип ви подкрепя по време на целия проект и е на разположение да отговоря на вашите въпроси и притеснения.",
+        "icon": "spanner"
+      }
+    ]
 
       
-        
-  }
+
+    
+      
+}

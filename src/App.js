@@ -9,11 +9,16 @@ import Page404 from "./pages/others/Page404";
 import ScrollToTop from "./helpers/ScrollToTop";
 import ContatButtons from "./helpers/ContactButtons";
 import asakhome from "./pages/asakhome";
-import ContactASAK from "./pages/contact/ContactASAK.js"
+import ContactsASAK from "./pages/ContactsASAK.js"
 import offers from "./pages/offers.js";
 import spritzguss from "./pages/offers/spritzguss.js";
 import formenbau from "./pages/offers/formenbau.js";
+import dbf from "./pages/offers/dbf.js";
+import montage from "./pages/offers/montage.js";
+import laser from "./pages/offers/laser.js";
+import prototypen from "./pages/offers/prototypen.js";
 import ContactButtons from "./helpers/ContactButtons";
+import referenzen from "./pages/referenzen.js";
 
 function App() {
 
@@ -24,10 +29,15 @@ function App() {
         <ContactButtons></ContactButtons>
         <Switch>
         <Route exact path={`${process.env.PUBLIC_URL}/`} component={asakhome} />
-        <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={ContactASAK} />
+        <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={ContactsASAK} />
         <Route exact path={`${process.env.PUBLIC_URL}/offers`} component={offers} />
         <Route exact path={`${process.env.PUBLIC_URL}/spritzguss`} component={spritzguss} />
         <Route exact path={`${process.env.PUBLIC_URL}/formenbau`} component={formenbau} />
+        <Route exact path={`${process.env.PUBLIC_URL}/referenzen`} component={referenzen} />
+        <Route exact path={`${process.env.PUBLIC_URL}/prototypen`} component={prototypen} />
+        <Route exact path={`${process.env.PUBLIC_URL}/dbf`} component={dbf} />
+        <Route exact path={`${process.env.PUBLIC_URL}/laser`} component={laser} />
+        <Route exact path={`${process.env.PUBLIC_URL}/montage`} component={montage} />
           <Route component={Page404} />
         </Switch>
       </ScrollToTop>

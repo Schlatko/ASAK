@@ -1,0 +1,23 @@
+{"contactform":
+    
+    {
+"header": "Kontaktieren Sie uns",
+"name": "Name",
+"email": "E-Mail",
+"telefon": "Telefonnummer",
+"betreff": "Betreff",
+"nachricht": "Nachricht",
+"button": "Abschicken",
+"adhead": "Adresse",
+"strasse": "Nikola Voynovski 27",
+"ort": "1510 Sofia - Bulgarien",
+"telname": "Telefon",
+"tel": "+49 151 111682642",
+"tellink": "tel:+4915111682642",
+"mailname": "E-Mail",
+"mail": "info@asak-eu.com",
+"arbeitszeitenh": "Arbeitszeiten",
+"arbeitszeiten": "Montag - Freitag: 08:00 Uhr bis 16:00 Uhr"
+}
+
+}

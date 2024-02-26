@@ -1,0 +1,21 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Kaltkanalsystem",
+      "text": "Bei Standardanwendungen und wenn keine besondere Anforderung an die Präzision der Teilezuführung besteht.",
+      "text2": "Bei einem Kaltkanalsystem erfolgt die Einspritzung des geschmolzenen Kunststoffmaterials über ein Anguss- und Einspritzsystem, das sich außerhalb der eigentlichen Form befindet. Nach dem Einspritzen des Materials wird der Angusskanal entfernt, und das Teil wird von den Schiebern der Form freigegeben.",
+      
+      "text3": "Beispiel: Flaschenverschlüsse, bei denen die Position des Eingusses nicht entscheidend für die Funktionalität ist."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Heißkanalsystem",
+      "text": "Bei mittleren bis hohen Stückzahlen.",
+      "text2": "Heißkanalsysteme werden oft bei hochpräzisen Anwendungen eingesetzt, bei denen eine genaue Steuerung des Materialflusses erforderlich ist, um Angüsse zu minimieren und Materialverschwendung zu reduzieren.",
+      "text3": "Beispiel: Elektronikgehäuse, bei denen präzise Eingüsse für die Montage von Komponenten erforderlich sind."
+    }
+]
+}

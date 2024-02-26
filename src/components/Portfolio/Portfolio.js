@@ -8,7 +8,7 @@ import Lightbox from "react-image-lightbox";
 
 const Portfolio = forwardRef(
   ({ filter, layout, columns, space, items, classAppend, children }, ref) => {
-    const categories = ["all", "design", "web", "branding", "print"];
+    const categories = ["übersicht", "spritzguss", "formenbau", "lasergravierung"];
     const element = useRef();
     const [shuffle, setShuffle] = useState();
 
@@ -49,7 +49,7 @@ const Portfolio = forwardRef(
 
     return (
       <section
-        className={"pb-0 " + (classAppend ? classAppend : "")}
+        className={"pb-0 pt-3" + (classAppend ? classAppend : "")}
         id="work"
         ref={ref}
       >

@@ -1,7 +1,7 @@
 import React from "react";
 import dataFeatures from "../../data/About/about-corporate-business.json";
 import HeadingSectionFormenbau from "../HeadingSection/HeadingSectionFormenbau";
-import FeatureBoxRow from "../../elements/FeatureBox/FeatureBoxRow";
+import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
 import { useTranslation } from "react-i18next";
 import AccordionsComponent from "../../components/Accordions/AccordionsComponent";
 import dataAccordion from "../../data/Accordion/accordions-data.json";
@@ -13,28 +13,33 @@ const { t } = useTranslation('formenbau');
 return (
   <section>
     <div className="container">
-      <div className="row">
-        <HeadingSectionFormenbau tagline={t('tagline')} text={t('text')}>
+     {/* <div className="row">
+        <HeadingSectionFormenbau title={t('tagline')} text={t('text')}>
        
         </HeadingSectionFormenbau>
-      </div>
-      <div>
-      <AccordionsComponent data={dataAccordion} type="red" classAppend="mt-50" />
-      </div>
+</div> */}
+     
       <div className="row mt-50">
         
       {t('services', {returnObjects: true}).map((feature, i) => (
-          <FeatureBoxRow
+          <FeatureBoxTwo
             key={feature.id}
             icon={feature.icon}
             title={feature.title}
             index={i}
           >
             {feature.text}
-          </FeatureBoxRow>
+          </FeatureBoxTwo>
         ))}
       </div>
+      <div className="row">
+        <HeadingSectionFormenbau title={t('tagline')} text={t('text')}>
+       
+        </HeadingSectionFormenbau>
+      </div>
     </div>
+
+    
   </section>
 );
 }

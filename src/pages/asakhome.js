@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import FsLightbox from "fslightbox-react";
 import Loader from "./../components/Loader/Loader";
 
-import HeroSliderTwo from "../components/Hero/HeroSliderTwo";
+import HeroSliderTwo from "./asakhome/HeroSliderTwo";
 
 import image from "../assets/images/backgroundTest2.jpeg";
 
