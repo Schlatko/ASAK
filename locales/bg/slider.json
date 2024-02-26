@@ -1,0 +1,38 @@
+{"slider":[
+  {
+    "id": 1,
+    "title": "Изработване на пластмасови изделия и матрици",
+    "tagline": "Ефициентна обработка на пластмаси - индивидуални решения за Вашите изисквания.",
+    "image": "slides/GranulatBG.png",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "Контакти",
+        "link": "!#",
+        "type": "btn-color blue btn-circle"
+      },
+      {
+        "id": 2,
+        "text": "Услуги",
+        "link": "/offers",
+        "type": "btn-color blue btn-circle"
+      }
+    
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Инженеринг и производство",
+    "tagline": "Прецизни форми за най-високите изисквания - вашият надежден партньор в изработката на пластмасови изделия",
+    "image": "slides/MoldBG.png",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "REGISTER NOW",
+        "link": "!#",
+        "type":"btn-color btn-circle"
+      }
+    ]
+  }
+]
+}

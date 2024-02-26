@@ -1,0 +1,43 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Vorteile des 3D Drucks",
+      "text": "Schnelligkeit und Effizienz",
+      "text2": "3D-Druck ermöglicht eine rasche Prototypenentwicklung. Herkömmliche Herstellungsprozesse können Wochen oder Monate dauern, während 3D-Drucker in Stunden oder Tagen hochpräzise Modelle erstellen können. Dies beschleunigt den gesamten Produktentwicklungszyklus erheblich."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      
+      "text": "Kosteneffizienz",
+      "text2": "Im Vergleich zu traditionellen Fertigungsmethoden kann der 3D-Druck kostengünstiger sein, insbesondere für kleine Stückzahlen oder komplexe Geometrien. Dies ist besonders vorteilhaft falls Sie Prototypen in verschiedenen Entwicklungsstadien benötigen."
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "text": "Designfreiheit",
+      "text2" : "Der 3D-Druck ermöglicht es komplexe Strukturen und organische Formen zu erstellen, die mit herkömmlichen Fertigungsmethoden schwer oder unmöglich umzusetzen wären. Diese gestalterische Freiheit fördert die Innovation in der Produktentwicklung."
+    }
+    ,
+    {
+      "id": 4,
+      "icon": "Rapid Prototyping",
+      "text": "Rapid Prototyping",
+      "text2": "Durch den Einsatz von 3D-Drucktechnologien können wir Ihre Prototypen schnell und kostengünstig iterieren. Dies erleichtert den Entwicklungsprozess, da wir mit Ihnen schnell Feedback geben können und Sie uns eventuelle Anpassungswünsche weiterleiten können."
+      
+    }
+    ,
+    {
+      "id": 5,
+      "icon": "Formen aus dem 3D Drucker",
+      "text": "Kleinserienproduktion",
+      "text2": "Neben der Prototypenentwicklung können wir mittels 3D-Druck auch Kleinserien produzieren. Dies ermöglicht es uns für Sie, kostengünstig maßgeschneiderte oder individualisierte Produkte herzustellen, ohne dass Sie teure Werkzeuge für die Massenproduktion benötigen."
+
+
+      
+    }
+   
+]
+}

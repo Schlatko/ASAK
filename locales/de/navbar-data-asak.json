@@ -1,0 +1,79 @@
+{"header":
+
+[
+   
+    {
+        "id": 2,
+        "title": "Start",
+        "link": "/",
+        "megaMenu": false,
+        "sub": false
+    },
+    {
+        "id": 3,
+        "title": "Leistungen",
+        "link": "/offers",
+        "megaMenu": false,
+        "sub": true, 
+        "subMenu": [
+            {
+                "id": 3.1,
+                "title": "Formenbau",
+                "link": "/formenbau"
+            },
+            {
+                "id": 3.2,
+                "title": "Spritzguss",
+                "link": "/spritzguss"
+            },
+            {
+                "id": 3.3,
+                "title": "3D Druck & Prototypen",
+                "link": "/prototypen"
+            },
+            {
+                "id": 3.4,
+                "title": "Dreh-, Bohr-, & Fräsarbeiten",
+                "link": "/dbf"
+            }
+            ,
+            {
+                "id": 3.5,
+                "title": "Laserbeschriftungen",
+                "link": "/laser"
+            }
+                 
+        ]  
+    },
+    {
+        "id": 4,
+        "title": "Referenzen",
+        "link": "/referenzen",
+        "megaMenu": false,
+        "sub": false
+       
+    },
+    {
+        "id": 5,
+        "title": "Über uns",
+        "link": "/Contact",
+        "megaMenu": false,
+        "sub": false, 
+        "subMenu": [
+            {
+                "id": 5.1,
+                "title": "Kontakt Formular",
+                "link": "/contact"
+            }
+        ]  
+    },
+    {
+        "id": 6,
+        "title": "Kontakt",
+        "link": "/contact",
+        "megaMenu": false,
+        "sub": false
+         
+    }
+]
+}
