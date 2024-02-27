@@ -28,6 +28,10 @@ i18n
     react: {
       wait: true,
       useSuspense: true,
+    },
+    backend: {
+      //                 ⬇️
+      loadPath: '/ASAK/locales/{{lng}}/{{ns}}.json',
     }
   });
 
