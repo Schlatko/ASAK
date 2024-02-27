@@ -5,7 +5,7 @@
         {
             "id": 2,
             "title": "Начало",
-            "link": "/asak",
+            "link": "/",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -19,7 +19,7 @@
         {
             "id": 3,
             "title": "Оферти",
-            "link": "/asak/offers",
+            "link": "/offers",
             "megaMenu": false,
             "sub": true, 
             "subMenu": [
@@ -55,7 +55,7 @@
         {
             "id": 4,
             "title": "Референции",
-            "link": "/asak/referenzen",
+            "link": "/referenzen",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -75,7 +75,7 @@
         {
             "id": 5,
             "title": "За нас",
-            "link": "/asak/ueberuns",
+            "link": "/ueberuns",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -89,7 +89,7 @@
         {
             "id": 6,
             "title": "Контатки",
-            "link": "/asak/contact",
+            "link": "/contact",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
