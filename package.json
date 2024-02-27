@@ -1,6 +1,7 @@
 {
-  "name": "scoda",
+  "name": "ASAK",
   "version": "0.1.0",
+  "homepage": "https://schlatko.github.io/ASAK/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -51,6 +52,8 @@
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
