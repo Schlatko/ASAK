@@ -36,25 +36,20 @@
                 {
                     "id": 3.3,
                     "title": "3D принтиране и прототипи",
-                    "link": "/blog-sidebar"
+                    "link": "/prototypen"
                 },
                 {
                     "id": 3.4,
                     "title": "Механично металообработване",
-                    "link": "/blog-sidebar"
+                    "link": "/dbf"
                 } 
                 ,
                 {
                     "id": 3.5,
                     "title": "Лазерно гравиране",
-                    "link": "/blog-sidebar"
+                    "link": "/laser"
                 }
-                ,
-                {
-                    "id": 3.6,
-                    "title": "Монтаж",
-                    "link": "/blog-sidebar"
-                } 
+               
             ]  
         },
         {
