@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 const HeroSliderTwo = () => {
   const params = {
-    loop: false,
+    loop: true,
     grabCursor: true,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -20,7 +20,7 @@ const HeroSliderTwo = () => {
     },
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
+      clickable: false,
     },
   };
   const { t } = useTranslation('slider');
@@ -29,7 +29,7 @@ const HeroSliderTwo = () => {
     <section className="pt-0 pb-0">
       <div className="slider-bg flexslider">
         <ul className="slides">
-          <Swiper {...params}>
+          <Swiper observer observeParents {...params}>
           {t('slider', {returnObjects: true}).map((slide) => (
               <li key={slide.id}>
                 <div
