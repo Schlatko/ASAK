@@ -3,7 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import parse from "html-react-parser";
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
+import { useTranslation } from "react-i18next";
 
+const { t } = useTranslation('slider');
 const HeroSliderSingle = ({ data }) => (
   <section className="pt-0 pb-0">
     <div className="slider-bg flexslider">
