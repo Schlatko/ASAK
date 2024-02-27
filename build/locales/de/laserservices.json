@@ -1,0 +1,34 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Vorteile der Laserbeschriftung",
+      "text": "Schnelligkeit und Effizienz",
+      "text2": "Die Laserbeschriftung ist eine schnelle und effiziente Methode, ideal für die Markierung großer Produktionsmengen."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      
+      "text": "Individuelle Anpassung",
+      "text2": "Diese Technologie erlaubt die individuelle Anpassung von Markierungen, sei es für Logos, Seriennummern oder spezifische Designs."
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "text": "Dauerhaftigkeit",
+      "text2" : "Markierungen durch Laserbeschriftung sind in der Regel dauerhaft, resistent gegenüber Abrieb und Umwelteinflüssen."
+    }
+    ,
+    {
+      "id": 4,
+      "icon": "Formen aus dem 3D Drucker",
+      "text": "Umweltfreundlichkeit",
+      "text2": "Im Vergleich zu einigen traditionellen Markierungsmethoden erzeugt die Laserbeschriftung weniger Abfall und Chemikalien, was ökologische Vorteile bietet."
+
+
+      
+    }
+]
+}

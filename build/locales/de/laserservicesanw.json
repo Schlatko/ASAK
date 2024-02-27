@@ -1,0 +1,38 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Anwendungsgebiete der Laserbeschriftung auf Kunststoff",
+      "text": "Automobilindustrie",
+      "text2": "Kennzeichnung von Kunststoffteilen in Fahrzeugen, Seriennummern, Datencodes."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      
+      "text": "Elektronik",
+      "text2": "Beschriftung von Kunststoffgehäusen elektronischer Geräte, Leiterplatten, Steckern."
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "text": "Medizintechnik",
+      "text2" : "Markierung von medizinischen Kunststoffgeräten, Verpackungen und Instrumenten."
+    }
+    ,
+    {
+      "id": 4,
+      "icon": "Formen aus dem 3D Drucker",
+      "text": "Verpackungsindustrie",
+      "text2": "Kennzeichnung von Kunststoffverpackungen für Produktidentifikation und -verfolgung."
+    },
+    {
+      "id": 5,
+      "icon": "Konsumgüter",
+      "text": "Konsumgüter",
+      "text2": "Personalisierte Beschriftungen auf Kunststoffprodukten wie Haushaltswaren, Gadgets oder Sportausrüstung."
+    }
+
+]
+}

@@ -1,0 +1,74 @@
+{
+  "header": "Лазерно гравиране",
+  "sub": "Ефективно лазерно етикетиране за вашите продукти",
+  "aftersub": "Alle Details in der Übersicht",
+
+  "text": "Нашата най-съвременна система за лазерно маркиране издига продуктите ви на ново ниво на качество. Лазерното маркиране позволява трайно, прецизно и с висока резолюция етикетиране на широка гама материали, включително пластмаса, метал и керамика.", 
+  "services":
+    [
+      {
+        "id": 1,
+        "title": "Постоянно етикетиране",
+        "text": "Нашето лазерно етикетиране гарантира трайни маркировки, които не избледняват и не се размазват дори при екстремни условия.",
+        "icon": "gears"
+      },
+      {
+        "id": 2,
+        "title": "Фини детайли и рязкост",
+        "text": "Лазерното гравиране предлага прецизни и остри като бръснач резултати, така че дори дребните букви, лога или кодове са четливи.",
+        "icon": "gears"
+      },
+      {
+        "id": 3,
+        "title": "Висока ефективност",
+        "text": "За безконтактното етикетиране гарантира бързо и гладко маркиране, без да се поврежда обработваният детайл.",
+        "icon": "light-bulb"
+      },
+      {
+        "id": 4,
+        "title": "Кратко време за доставка",
+        "text": "Наясно сме, че при производството времето е от съществено значение. Нашите ефективни производствени процеси ни позволяват да ви гарантираме кратки срокове за доставка, без да правим компромис с качеството.",
+        "icon": "architecture-alt"
+      },
+      {
+        "id": 5,
+        "title": "Разходна ефективност",
+        "text": "Разчитаме на интелигентни проекти и оптимизирани производствени процеси, за да сведем до минимум разходите за шприцформи и да ви предложим конкурентни цени.",
+        "icon": "industries-2"
+      },
+      {
+        "id": 6,
+        "title": "Ориентирано към клиента обслужване",
+        "text": "Вашето удовлетворение е наш основен приоритет. Нашият специализиран екип ви подкрепя по време на целия проект и е на разположение да отговори на вашите въпроси и притеснения.",
+        "icon": "spanner"
+      }
+
+    ],
+    "accordion":
+      [
+        {
+          "id": 1,
+          "title": "Aluminiumformen",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
+        },
+        {
+          "id": 2,
+          "title": "Gehärterter Stahl",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
+        },
+        {
+          "id": 3,
+          "title": "Heißkanal",
+          "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+        },
+        {
+          "id": 4,
+          "title": "Fourth Accordion",
+          "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+        }
+      ]
+      
+
+    
+      
+}

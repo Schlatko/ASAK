@@ -1,0 +1,20 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Mechanische Schieber",
+      "text": "Bei einfacheren Formteilen oder wenn die Komplexität des Teils dies zulässt.",
+      "text2": "Mechanische Schieber sind einfacher in der Konstruktion und oft kostengünstiger. Sie eignen sich gut für Anwendungen, bei denen die Bewegung der Schieberelemente weniger komplex ist.",
+      "text3": "Beispiel: Gehäuseteile für elektronische Geräte, bei denen keine komplexen Bewegungen der Schieberelemente erforderlich sind."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Hydraulische Schieber",
+      "text": "Bei komplexen Formteilen mit verschiedenen Bewegungsrichtungen oder wenn eine präzise Steuerung der Schieberelemente erforderlich ist.",
+      "text2": "Hydraulische Schieber bieten eine präzise und kontrollierte Bewegung, was besonders wichtig ist, wenn komplexe Formteile hergestellt werden sollen.",
+      "text3": "Beispiele: Spielzeug mit beweglichen Teilen, bei denen die Schieberelemente präzise gesteuert werden müssen."
+    }
+]
+}

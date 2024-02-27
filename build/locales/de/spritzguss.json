@@ -1,0 +1,35 @@
+{
+    "header": "Spritzguss",
+    "sub": "Präzise Produktion erstklassiger Kunststoffkomponenten - die Wahl liegt bei Ihnen, ob Sie das Rundum-Paket oder die Lohnfertigung bevorzugen.",
+    "aftersub": "Alle Details in der Übersicht",
+    "tagline": "Test",
+    "facttitle": "Maschinenpark",
+    "factsub": "Was wir zu bieten haben",
+    "facttext": "Unsere Spritzgussfirma bietet Ihnen eine breite Palette von Dienstleistungen rund um das Spritzgießen. Wir sind spezialisiert auf die Verarbeitung aller gängigen Kunststoffmaterialien und setzen dabei modernste Technologien ein. Mit Maschinen bis zu einer Schließkraft von 800 kN können wir sowohl kleine als auch große Projekte problemlos bewältigen.",
+    "counter": [
+      {
+          "id": 1,
+          "value": 800 ,
+          "title": "kN Schließkraft",
+          "icon": "clock-time"
+      },
+      {
+          "id": 2,
+          "value": 220,
+          "title": "Happy Clients",
+          "icon": "slightly-smile"
+      },
+      {
+          "id": 3,
+          "value": 108,
+          "title": "Awwwards",
+          "icon": "trophy"
+      },
+      {
+          "id": 4,
+          "value": 650,
+          "title": "Projects a Year",
+          "icon": "coffee-cup"
+      }
+  ]
+  }
