@@ -5,14 +5,14 @@
     {
         "id": 2,
         "title": "Start",
-        "link": "/",
+        "link": "/asak",
         "megaMenu": false,
         "sub": false
     },
     {
         "id": 3,
         "title": "Leistungen",
-        "link": "/offers",
+        "link": "/asak/offers",
         "megaMenu": false,
         "sub": true, 
         "subMenu": [
@@ -48,7 +48,7 @@
     {
         "id": 4,
         "title": "Referenzen",
-        "link": "/referenzen",
+        "link": "/asak/referenzen",
         "megaMenu": false,
         "sub": false
        
@@ -56,7 +56,7 @@
     {
         "id": 5,
         "title": "Über uns",
-        "link": "/Contact",
+        "link": "/asak/Contact",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
@@ -70,7 +70,7 @@
     {
         "id": 6,
         "title": "Kontakt",
-        "link": "/contact",
+        "link": "/asak/contact",
         "megaMenu": false,
         "sub": false
          
