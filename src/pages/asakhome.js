@@ -5,7 +5,7 @@ import FsLightbox from "fslightbox-react";
 import Loader from "./../components/Loader/Loader";
 
 import HeroSliderTwo from "./asakhome/HeroSliderTwo";
-import HeroSliderSingle from "./asakhome/HeroSliderSingle";
+
 
 import image from "../assets/images/backgroundTest2.jpeg";
 
