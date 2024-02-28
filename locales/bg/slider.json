@@ -28,9 +28,15 @@
     "buttons": [
       {
         "id": 1,
-        "text": "REGISTER NOW",
+        "text": "Контакти",
         "link": "!#",
-        "type":"btn-color btn-circle"
+        "type": "btn-color blue btn-circle"
+      },
+      {
+        "id": 2,
+        "text": "Услуги",
+        "link": "/offers",
+        "type": "btn-color blue btn-circle"
       }
     ]
   }
