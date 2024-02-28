@@ -3508,6 +3508,7 @@ ul.footer-gallery li img {
   top: 150px;
   left: 0px;
   z-index: 999;
+ 
 
  
   text-align: center;
@@ -3575,6 +3576,12 @@ transition: all .3s ease;
 font-weight: 500;
 font-family: 'Poppins', sans-serif;
 letter-spacing: 1px;
+}
+@media only screen and (max-width: 767px) {
+  #contact2 {height: 30px; line-height: 30px;padding: 0 5px;  top: 100px;
+  }
+  #contact {height: 30px; line-height: 30px;padding: 0 5px; top: 69px;
+  }
 }
 #contact2:hover {
   background: #212121;
@@ -6313,6 +6320,7 @@ ul {padding-left: 0 !important;}
   .hero-text p.text-center > a {margin-bottom: 15px;}
   .check-btns {display: flex; flex-wrap: wrap;}
   .check-btns button {margin-bottom: 10px;}
+  
 }
 @media only screen and (min-width:576px) {
   #feature .feature-box-right {
