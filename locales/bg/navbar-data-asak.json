@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "title": "Оферти",
+            "title": "Услуги",
             "link": "/offers",
             "megaMenu": false,
             "sub": true, 

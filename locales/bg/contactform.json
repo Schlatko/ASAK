@@ -1,0 +1,23 @@
+{"contactform":
+    
+    {
+"header": "Свържете се с нас",
+"name": "Име",
+"email": "Имейл",
+"telefon": "Телефонен номер",
+"betreff": "Тема",
+"nachricht": "Съобщение",
+"button": "Изпращане",
+"adhead": "Адрес",
+"strasse": "Ул.Никола Войновски 27",
+"ort": "1510 София - България",
+"telname": "Тел",
+"tel": "+49 151 111682642",
+"tellink": "tel:+4915111682642",
+"mailname": "Имейл",
+"mail": "info@asak-eu.com",
+"arbeitszeitenh": "Работно време",
+"arbeitszeiten": "Понеделник - Петък: 08:00 Uhr bis 16:00 Uhr"
+}
+
+}
