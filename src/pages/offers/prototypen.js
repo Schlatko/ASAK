@@ -14,6 +14,7 @@ import PrototypenKomplett from "../../components/WhoWeAre/PrototypenKomplett";
 import OffersASAK from "../../components/Services/Construction/OffersASAK";
 import serviceOneImg from "../../assets/images/Prototypen/3DVorteile.png";
 import { useTranslation } from "react-i18next";
+import ContactDetails from "../contact/ContactDetails";
 
 
 
@@ -37,6 +38,7 @@ const spritzguss = () => {
     tagline="Was wir zu bieten haben."*/
         serviceImg={serviceOneImg}
       />
+       <ContactDetails />
         
         <FooterASAK/>
       </Loader>

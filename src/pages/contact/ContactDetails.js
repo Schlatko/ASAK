@@ -7,6 +7,7 @@ const ContactThree = () =>  {
   return (
   <section className="contact-us dark-bg">
     <div className="container">
+      <h3 className="white-color">{t('contactform.header')}</h3>
       <div className="row">
         <div className="col-md-8">
           <ContactFormFive />

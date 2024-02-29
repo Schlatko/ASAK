@@ -18,6 +18,7 @@ import material from "../../assets/images/Formenbau/Formenbau1.png";
 import schieber from "../../assets/images/Formenbau/Schieber.png";
 import duesen from "../../assets/images/Formenbau/Duesen.png";
 import { useTranslation } from "react-i18next";
+import ContactDetails from "../contact/ContactDetails";
 
 //
 
@@ -53,7 +54,7 @@ const spritzguss = () => {
         serviceImg={schieber}
       />
       
-        
+      <ContactDetails />
         <FooterASAK/>
       </Loader>
     );
