@@ -3,24 +3,33 @@ import Swiper from "react-id-swiper";
 import 'swiper/swiper-bundle.css';
 import parse from "html-react-parser";
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
+import SwiperCore, {
+  EffectFade,
+  Navigation,
+  Autoplay,
+  Pagination,
+} from "swiper/core";
+import "swiper/swiper-bundle.css";
 
 import { useTranslation } from "react-i18next";
 
+SwiperCore.use([EffectFade, Navigation, Autoplay, Pagination]);
 const HeroSliderTwo = () => {
   const params = {
     loop: true,
     grabCursor: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
     },
-    autoplay: {
-      delay: 30,
-      disableOnInteraction: false,
-    },
+    rebuildOnUpdate: true,
+   // autoplay: {
+     // delay: 8000,
+      //disableOnInteraction: true,
+    //},
     pagination: {
       el: ".swiper-pagination",
-      clickable: false,
+      clickable: true,
     },
   };
   const { t } = useTranslation('slider');
