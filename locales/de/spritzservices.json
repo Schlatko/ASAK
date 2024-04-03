@@ -1,0 +1,93 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Spritzguss-Kunststoffe",
+      "text": [
+        {
+          
+          "test": "Polypropylen (PP)"
+
+        },
+        {
+          
+          "test": "thermoplastische Elastomere (TPE)"
+    
+        },
+        {
+          
+          "test": "Polyamide (PA6, PA6.6)"
+    
+        },
+        {
+          
+          "test": "Polybutylenterephthalat (PBT)"
+    
+        },
+        {
+          
+          "test": "Polycarbonate (PC)"
+    
+        },
+        {
+          
+          "test": "Acrylnitril-Butadien-Styrol (ABS)"
+    
+        },
+        {
+          
+          "test": "und weitere"
+    
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Schließkraft",
+      "text": [
+        {
+          
+          "test": "Bis zu 700kN"
+
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "title": "Komponenten",
+      "text": [
+        {
+          
+          "test": "Polypropylen (PP)"
+
+        },
+        {
+          
+          "test": "Polypropylen (PP), thermoplastische Elastomere (TPE), Polyamide (PA6, PA6.6), Polybutylenterephthalat (PBT), Polycarbonate (PC), Acrylnitril-Butadien-Styrol (ABS) und weitere"
+    
+        }
+      ]
+    }
+    ,
+    {
+      "id": 4,
+      "icon": "Formen aus dem 3D Drucker",
+      "title": "Formen aus dem 3D Drucker",
+      "text": [
+        {
+          
+          "test": "Polypropylen (PP)"
+
+        },
+        {
+          
+          "test": "Polypropylen (PP), thermoplastische Elastomere (TPE), Polyamide (PA6, PA6.6), Polybutylenterephthalat (PBT), Polycarbonate (PC), Acrylnitril-Butadien-Styrol (ABS) und weitere"
+    
+        }
+      ]
+    }
+]
+}
