@@ -5,7 +5,7 @@
         {
             "id": 2,
             "title": "Начало",
-            "link": "/",
+            "link": "/ASAK/",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -19,7 +19,7 @@
         {
             "id": 3,
             "title": "Услуги",
-            "link": "/offers",
+            "link": "/ASAK/offers",
             "megaMenu": false,
             "sub": true, 
             "subMenu": [
@@ -55,7 +55,7 @@
         {
             "id": 4,
             "title": "Референции",
-            "link": "/referenzen",
+            "link": "/ASAK/referenzen",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -75,7 +75,7 @@
         {
             "id": 5,
             "title": "За нас",
-            "link": "/ueberuns",
+            "link": "/ASAK/ueberuns",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -89,7 +89,7 @@
         {
             "id": 6,
             "title": "Контатки",
-            "link": "/contact",
+            "link": "/ASAK/contact",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
