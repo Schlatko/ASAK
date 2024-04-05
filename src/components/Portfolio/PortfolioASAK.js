@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, forwardRef } from "react";
 import dataPortfolio from "../../data/Portfolio/creative-agency-data.json";
 import PortfolioFilter from "../../elements/Portfolio/PortfolioFilter";
-import PortfolioItem from "./PortfolioItem";
+import PortfolioItem from "./PortfolioItemASAK";
 import Shuffle from "shufflejs";
 import "react-image-lightbox/style.css";
 import Lightbox from "react-image-lightbox";
@@ -41,7 +41,7 @@ const Portfolio = forwardRef(
     const [photo, setPhoto] = useState(0);
 
     const closeLightbox = () => {
-      setIsOpen(true);
+      setIsOpen(false);
     };
     const openLightbox = (e, photo) => {
       e.preventDefault();

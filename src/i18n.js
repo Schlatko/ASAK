@@ -18,6 +18,7 @@ i18n
   .use(initReactI18next)
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
+
   .init({
     fallbackLng: 'bg',
     debug: true,
@@ -31,7 +32,7 @@ i18n
     },
     backend: {
       //                 ⬇️
-      loadPath: '/ASAK/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/ASAK/locales/{{lng}}/{{ns}}.json', //loadPath: '/locales/{{lng}}/{{ns}}.json',
     }
   });
 

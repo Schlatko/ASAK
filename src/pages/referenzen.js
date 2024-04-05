@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import FsLightbox from "fslightbox-react";
 import Loader from "../components/Loader/Loader";
-import Portfolio from "../components/Portfolio/Portfolio";
+import Portfolio from "../components/Portfolio/PortfolioASAK";
 import HeroSliderTwo from "../components/Hero/HeroSliderTwo";
 
 import image from "../assets/images/backgroundTest2.jpeg";
@@ -35,13 +35,11 @@ const asakhome = () => {
     <HeaderASAK />
     <TitelASAK title={t('header')} tagline={t('sub')} />  
    
-    <Portfolio
-        filter="true"
-        layout="wide"
-        columns="2"
-        items="6"
-        classAppend="pt-0"
-      />
+    <section className="pt-100 pt-100">
+      <Portfolio filter="true" columns="2" layout="box" space="true"/>
+    </section>
+
+    
 
       <FooterASAK />
     </Loader>

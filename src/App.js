@@ -19,6 +19,8 @@ import laser from "./pages/offers/laser.js";
 import prototypen from "./pages/offers/prototypen.js";
 import ContactButtons from "./helpers/ContactButtons";
 import referenzen from "./pages/referenzen.js";
+import ueberuns from "./pages/ueberuns.js"
+import boxed2 from "./pages/portfolio/PortfolioWideTwo.js"
 
 function App() {
 
@@ -38,6 +40,8 @@ function App() {
         <Route exact path={`${process.env.PUBLIC_URL}/dbf`} component={dbf} />
         <Route exact path={`${process.env.PUBLIC_URL}/laser`} component={laser} />
         <Route exact path={`${process.env.PUBLIC_URL}/montage`} component={montage} />
+        <Route exact path={`${process.env.PUBLIC_URL}/ueberuns`} component={ueberuns} />
+        <Route exact path={`${process.env.PUBLIC_URL}/boxed2`} component={boxed2} />
           <Route component={Page404} />
         </Switch>
       </ScrollToTop>
