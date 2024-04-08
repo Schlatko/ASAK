@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Suspense fallback={<div>Loading....</div>}> 
-    <Router basename={"/"}>
+    <Router basename={"/ASAK"}>
       <ScrollToTop>
         <ContactButtons></ContactButtons>
         <Switch>
