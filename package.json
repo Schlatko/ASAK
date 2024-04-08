@@ -1,7 +1,7 @@
 {
   "name": "ASAK",
   "version": "0.1.0",
-  "homepage": "https://schlatko.github.io/",
+  "homepage": "https://schlatko.github.io/ASAK",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

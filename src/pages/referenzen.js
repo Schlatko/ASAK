@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import FsLightbox from "fslightbox-react";
@@ -30,7 +30,9 @@ const asakhome = () => {
   }, []);
   const { t } = useTranslation('referenzen');
   return (
+    <Suspense fallback={<div>Loading....</div>}> 
     <Loader>
+      
 
     <HeaderASAK />
     <TitelASAK title={t('header')} tagline={t('sub')} />  
@@ -43,6 +45,7 @@ const asakhome = () => {
 
       <FooterASAK />
     </Loader>
+    </Suspense>
   );
 };
 
