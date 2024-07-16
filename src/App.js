@@ -26,11 +26,11 @@ function App() {
 
   return (
     <Suspense fallback={<div>Loading....</div>}> 
-    <Router basename={"/"}>
+    <Router basename={"/ASAK"}>
       <ScrollToTop>
         <ContactButtons></ContactButtons>
         <Switch>
-        <Route exact path={`${process.env.PUBLIC_URL}/ASAK`} component={asakhome} />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={asakhome} />
         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={ContactsASAK} />
         <Route exact path={`${process.env.PUBLIC_URL}/offers`} component={offers} />
         <Route exact path={`${process.env.PUBLIC_URL}/spritzguss`} component={spritzguss} />
@@ -42,7 +42,7 @@ function App() {
         <Route exact path={`${process.env.PUBLIC_URL}/montage`} component={montage} />
         <Route exact path={`${process.env.PUBLIC_URL}/ueberuns`} component={ueberuns} />
         <Route exact path={`${process.env.PUBLIC_URL}/boxed2`} component={boxed2} />
-        
+          <Route component={Page404} />
         </Switch>
       </ScrollToTop>
     </Router>
