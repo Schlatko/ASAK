@@ -1,0 +1,109 @@
+{"header":
+
+    [
+       
+        {
+            "id": 2,
+            "title": "Начало",
+            "link": "/",
+            "megaMenu": false,
+            "sub": false, 
+            "subMenu": [
+                {
+                    "id": 2.1,
+                    "title": "Leer",
+                    "link": "/about"
+                   
+                }]
+        },
+        {
+            "id": 3,
+            "title": "Услуги",
+            "link": "/offers",
+            "megaMenu": false,
+            "sub": true, 
+            "subMenu": [
+                {
+                    "id": 3.1,
+                    "title": "Шприцформи",
+                    "link": "/formenbau"
+                },
+                {
+                    "id": 3.2,
+                    "title": "Шприцване на пластмасови изделия",
+                    "link": "/spritzguss"
+                },
+                {
+                    "id": 3.3,
+                    "title": "3D принтиране и прототипи",
+                    "link": "/prototypen"
+                },
+                {
+                    "id": 3.4,
+                    "title": "Механично металообработване",
+                    "link": "/dbf"
+                } 
+                ,
+                {
+                    "id": 3.5,
+                    "title": "Лазерно гравиране",
+                    "link": "/laser"
+                }
+               
+            ]  
+        },
+        {
+            "id": 4,
+            "title": "Референции",
+            "link": "/referenzen",
+            "megaMenu": false,
+            "sub": false, 
+            "subMenu": [
+                {
+                    "id": 4.1,
+                    "title": "Gallerie",
+                    "link": "/boxed"
+                   
+                },
+                {
+                    "id": 4.2,
+                    "title": "Industrien & Partner",
+                    "link": "/boxed-space"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "За нас",
+            "link": "/ueberuns",
+            "megaMenu": false,
+            "sub": false, 
+            "subMenu": [
+                {
+                    "id": 5.1,
+                    "title": "Kontakt Formular",
+                    "link": "/contact"
+                }
+            ]  
+        },
+        {
+            "id": 6,
+            "title": "Контатки",
+            "link": "/contact",
+            "megaMenu": false,
+            "sub": false, 
+            "subMenu": [
+                {
+                    "id": 5.1,
+                    "title": "Geschichte",
+                    "link": "/shop-fullwidth"
+                },
+                {
+                    "id": 5.2,
+                    "title": "Das Team",
+                    "link": "/shop-standard"
+                }
+            ]  
+        }
+    ]
+    }
