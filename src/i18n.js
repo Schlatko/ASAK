@@ -32,7 +32,7 @@ i18n
     },
     backend: {
       //                 ⬇️
-      loadPath: 'ASAK/locales/{{lng}}/{{ns}}.json', //loadPath: '/ASAK/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/locales/{{lng}}/{{ns}}.json', //loadPath: '/ASAK/locales/{{lng}}/{{ns}}.json',
     }
   });
 
