@@ -6,7 +6,7 @@ const MainLogo = ({ collapse, showMenu }) => {
   return (
     <div className="navbar-header">
       <div className="logo">
-        <a href={'/'}>
+        <a href={'/ASAK'}>
           <img className="logo logo-display" src={logoWhite} alt="" />
           <img className="logo logo-scrolled" src={logoBlack} alt="" />
         </a>
