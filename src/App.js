@@ -21,32 +21,31 @@ import ContactButtons from "./helpers/ContactButtons";
 import referenzen from "./pages/referenzen.js";
 import ueberuns from "./pages/ueberuns.js"
 import boxed2 from "./pages/portfolio/PortfolioWideTwo.js"
-import { HashRouter } from "react-router-dom/cjs/react-router-dom.min.js";
 
 function App() {
 
   return (
     <Suspense fallback={<div>Loading....</div>}> 
-    
+    <Router basename={"/"}>
       <ScrollToTop>
         <ContactButtons></ContactButtons>
-        <HashRouter>
+        <Switch>
         <Route exact path={`${process.env.PUBLIC_URL}/`} component={asakhome} />
-        <Route path={`/contact`} component={ContactsASAK} />
-        <Route path={`/offers`} component={offers} />
-        <Route path={`/spritzguss`} component={spritzguss} />
-        <Route path={`/formenbau`} component={formenbau} />
-        <Route path={`/referenzen`} component={referenzen} />
-        <Route path={`/prototypen`} component={prototypen} />
-        <Route path={`/dbf`} component={dbf} />
-        <Route path={`/laser`} component={laser} />
-        <Route path={`/montage`} component={montage} />
-        <Route path={`/ueberuns`} component={ueberuns} />
-        <Route path={`/boxed2`} component={boxed2} />
+        <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={ContactsASAK} />
+        <Route exact path={`${process.env.PUBLIC_URL}/offers`} component={offers} />
+        <Route exact path={`${process.env.PUBLIC_URL}/spritzguss`} component={spritzguss} />
+        <Route exact path={`${process.env.PUBLIC_URL}/formenbau`} component={formenbau} />
+        <Route exact path={`${process.env.PUBLIC_URL}/referenzen`} component={referenzen} />
+        <Route exact path={`${process.env.PUBLIC_URL}/prototypen`} component={prototypen} />
+        <Route exact path={`${process.env.PUBLIC_URL}/dbf`} component={dbf} />
+        <Route exact path={`${process.env.PUBLIC_URL}/laser`} component={laser} />
+        <Route exact path={`${process.env.PUBLIC_URL}/montage`} component={montage} />
+        <Route exact path={`${process.env.PUBLIC_URL}/ueberuns`} component={ueberuns} />
+        <Route exact path={`${process.env.PUBLIC_URL}/boxed2`} component={boxed2} />
           <Route component={Page404} />
-        </HashRouter>
+        </Switch>
       </ScrollToTop>
-   
+    </Router>
     </Suspense>
   );
 }
