@@ -5,7 +5,7 @@
     {
         "id": 2,
         "title": "Start",
-        "link": "/",
+        "link": "/ASAK/",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
@@ -19,7 +19,7 @@
     {
         "id": 3,
         "title": "Leistungen",
-        "link": "/offers",
+        "link": "/ASAK/offers",
         "megaMenu": false,
         "sub": true, 
         "subMenu": [
@@ -55,7 +55,7 @@
     {
         "id": 4,
         "title": "Referenzen",
-        "link": "/referenzen",
+        "link": "/ASAK/referenzen",
         "megaMenu": false,
         "sub": false
        
@@ -63,7 +63,7 @@
     {
         "id": 5,
         "title": "Über uns",
-        "link": "/Contact",
+        "link": "/ASAK/Contact",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
@@ -77,7 +77,7 @@
     {
         "id": 6,
         "title": "Kontakt",
-        "link": "/contact",
+        "link": "/ASAK/contact",
         "megaMenu": false,
         "sub": false
          
