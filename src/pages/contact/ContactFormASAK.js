@@ -4,34 +4,50 @@ import emailjs from '@emailjs/browser';
 
 
 const ContactFormASAK = () => {
-  const [inputs, setInputs] = useState({});
+  
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+ 
 
   const { t } = useTranslation('contactform');
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setInputs({ ...inputs, [name]: value });
-  };
+ 
+  emailjs.init({
+    publicKey: 'bb8-glF2nFNvLX5LJ',
+    // Do not allow headless browsers
+    blockHeadless: true,
+    blockList: {
+      // Block the suspended emails
+      list: ['foo@emailjs.com', 'bar@emailjs.com'],
+      // The variable contains the email address
+      watchVariable: 'userEmail',
+    },
+    limitRate: {
+      // Set the limit rate for the application
+      id: 'app',
+      // Allow 1 request per 10s
+      throttle: 10000,
+    },
+  });
+  
   const handleSubmit = (e) => {
 
     e.preventDefault();
     // EmailJS Service ID, template ID and Public Key
     const serviceId = 'service_kxo6ovl';
-    const templateId = 'template_7crj0ki';
+    const templateId = 'contact_form';
     const publicKey = 'bb8-glF2nFNvLX5LJ';
 
   
 
   const templateParams = {
-    from_name: inputs.name,
-    from_email: inputs.email,
-    to_name: 'Magic',
-    message: inputs.message, 
+    user_name: name,
+    user_email: email,
+    message: message, 
 
-  }
+  };
+  
 
   emailjs.send(serviceId, templateId, templateParams, publicKey)
   .then((response)=> {
@@ -50,8 +66,7 @@ const ContactFormASAK = () => {
     <form onSubmit={handleSubmit}
       name="contact-form"
       id="contact-form"
-      action="php/contact.php"
-      method="POST"
+      
     >
       <div className="messages"></div>
       <div className="form-floating">
@@ -63,8 +78,8 @@ const ContactFormASAK = () => {
           required="required"
           placeholder="Your Name"
           data-error="Your Name is Required"
-          value={inputs.name}
-          onChange={handleInputChange}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
         />
         <label htmlFor="name">{t('contactform.name')}</label>
         <div className="help-block with-errors mt-20"></div>
@@ -78,24 +93,13 @@ const ContactFormASAK = () => {
           placeholder="Your Email"
           required="required"
           data-error="Please Enter Valid Email"
-          value={inputs.email}
-          onChange={handleInputChange}
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         <label htmlFor="email">{t('contactform.email')}</label>
         <div className="help-block with-errors mt-20"></div>
       </div>
-      <div className="form-floating">
-        <input
-          type="text"
-          name="subject"
-          className="form-control"
-          id="subject"
-          placeholder="Your Subject"
-          value={inputs.subject}
-          onChange={handleInputChange}
-        />
-        <label htmlFor="subject">{t('contactform.betreff')}</label>
-      </div>
+      
       <div className="form-floating">
         <textarea
           name="message"
@@ -105,8 +109,8 @@ const ContactFormASAK = () => {
           placeholder="Your Message"
           required
           data-error="Please, Leave us a message"
-          value={inputs.message}
-          onChange={handleInputChange}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
         ></textarea>
         <label htmlFor="message">{t('contactform.nachricht')}</label>
         <div className="help-block with-errors mt-20"></div>
