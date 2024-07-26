@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import emailjs from '@emailjs/browser';
 
 
-const ContactFormFive = () => {
+const ContactFormASAK = () => {
   const [inputs, setInputs] = useState({});
 
   const [name, setName] = useState('');
@@ -19,7 +19,7 @@ const ContactFormFive = () => {
 
     e.preventDefault();
     // EmailJS Service ID, template ID and Public Key
-    const serviceID = 'service_kxo6ovl';
+    const serviceId = 'service_kxo6ovl';
     const templateId = 'template_7crj0ki';
     const publicKey = 'bb8-glF2nFNvLX5LJ';
 
@@ -118,4 +118,4 @@ const ContactFormFive = () => {
   );
 };
 
-export default ContactFormFive;
+export default ContactFormASAK;
