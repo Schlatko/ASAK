@@ -3,17 +3,17 @@ import Swiper from "react-id-swiper";
 import 'swiper/swiper-bundle.css';
 import parse from "html-react-parser";
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
-import SwiperCore, {
+import {
   EffectFade,
   Navigation,
   Autoplay,
   Pagination,
-} from "swiper/core";
+} from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 import { useTranslation } from "react-i18next";
 
-SwiperCore.use([EffectFade, Navigation, Autoplay, Pagination]);
+//SwiperCore.use([EffectFade, Navigation, Autoplay, Pagination]);
 const HeroSliderTwo = () => {
   const params = {
     loop: true,
@@ -38,7 +38,7 @@ const HeroSliderTwo = () => {
     <section className="pt-0 pb-0">
       <div className="slider-bg flexslider">
         <ul className="slides">
-          <Swiper observer observeParents {...params}>
+          <Swiper modules={[EffectFade, Navigation, Autoplay, Pagination]} observer observeParents {...params}>
           {t('slider', {returnObjects: true}).map((slide) => (
               <li key={slide.id}>
                 <div

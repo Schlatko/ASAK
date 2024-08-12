@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 const ContactFormASAK = () => {
   
 
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -21,7 +22,7 @@ const ContactFormASAK = () => {
       // Block the suspended emails
       list: ['foo@emailjs.com', 'bar@emailjs.com'],
       // The variable contains the email address
-      watchVariable: 'userEmail',
+      watchVariable: 'user_email',
     },
     limitRate: {
       // Set the limit rate for the application
@@ -49,7 +50,7 @@ const ContactFormASAK = () => {
   };
   
 
-  emailjs.send(serviceId, templateId, templateParams, publicKey)
+  emailjs.send(serviceId, templateId, templateParams)
   .then((response)=> {
     console.log('Email sent successfully!', response);
     setName('');
@@ -57,6 +58,7 @@ const ContactFormASAK = () => {
     setMessage('');
   })
   .catch((error) => {
+    console.log(serviceId, templateId, templateParams)
     console.error('Error sending email', error);
   })
 

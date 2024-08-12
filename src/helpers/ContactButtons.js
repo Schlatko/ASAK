@@ -64,7 +64,7 @@ const ContactButtons = ({ children }) => {
       
       >
     
-      <i class="icofont-headphone-alt-2"></i>
+      <i className="icofont-headphone-alt-2"></i>
       </a>
     
       <a
@@ -74,7 +74,7 @@ const ContactButtons = ({ children }) => {
         title="Schreiben Sie uns eine Mail"
        
       >
-      <i class="icofont-email"></i>
+      <i className="icofont-email"></i>
       </a>
       {children}
     </>
