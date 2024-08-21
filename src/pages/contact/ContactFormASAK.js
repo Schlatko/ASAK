@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import emailjs from '@emailjs/browser';
-
+import Alert from '@mui/material/Alert';
+import Snackbar from '@mui/material/Snackbar';
 
 const ContactFormASAK = () => {
   
@@ -10,10 +11,14 @@ const ContactFormASAK = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
- 
+  const [severity, setSeverity] = useState(false);
+  const [alertContent, setAlertContent] = useState(false);
+  const [open, setOpen] = useState(false);
+  
 
   const { t } = useTranslation('contactform');
- 
+  
+
   emailjs.init({
     publicKey: 'bb8-glF2nFNvLX5LJ',
     // Do not allow headless browsers
@@ -56,20 +61,48 @@ const ContactFormASAK = () => {
     setName('');
     setEmail('');
     setMessage('');
+    setAlertContent(t('contactform.alertsuc'));
+    setSeverity('success');
+    setOpen(true);
+    
+
   })
   .catch((error) => {
     console.log(serviceId, templateId, templateParams)
     console.error('Error sending email', error);
+    setAlertContent(t('contactform.alerterr'));
+    setSeverity('error');
+    setOpen(true);
   })
 
 }
 
   return (
+    
     <form onSubmit={handleSubmit}
       name="contact-form"
       id="contact-form"
       
     >
+  <Snackbar
+  open={open}
+  autoHideDuration={5000}
+  onClose={() => setOpen(false)} 
+  sx={{ height: "100%" }}
+   anchorOrigin={{
+      vertical: "top",
+      horizontal: "center"
+   }}>
+     <Alert
+    onClose={() => setOpen(false)} 
+    severity={severity}
+    variant="filled"
+    sx={{ width: '100%' }}
+    
+  >
+    {alertContent}
+  </Alert>
+    </Snackbar>
       <div className="messages"></div>
       <div className="form-floating">
         <input
@@ -120,6 +153,8 @@ const ContactFormASAK = () => {
       <button type="submit" name="submit" className="btn btn-color btn-circle">
       {t('contactform.button')}
       </button>
+     
+     
     </form>
   );
 };

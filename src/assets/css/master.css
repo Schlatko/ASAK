@@ -3546,6 +3546,23 @@ color:#fff;
   height: 10px;
 }
 
+a[title]:hover::after {
+  content: attr(title);
+  position: fixed;
+  left: 100px;
+  top: 150px;
+  text-align: center;
+  line-height: 35px;
+ 
+  background: var(--main-color);
+  height: 48px;
+line-height: 46px;
+font-weight: 500;
+font-family: 'Poppins', sans-serif;
+
+padding: 0 30px;
+
+}
 
 #contact2 {
   position: fixed;

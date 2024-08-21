@@ -17,7 +17,9 @@
 "mailname": "Имейл",
 "mail": "info@asak-eu.com",
 "arbeitszeitenh": "Работно време",
-"arbeitszeiten": "Понеделник - Петък: 08:00 Uhr bis 16:00 Uhr"
+"arbeitszeiten": "Понеделник - Петък: 08:00 Uhr bis 16:00 Uhr",
+"alertsuc": "имейлът е изпратен успешно",
+"alerterr": "Имейлът не може да бъде изпратен. Моля, опитайте отново или ни пишете на info@asak-bg.eu"
 }
 
 }

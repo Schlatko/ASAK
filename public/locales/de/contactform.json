@@ -17,7 +17,9 @@
 "mailname": "E-Mail",
 "mail": "info@asak-eu.com",
 "arbeitszeitenh": "Arbeitszeiten",
-"arbeitszeiten": "Montag - Freitag: 08:00 Uhr bis 16:00 Uhr"
+"arbeitszeiten": "Montag - Freitag: 08:00 Uhr bis 16:00 Uhr",
+"alertsuc": "E-Mail erfolgreich versendet",
+"alerterr": "E-Mail konnte nicht gesendet werden. Bitte versuchen Sie es nochmal oder schreiben uns unter info@asak-bg.eu"
 }
 
 }

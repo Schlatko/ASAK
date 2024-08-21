@@ -1,8 +1,19 @@
 import React, { useState, useEffect} from "react";
 import Icofont from "react-icofont";
+
+
 const ContactButtons = ({ children }) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobile, setIsMobile] = useState(false);
+  const [show, setShow] = React.useState(false);
+
+  const handleClick = () => {
+    if (show) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
+  };
 
 
   useEffect(() => {
@@ -56,22 +67,23 @@ const ContactButtons = ({ children }) => {
 
   return (
     <>
+  
       <a 
         href="tel:+4915111682642"
         id="contact"
-        className={scrolled ? "show" : ""}
-        title="Rufen Sie uns an"
-      
+        className={"show"}
+        title="Rufen Sie uns an: +49 151 11 682642"
+       
       >
     
       <i className="icofont-headphone-alt-2"></i>
       </a>
     
       <a
-        href="info@asak-eu.com"
+        href="mailto:info@asak-eu.com"
         id="contact2"
-        className={scrolled ? "show" : "" }
-        title="Schreiben Sie uns eine Mail"
+        className={"show"}
+        title="Schreiben Sie uns eine Mail: info@asak-bg.eu"
        
       >
       <i className="icofont-email"></i>
