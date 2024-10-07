@@ -6,7 +6,7 @@ import ContactDetails from "./contact/ContactDetails";
 import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
 import FooterOne from "../components/Footer/FooterOne";
 import HeaderASAK from "../components/Header/HeaderASAK";
-import Map from "../components/Maps/Map";
+import Map from "../components/Maps/Gmap";
 import FooterASAK from "../components/Footer/FooterASAK";
 
 const ContactSimple = () => (

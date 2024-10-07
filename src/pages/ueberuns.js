@@ -6,7 +6,8 @@ import ContactDetails from "./contact/ContactDetails";
 import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
 import FooterOne from "../components/Footer/FooterOne";
 import HeaderASAK from "../components/Header/HeaderASAK";
-import Map from "../components/Maps/Map";
+
+import Map from "../components/Maps/Gmap";
 import FooterASAK from "../components/Footer/FooterASAK";
 import Ueberuns from "../components/OurServices/Ueberuns";
 
@@ -22,6 +23,9 @@ const ContactSimple = () => (
         tagline="Part of your success"
     />
       <ContactDetails />
+
+     
+
       <section className="pt-0 pb-0 map-section">
         <Map classAppend="wide" />
       </section>

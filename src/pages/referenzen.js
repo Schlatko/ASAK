@@ -5,7 +5,7 @@ import FsLightbox from "fslightbox-react";
 import Loader from "../components/Loader/Loader";
 import Portfolio from "../components/Portfolio/PortfolioASAK";
 import HeroSliderTwo from "../components/Hero/HeroSliderTwo";
-
+import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
 import image from "../assets/images/backgroundTest2.jpeg";
 
 import OurTeamThree from "../components/Team/OurTeamThree";
@@ -18,7 +18,7 @@ import { useTranslation } from "react-i18next";
 import OffersASAK from "../components/Services/Construction/OffersASAK";
 import HomeOffers from "../components/Services/Construction/HomeOffers";
 import TitelASAK from "../components/PageTitle/TitelASAK";
-import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
+
 
 
 
@@ -36,7 +36,7 @@ const asakhome = () => {
 
     <HeaderASAK />
     <TitelASAK title={t('header')} tagline={t('sub')} />  
-   
+   <ClientsBrand/>
     <section className="pt-100 pt-100">
       <Portfolio filter="true" columns="2" layout="box" space="true"/>
     </section>

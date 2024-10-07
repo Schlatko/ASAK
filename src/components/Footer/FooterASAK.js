@@ -61,7 +61,7 @@ const FooterOne = () =>
                   
                   <li>
                     <i className="icofont icofont-mail"></i>
-                    <a href="mailto:info@asak-eu.com">
+                    <a href="mailto:info@asak-bg.eu">
                     {t('mail')}
                     </a>
                   </li>
@@ -72,6 +72,7 @@ const FooterOne = () =>
           </div>
         </div>
       </div>
+   
       <FooterCopyright />
     </footer>
     <div className="footer-height" style={{ height: "300px" }}></div>

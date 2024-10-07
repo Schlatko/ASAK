@@ -16,7 +16,7 @@ import HeaderASAK from "../components/Header/HeaderASAK";
 import WhoWeAreThree from "../components/WhoWeAre/WhoWeAreThree";
 import Spritzdetail from "../pages/offers/detail/spritzdetail";
 import ContactDetails from "./contact/ContactDetails";
-import Map from "../components/Maps/Map";
+import Map from "../components/Maps/Gmap";
 import OffersASAK from "../components/Services/Construction/OffersASAK";
 import HomeOffers from "../components/Services/Construction/HomeOffers";
 

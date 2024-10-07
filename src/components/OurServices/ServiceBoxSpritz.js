@@ -2,7 +2,7 @@ import React from "react";
 import Icofont from "react-icofont";
 
 
-const ServiceBox = ({ icon, title, children, index, sub, text, text2, text3 }) => {
+const ServiceBox = ({ icon, title, children, index, sub, text, text1, text3 }) => {
   const listItems = text.map((number, index) =>
   <li>{number.test}</li>
   );
@@ -19,8 +19,8 @@ const ServiceBox = ({ icon, title, children, index, sub, text, text2, text3 }) =
 
       
       <h2 className="mt-0 green-color">{title}</h2>
-     
-      <ul className="ml-50 font-18px dark-color line-height-26">
+      <h4>{text1}</h4>
+      <ul className="ml-50">
       <li>{listItems}</li>  
        </ul>
         

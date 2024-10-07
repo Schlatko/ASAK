@@ -1,11 +1,13 @@
-  {
-    "aname": "Adresse",
-    "adress": "Nikola Voynovski 27, 1510 Sofia",
-    "telname": "Telefon",
-    "tel": "+49 151 111682642",
-    "tellink": "tel:+4915111682642",
-    "mailname": "E-Mail",
-    "mail": "info@asak-eu.com"
+  { 
+    
+  "link": "Политика за поверителност",
+    "aname": "Адреса",
+    "adress": "ул. „Никола Войновски“ 27, 1510 София",
+    "telname": "Тел",
+    "tel": "+359 88 8724803",
+    "tellink": "tel:+359888724803",
+    "mailname": "Майл",
+    "mail": "info@asak-bg.eu"
 
   }
 

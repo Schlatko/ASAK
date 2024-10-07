@@ -6,7 +6,7 @@ import clientsData from "../../data/BrandsSlider/clients-brand.json";
 const ClientsBrand = ({ children, classAppend }) => {
   const settings = {
     className: "clients-brand-carousel",
-    slidesToShow: 6,
+    slidesToShow: 3,
     arrows: false,
     autoplay: true,
     responsive: [
@@ -33,6 +33,10 @@ const ClientsBrand = ({ children, classAppend }) => {
   };
   return (
     <section className="pt-50 pb-50 white-bg">
+      <div>
+<h2 className="font-700">Unsere Partner & Kunden</h2>
+
+      </div>
       <div className="container">
         {children ? <div className="row">{children}</div> : null}
         <div className={"row " + (classAppend ? classAppend : null)}>

@@ -1,18 +1,23 @@
 import React from "react";
 import GoogleMap from "google-map-react";
-import Marker from "../../elements/Marker";
-import pinImg from "../../assets/images/pin.png";
 
-const Map = ({ classAppend }) => {
+import pinImg from "../../assets/images/pin.png";
+import {APIProvider, Map, Marker} from '@vis.gl/react-google-maps';
+
+const Gmap = ({ classAppend }) => {
   const defaultProps = {
     center: {
-      lat: 40.716304,
-      lng: -73.995763,
+      lat: 42.70608066117158, 
+      lng: 23.343835817613414,
     },
     zoom: 16,
   };
 
-  const mapOptions = {
+  const handleApiLoaded = (map, maps) => {
+    // use map and maps objects
+  };
+
+ /* const mapOptions = {
     panControl: true,
     zoomControl: true,
     mapTypeControl: true,
@@ -187,25 +192,19 @@ const Map = ({ classAppend }) => {
         ],
       },
     ],
-  };
+  };*/
 
   return (
     <div id="myMap" className={classAppend ? classAppend : ""}>
-      <GoogleMap
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-        bootstrapURLKeys={{
-          key: ''
-      }}
-        options={mapOptions}
-      >
-        <Marker
-          icon={pinImg}
-          position={{ lat: -73.995763, lng: 40.716304 }}
-        />
-      </GoogleMap>
+
+<APIProvider apiKey={'AIzaSyAyVRq51cp-SqcEbvqJy0EJ_Ly08Of5xJA'}>
+    <Map zoom={16} center={{lat: 42.70604124112984, lng: 23.343932377134163}}>
+      <Marker position={{lat: 42.70604124112984, lng: 23.343932377134163}} />
+    </Map>
+  </APIProvider>
+     
     </div>
   );
 };
 
-export default Map;
+export default Gmap;

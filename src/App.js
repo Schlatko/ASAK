@@ -12,6 +12,7 @@ import Asakhome from "./pages/asakhome";
 import ContactsASAK from "./pages/ContactsASAK.js"
 import Offers from "./pages/offers.js";
 import Spritzguss from "./pages/offers/spritzguss.js";
+import Impressum from "./pages/offers/impressum.js";
 import Formenbau from "./pages/offers/formenbau.js";
 import Dbf from "./pages/offers/dbf.js";
 import Montage from "./pages/offers/montage.js";
@@ -37,11 +38,12 @@ function App({ASAK, callback}) {
         <Route exact path={`${process.env.PUBLIC_URL}/formenbau`} element={<Formenbau></Formenbau>} />
         <Route exact path={`${process.env.PUBLIC_URL}/referenzen`} element={<Referenzen></Referenzen>} />
         <Route exact path={`${process.env.PUBLIC_URL}/prototypen`} element={<Prototypen></Prototypen>} />
-        <Route exact path={`${process.env.PUBLIC_URL}/dbf`} element={<dbf></dbf>} />
-        <Route exact path={`${process.env.PUBLIC_URL}/laser`} element={<laser></laser>} />
-        <Route exact path={`${process.env.PUBLIC_URL}/montage`} element={<montage></montage>} />
-        <Route exact path={`${process.env.PUBLIC_URL}/ueberuns`} element={<ueberuns></ueberuns>} />
+        <Route exact path={`${process.env.PUBLIC_URL}/dbf`} element={<Dbf></Dbf>} />
+        <Route exact path={`${process.env.PUBLIC_URL}/laser`} element={<Laser></Laser>} />
+        <Route exact path={`${process.env.PUBLIC_URL}/montage`} element={<Montage></Montage>} />
+        <Route exact path={`${process.env.PUBLIC_URL}/ueberuns`} element={<Ueberuns></Ueberuns>} />
         <Route exact path={`${process.env.PUBLIC_URL}/boxed2`} element={<boxed2></boxed2>} />
+        <Route exact path={`${process.env.PUBLIC_URL}/impressum`} element={<Impressum></Impressum>} />
           <Route element={<Page404></Page404>} />
         </Routes>
       </ScrollToTop>
