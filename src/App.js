@@ -20,8 +20,12 @@ import Laser from "./pages/offers/laser.js";
 import Prototypen from "./pages/offers/prototypen.js";
 import ContactButtons from "./helpers/ContactButtons";
 import Referenzen from "./pages/referenzen.js";
-import Ueberuns from "./pages/ueberuns.js"
-import Boxed2 from "./pages/portfolio/PortfolioWideTwo.js"
+import Ueberuns from "./pages/ueberuns.js";
+import Boxed2 from "./pages/portfolio/PortfolioWideTwo.js";
+
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-0QZ3K396JQ"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App({ASAK, callback}) {
 
