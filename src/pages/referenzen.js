@@ -24,10 +24,12 @@ import TitelASAK from "../components/PageTitle/TitelASAK";
 
 const asakhome = () => {
   const [toggler, setToggler] = useState(false);
+  
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+ 
   const { t } = useTranslation('referenzen');
   return (
     <Suspense fallback={<div>Loading....</div>}> 

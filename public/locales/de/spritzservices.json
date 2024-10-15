@@ -1,10 +1,14 @@
-{
+{   "head": "Materialien",
+    "desc": "Wir verarbeiten eine breite Palette an Kunststoffen, darunter Standard- und Hochleistungspolymere. Unsere Expertise hilft Ihnen, das ideale Material für Ihr Projekt auszuwählen – sei es für hohe Festigkeit, Flexibilität oder besondere chemische Beständigkeit.",
+    "desc2": "Unsere Experten unterstützen Sie bei der Wahl des passenden Kunststoffs für Ihre Anwendung. Gemeinsam analysieren wir die Anforderungen Ihres Projekts und wählen das Material, das in Bezug auf Funktionalität, Kosten und Verarbeitung die beste Lösung bietet.",
     "services":[
+  
     {
       "id": 1,
       "icon": "test-tube-alt",
+      
       "title": "Spritzguss-Kunststoffe",
-      "text1": "Wir sind spezialisiert auf die Verarbeitung aller gängigen Kunststoffe im Spritzgussverfahren. Für jedes Projekt ist die Wahl des richtigen Kunststoffs entscheidend, um die optimale Funktionalität und Qualität zu gewährleisten. Mit unserer langjährigen Erfahrung und unserem fundierten Fachwissen helfen wir Ihnen dabei, den passenden Kunststoff für Ihre individuellen Anforderungen zu finden.",
+      "text1": "Wir verarbeiten alle gängigen Kunststoffe im Spritzgussverfahren und unterstützen Sie bei der Wahl des optimalen Materials für Ihr Projekt. Nachfolgend finden Sie eine Auswahl der Kunststoffe, die wir verarbeiten.",
       "text": [
         {
           
@@ -46,49 +50,41 @@
     {
       "id": 2,
       "icon": "",
-      "title": "Schließkraft",
+      "title": "Spezialwerkstoffe und Additive",
+      "text1": "Wir bieten eine Vielzahl an Spezialkunststoffen und Additiven an, die besondere Eigenschaften für spezifische Anforderungen ermöglichen. Dadurch können wir Materialien an Ihre individuellen Projekte optimal anpassen.",
       "text": [
         {
           
-          "test": "Bis zu 700kN"
-
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "icon": "",
-      "title": "Komponenten",
-      "text": [
-        {
-          
-          "test": "Polypropylen (PP)"
+          "test": "Hitzebeständigkeit"
 
         },
         {
           
-          "test": "Polypropylen (PP), thermoplastische Elastomere (TPE), Polyamide (PA6, PA6.6), Polybutylenterephthalat (PBT), Polycarbonate (PC), Acrylnitril-Butadien-Styrol (ABS) und weitere"
-    
-        }
-      ]
-    }
-    ,
-    {
-      "id": 4,
-      "icon": "Formen aus dem 3D Drucker",
-      "title": "Formen aus dem 3D Drucker",
-      "text": [
-        {
-          
-          "test": "Polypropylen (PP)"
+          "test": "UV-Schutz"
 
         },
         {
           
-          "test": "Polypropylen (PP), thermoplastische Elastomere (TPE), Polyamide (PA6, PA6.6), Polybutylenterephthalat (PBT), Polycarbonate (PC), Acrylnitril-Butadien-Styrol (ABS) und weitere"
-    
+          "test": "Chemische Beständigkeit"
+
+        },
+        {
+          
+          "test": "Erhöhte Festigkeit durch Glasfaserverstärkung"
+
+        },
+        {
+          
+          "test": "Flammschutz"
+
+        },
+        {
+          
+          "test": "Verbesserte Schlagzähigkeit"
+
         }
       ]
     }
+    
 ]
 }

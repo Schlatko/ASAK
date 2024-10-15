@@ -13,7 +13,7 @@ const ClientsBrand = ({ children, classAppend }) => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
@@ -34,7 +34,7 @@ const ClientsBrand = ({ children, classAppend }) => {
   return (
     <section className="pt-50 pb-50 white-bg">
       <div>
-<h2 className="font-700">Unsere Partner & Kunden</h2>
+<h2 className="font-500 text-center">Unsere Partner & Kunden</h2>
 
       </div>
       <div className="container">
@@ -44,11 +44,13 @@ const ClientsBrand = ({ children, classAppend }) => {
             <Slider {...settings}>
               {clientsData.map((client) => (
                 <div className="client-logo" key={client.id}>
+                  <a href="www.amet.bg">
                   <img
-                    className="img-fluid"
+                    className="img-fluid" width={200} height={200}
                     src={require("../../assets/images/" + client.image)}
                     alt={client.name}
                   />
+                  </a>
                 </div>
               ))}
             </Slider>

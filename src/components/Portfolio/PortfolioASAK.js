@@ -1,7 +1,8 @@
-import React, { useEffect, useRef, useState, forwardRef } from "react";
+import React, { useEffect, useRef, useState, forwardRef,Suspense } from "react";
 import dataPortfolio from "../../data/Portfolio/creative-agency-data.json";
 import PortfolioFilter from "../../elements/Portfolio/PortfolioFilter";
 import PortfolioItem from "./PortfolioItemASAK";
+import Loader from "../../components/Loader/Loader";
 import Shuffle from "shufflejs";
 import "react-image-lightbox/style.css";
 import Lightbox from "react-image-lightbox";
@@ -50,6 +51,8 @@ const Portfolio = forwardRef(
     };
 
     return (
+      <Suspense fallback={<div>Loading....</div>}> 
+        
       <section
         className={"pb-0 pt-3" + (classAppend ? classAppend : "")}
         id="work"
@@ -69,7 +72,7 @@ const Portfolio = forwardRef(
                   handleClick={filterElements}
                 />
               ) : null}
-
+              
               <div
                 id="portfolio-grid"
                 ref={element}
@@ -114,8 +117,11 @@ const Portfolio = forwardRef(
           </div>
         </div>
       </section>
-    );
+      
+      </Suspense>
+   );
   }
+ 
 );
 
 export default Portfolio;

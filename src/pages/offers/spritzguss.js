@@ -8,6 +8,7 @@ import TitelASAK from "../../components/PageTitle/TitelASAK";
 import Spritzdetail from "../offers/detail/spritzdetail";
 import SpritzServices from "./detail/SpritzServices";
 import SpritzServicesLeft from "./detail/SpritzservicesLeft";
+import SpritzServices2 from "./detail/SpritzServices2";
 import UebersichtSpritz from "../../components/WhoWeAre/UebersichtSpritz";
 import FactsSpritzKomplett from "../../components/FunFacts/FactsSpritzKomplett";
 import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture";
@@ -40,6 +41,11 @@ const spritzguss = () => {
         serviceImg={spritzmaschine}
       />
       <SpritzServicesLeft
+        title={t('header2')}
+        tagline={t('sub2')}
+        serviceImg={spritzmaschine}
+      />
+      <SpritzServices2
         title={t('header2')}
         tagline={t('sub2')}
         serviceImg={spritzmaschine}

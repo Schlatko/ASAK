@@ -1,6 +1,9 @@
-import React from "react";
+import React, { Suspense, useEffect, useState  } from "react";
 // import ReactWow from "react-wow";
 import Icofont from "react-icofont";
+import Loader from "../../components/Loader/Loader";
+import mana from "../../assets/images/portfolio/grid/1.png";
+import { preloadImage } from './preloadImage';
 
 const PortfolioItem = ({
   title,
@@ -12,16 +15,29 @@ const PortfolioItem = ({
   type,
   columns,
   openLightbox,
-}) => {
+
+  
+})  => {
+
+  const [isLoading, setIsLoading] = useState(true);
+    
+      useEffect(() => {
+        // Simulate an API call
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 50000);
+      }, []);
+      
   return (
-    // <ReactWow animation="fadeIn">
+    <Suspense fallback={<div>Loading....</div>}>
+  
       <div
         className={
           "portfolio-item col-md-" + 12/columns +
           (type === "product" ? " portfolio-masonry-item " : " ") +
           (space === "true" ? "gutter-space" : "no-gutter")
         }
-        data-wow-delay="0.2s"
+        data-wow-delay="3s"
         data-groups={
           groups ? "[" + groups.map((val) => `"${val}"`) + "]" : null
         }
@@ -34,17 +50,19 @@ const PortfolioItem = ({
             }
           >
             <div className="dark-overlay"></div>
-            <img src={require("../../assets/images/" + image)} alt="" />
+            <img src={require("../../assets/images/" + image)} width={1600} height={1200} alt="" />
+           
             <div className="portfolio-wrap">
-              {/*<div className="portfolio-description">
+            
+              <div className="portfolio-description">
                 <h3 className="portfolio-title">{title}</h3>
                 <a
-                  href={`${process.env.PUBLIC_URL}/single-portfolio`}
+                  
                   className="links"
                 >
                   {category}
                 </a>
-              </div>*/}
+              </div>
               <ul className="portfolio-details">
                 <li>
                   <a
@@ -65,7 +83,8 @@ const PortfolioItem = ({
           </div>
         {/* </ReactWow> */}
       </div>
-    // </ReactWow>
+   
+    </Suspense>
   );
 };
 
