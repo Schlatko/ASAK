@@ -1,5 +1,5 @@
-{   "head": "Maschinenpark",
-    "desc": "Unser moderner Maschinenpark umfasst Spritzgussmaschinen verschiedener Tonnagen, die es uns ermöglichen, sowohl Klein- als auch Großserien präzise und effizient zu fertigen. Unsere technologisch fortschrittlichen Maschinen sorgen für hohe Qualität und Wiederholgenauigkeit.",
+{   "head": "Машини",
+    "desc": "Нашето модерно оборудване включва машини за леене под налягане с различен тонаж, които ни позволяват да произвеждаме прецизно и ефективно както малки, така и големи серии. Нашите технологично усъвършенствани машини гарантират високо качество и точност на повторение.",
     "desc2": "",
     "services":[
   
@@ -7,22 +7,22 @@
       "id": 1,
       "icon": "test-tube-alt",
       
-      "title": "Maschinenkapazitäten",
-      "text1": "Unsere Maschinen bieten eine Bandbreite an Kapazitäten, die es uns ermöglichen, verschiedenste Bauteile herzustellen – von kleinen, präzisen Teilen bis zu größeren Komponenten.",
+      "title": "Капацитет на машините",
+      "text1": "Нашите машини предлагат различни капацитети, които ни позволяват да произвеждаме голямо разнообразие от детайли - от малки, прецизни детайли до по-големи компоненти.",
       "text": [
         {
           
-          "test": "Schussgewicht: 5 g bis 150 g"
+          "test": "Тегло на детайлите: от 5 g до 150 g"
 
         },
         {
           
-          "test": "Maximale Formgröße: 370 mm x 370 mm"
+          "test": "Максимален размер на матрицата: 370 mm x 370 mm"
     
         },
         {
           
-          "test": "Zykluszeiten: ab 10 Sekunden (je nach Bauteil)"
+          "test": "Време на цикъла: от 10 секунди (в зависимост от компонента)"
     
         }
       ]
@@ -30,37 +30,37 @@
     {
       "id": 2,
       "icon": "",
-      "title": "Technologische Ausstattung",
-      "text1": "Unsere technologische Ausstattung umfasst moderne Automatisierungslösungen und Qualitätssicherungssysteme. Dies garantiert eine effiziente Produktion und höchste Präzision.",
+      "title": "Технологично оборудване",
+      "text1": "Нашето технологично оборудване включва модерни решения за автоматизация и системи за осигуряване на качеството. Това гарантира ефективно производство и максимална прецизност.",
       "text": [
         {
           
-          "test": "Hitzebeständigkeit"
+          "test": "Топлинна устойчивост"
 
         },
         {
           
-          "test": "UV-Schutz"
+          "test": "UV-защита"
 
         },
         {
           
-          "test": "Chemische Beständigkeit"
+          "test": "Химическа устойчивост"
 
         },
         {
           
-          "test": "Erhöhte Festigkeit durch Glasfaserverstärkung"
+          "test": "Повишена здравина благодарение на армировката от стъклени влакна"
 
         },
         {
           
-          "test": "Flammschutz"
+          "test": "Защита от пламък"
 
         },
         {
           
-          "test": "Verbesserte Schlagzähigkeit"
+          "test": "Подобрена якост на удар"
 
         }
       ]

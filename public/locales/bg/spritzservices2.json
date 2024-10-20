@@ -1,5 +1,5 @@
-{   "head": "Services",
-    "desc": "Wir bieten Ihnen umfassende Dienstleistungen rund um den Spritzguss – von der Konstruktion und Werkzeugfertigung über Prototyping und Serienproduktion bis hin zur Nachbearbeitung und Montage. Unsere flexiblen Prozesse garantieren maßgeschneiderte Lösungen, während unser Qualitätsmanagement höchste Standards sichert.",
+{   "head": "Услуги",
+    "desc": "Ние ви предлагаме цялостни услуги в областта на шприцването - от проектирането и производството на инструменти, прототипи и серийно производство до последваща обработка и монтаж. Гъвкавите ни процеси гарантират индивидуални решения, а управлението на качеството ни гарантира най-високи стандарти.",
     "desc2": "",
     "services":[
   
@@ -7,27 +7,27 @@
       "id": 1,
       "icon": "test-tube-alt",
       
-      "title": "Konstruktion und Werkzeugbau",
-      "text1": "Von der Idee bis zur fertigen Lösung: Wir unterstützen Sie bei der Entwicklung Ihres Produkts und sorgen für ein optimales Werkzeugdesign. So wird sichergestellt, dass die Produktion reibungslos und effizient verläuft.",
+      "title": "Проектиране и конструиране на матрици",
+      "text1": "От идеята до готовото решение: ние ви подкрепяме при разработването на вашия продукт и гарантираме оптимизиран дизайн на инструмента. Това гарантира гладкото и ефективно протичане на производството.",
       "text": [
         {
           
-          "test": "CAD-gestützte Konstruktion"
+          "test": "CAD Проектиране"
 
         },
         {
           
-          "test": "Entwicklung von Prototyp-Werkzeugen"
+          "test": "Разработване на прототипни инструменти"
     
         },
         {
           
-          "test": "Anpassung bestehender Werkzeuge"
+          "test": "Адаптиране на съществуващи матрици"
     
         },
         {
           
-          "test": "Wartung und Optimierung von Spritzgusswerkzeugen"
+          "test": "Поддръжка и оптимизация на инструментите"
     
         }
       ]
@@ -35,27 +35,27 @@
     {
       "id": 2,
       "icon": "",
-      "title": "Prototyping",
-      "text1": "Mit Prototypen und Vorserienmustern können Sie Ihr Produkt vor der Serienfertigung testen. Dadurch lassen sich eventuelle Anpassungen frühzeitig vornehmen, was Zeit und Kosten spart.",
+      "title": "Създаване на прототипи",
+      "text1": "рототипите и предсерийните образци ви позволяват да тествате продукта си преди серийното производство. Това ви позволява да направите всички необходими корекции на ранен етап, което спестява време и пари.",
       "text": [
         {
           
-          "test": "3D-gedruckte Prototypen"
+          "test": "3D отпечатани прототипи"
 
         },
         {
           
-          "test": "Spritzguss-Prototypen mit Testwerkzeugen"
+          "test": "Прототипи, изработени чрез леене под налягане, с тестови инструменти"
 
         },
         {
           
-          "test": "Rapid Prototyping für schnelle Umsetzung"
+          "test": "Бързо прототипиране за бърза реализация"
 
         },
         {
           
-          "test": "Vorserienfertigung zur Validierung"
+          "test": "Предсерийно производство за валидиране"
 
         }
       ]
@@ -64,27 +64,27 @@
     {
       "id": 2,
       "icon": "",
-      "title": "Klein- und Großserienfertigung",
-      "text1": "Wir bieten maximale Flexibilität: Egal ob Kleinserie für Spezialprojekte oder Großserie für Massenproduktion – unsere Fertigungsprozesse sind auf Ihre Bedürfnisse abgestimmt.",
+      "title": "Малко и голямо серийно производство",
+      "text1": "Ние предлагаме максимална гъвкавост: независимо дали става въпрос за малки серии за специални проекти или за големи серии за масово производство - нашите производствени процеси са съобразени с вашите нужди.",
       "text": [
         {
           
-          "test": "Kleinserien: 100 bis 1.000 Stück"
+          "test": "Малки серии: от 100 до 1 000 единици"
 
         },
         {
           
-          "test": "Großserien: bis zu 1 Million Stück"
+          "test": "Големи серии: до 1 милион единици"
 
         },
         {
           
-          "test": "Just-in-Time-Fertigung nach Bedarf"
+          "test": "Производство навреме според нуждите"
 
         },
         {
           
-          "test": "Serienproduktion mit Losgrößenoptimierung"
+          "test": "Серийно производство с оптимизиране на размера на партидата"
 
         }
       ]
@@ -93,27 +93,27 @@
     {
       "id": 2,
       "icon": "",
-      "title": "Nachbearbeitung und Montage",
-      "text1": "Neben der reinen Fertigung übernehmen wir auch alle notwendigen Nachbearbeitungsschritte sowie die Montage einzelner Komponenten zu Baugruppen.",
+      "title": "Последваща обработка и монтаж",
+      "text1": "В допълнение към чистото производство ние се грижим и за всички необходими етапи на последваща обработка и сглобяване на отделните компоненти в модули.",
       "text": [
         {
           
-          "test": "Entgraten und Polieren der Teile"
+          "test": "Почистване и полиране на части"
 
         },
         {
           
-          "test": "Bedrucken und Lackieren"
+          "test": "Печат и боядисване"
 
         },
         {
           
-          "test": "Ultraschallschweißen von Kunststoffteilen"
+          "test": "Ултразвуково заваряване на пластмасови части"
 
         },
         {
           
-          "test": "Baugruppenmontage und Funktionstests"
+          "test": "Сглобяване на компоненти и функционални тестове"
 
         }
       ]
@@ -122,27 +122,27 @@
     {
       "id": 2,
       "icon": "",
-      "title": "Qualitätsmanagement",
-      "text1": "Qualität steht bei uns an erster Stelle. Durch systematische Prüfverfahren und moderne Messtechniken stellen wir sicher, dass Ihre Produkte höchsten Standards entsprechen.",
+      "title": "Управление на качеството",
+      "text1": "Качеството е наш основен приоритет. Използваме систематични процедури за изпитване и съвременни техники за измерване, за да гарантираме, че вашите продукти отговарят на най-високите стандарти.",
       "text": [
         {
           
-          "test": "100%-Kontrolle"
+          "test": "100% проверка"
 
         },
         {
           
-          "test": "Maßprüfungen"
+          "test": "Тестове на размерите"
 
         },
         {
           
-          "test": "Materialprüfungen nach DIN-Normen"
+          "test": "Тестове на материалите в съответствие със стандартите DIN"
 
         },
         {
           
-          "test": "Dokumentation und Rückverfolgbarkeit"
+          "test": "Документиране и проследимост"
 
         }
       ]

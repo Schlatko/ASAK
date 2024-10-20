@@ -1,45 +1,45 @@
 {
-    "header": "Dreh-, Bohr-, & Fräsarbeiten",
-    "sub": "MASSGESCHNEIDERT UND PRÄZISE: UNSERE DREH- UND FRÄSDIENSTLEISTUNGEN IN VOLLER KRAFT.",
-    "aftersub": "Alle Details in der Übersicht",
+    "header": "Механично металообработване - фрезоване, струговане, шлайфоване и ерозиране",
+    "sub": "ПО ПОРЪЧКА И ПРЕЦИЗНО: НАШИТЕ УСЛУГИ ЗА МЕХАНИЧНО МЕТАЛООБРАБОТВАНЕ СА В ПЪЛНА СИЛА.",
+    "aftersub": "Всички подробности с един поглед",
   
-    "text": "Wir sind darauf spezialisiert, individuelle Teile in geringen Stückzahlen herzustellen und stehen Ihnen gerne für weitere Fragen zur Verfügung.", 
+    "text": "Специализирани сме в производството на отделни части в малки количества и с удоволствие ще отговорим на всички Ваши допълнителни въпроси.", 
     "services":
       [
         {
           "id": 1,
-          "title": "ANALYSE UND KUNDENBERATUNG",
-          "text": "Unsere Dienstleistungen beginnen mit einer gründlichen Analyse Ihrer Anforderungen und Ideen. In enger Zusammenarbeit mit unseren erfahrenen Ingenieuren besprechen wir die Projektziele, technischen Spezifikationen und Designanforderungen, um sicherzustellen, dass wir Ihre Erwartungen vollständig verstehen.",
+          "title": "АНАЛИЗ И КОНСУЛТАЦИИ С КЛИЕНТИ",
+          "text": "Нашите услуги започват със задълбочен анализ на Вашите изисквания и идеи. Работейки в тясно сътрудничество с нашите опитни инженери, ние обсъждаме целите на проекта, техническите спецификации и изискванията за проектиране, за да сме сигурни, че напълно разбираме вашите очаквания.",
           "icon": "gears"
         },
         {
           "id": 2,
-          "title": "TECHNISCHE PLANUNG UND DESIGN",
-          "text": "Nach der Analyse starten wir die technische Planung und das Design des Werkstücks. Unsere Ingenieure nutzen fortschrittliche Software für Computer-Aided Design (CAD), um präzise Modelle zu erstellen. Dabei berücksichtigen wir nicht nur die funktionalen Anforderungen, sondern auch die Auswahl optimaler Materialien für Dreh-, Bohr- und Fräsprozesse.",
+          "title": "ТЕХНИЧЕСКО ПЛАНИРАНЕ И ПРОЕКТИРАНЕ",
+          "text": "След анализа започваме техническото планиране и проектиране на частта. Нашите инженери използват усъвършенстван софтуер за компютърно проектиране (CAD), за да създадат прецизни модели. Вземаме предвид не само функционалните изисквания, но и избора на оптимални материали за процесите на фрезоване, струговане, шлайфоване и ерозиране.",
           "icon": "gears"
         },
         {
           "id": 3,
-          "title": "MATERIALAUSWAHL UND VORBEREITUNG",
-          "text": "Basierend auf den Anforderungen des Projekts wählen wir sorgfältig die geeigneten Materialien aus. Die Vorbereitung umfasst die Umwandlung des CAD-Modells in das für die Bearbeitung geeignete Format. Entscheidende Parameter wie Schnittgeschwindigkeit, Vorschub und Werkzeugauswahl werden festgelegt, um eine präzise Umsetzung zu gewährleisten.",
+          "title": "ИЗБОР И ПОДГОТОВКА НА МАТЕРИАЛИ",
+          "text": "Внимателно подбираме подходящи материали въз основа на изискванията на проекта. Подготовката включва конвертиране на CAD модела във формат, подходящ за обработка. Определят се важни параметри като скорост на рязане, подаване и избор на инструмент, за да се осигури прецизна реализация.",
           "icon": "light-bulb"
         },
         {
           "id": 4,
-          "title": "DREHARBEITEN, BOHRUNGEN UND FRÄSEN",
-          "text": "Mit unseren Dreh-, Bohr- und Fräsmaschinen setzen wir die Designs präzise um. Der Prozess erfolgt schrittweise, wobei das Werkstück durch präzise Bearbeitungsschritte geformt wird. Die Auswahl der optimalen Werkzeuge und die genaue Einhaltung der technischen Spezifikationen stehen dabei im Fokus.",
+          "title": "Фрезоване, струговане, шлайфоване и ерозиране",
+          "text": "Цялостното механично металообработване се реализира прецизно от нас. Процесът се извършва стъпка по стъпка, като детайлът се оформя чрез прецизни стъпки на обработка. В центъра на вниманието са изборът на оптимални инструменти и точното спазване на техническите спецификации.",
           "icon": "architecture-alt"
         },
         {
           "id": 5,
-          "title": "QUALITÄTSKONTROLLE UND NACHBEARBEITUNG",
-          "text": "Nach dem Bearbeitungsvorgang erfolgt eine gründliche Qualitätskontrolle. Eventuelle Unregelmäßigkeiten werden behoben, und das Werkstück wird auf eine reibungslose Oberfläche und Passgenauigkeit überprüft. Bei Bedarf wird eine individuelle Nachbearbeitung durchgeführt, um höchste Qualität zu gewährleisten.",
+          "title": "КОНТРОЛ НА КАЧЕСТВОТО И ПОСЛЕДВАЩА ОБРАБОТКА",
+          "text": "След процеса на механична обработка се извършва задълбочена проверка на качеството. Всички нередности се отстраняват, а детайлът се проверява за гладка повърхност и точност на напасване. Ако е необходимо, се извършва персонализирана последваща обработка, за да се гарантира най-високо качество.",
           "icon": "industries-2"
         },
         {
           "id": 6,
-          "title": "TEST UND KUNDENRÜCKMELDUNGEN",
-          "text": "Abschließend durchläuft das bearbeitete Werkstück strenge Tests, um sicherzustellen, dass es den technischen Anforderungen entspricht. Kundenzufriedenheit steht an oberster Stelle, und basierend auf Rückmeldungen werden Anpassungen vorgenommen, um sicherzustellen, dass das Endprodukt Ihre Erwartungen erfüllt.",
+          "title": "ИЗПИТВАНЕ И ОБРАТНА ВРЪЗКА С КЛИЕНТИТЕ",
+          "text": "Накрая обработеният детайл се подлага на строги тестове, за да се гарантира, че отговаря на техническите изисквания. Удовлетвореността на клиента е от първостепенно значение и въз основа на обратната връзка се правят корекции, за да се гарантира, че крайният продукт отговаря на Вашите очаквания.",
           "icon": "spanner"
         }
       ]   
