@@ -48,11 +48,7 @@ const spritzguss = () => {
         tagline={t('sub3')}
         serviceImg={duesen}
       />
-      <FormenServicesAuswerfer
-        title={t('header4')}
-        tagline={t('sub4')}
-        serviceImg={schieber}
-      />
+      
       
       <ContactDetails />
         <FooterASAK/>
