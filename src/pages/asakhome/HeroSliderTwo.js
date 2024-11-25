@@ -58,7 +58,7 @@ const HeroSliderTwo = () => {
                       <h3 className="white-color font-400">
                           {slide.tagline ? slide.tagline : ""}
                         </h3>
-                        <h1 className="white-color text-uppercase font-700 letter-spacing-5">
+                        <h1 className="white-color text-uppercase font-500 letter-spacing-2">
                           {slide.title}
                         </h1>
                       <h3 className="white-color font-400">

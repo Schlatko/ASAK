@@ -1,0 +1,34 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Advantages of laser labelling ",
+      "text": "Speed and efficiency ",
+      "text2": "Laser marking is a fast and efficient method, ideal for marking large production quantities. "
+    },
+    {
+      "id": 2,
+      "icon": "",
+      
+      "text": "Customisation",
+      "text2": "This technology allows the customisation of markings, whether for logos, serial numbers or specific designs. "
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "text": "Durability ",
+      "text2" : "Laser labelling markings are generally permanent and resistant to abrasion and environmental influences."
+    }
+    ,
+    {
+      "id": 4,
+      "icon": "Moulds from the 3D printer",
+      "text": "Environmental friendliness",
+      "text2": "Compared to some traditional marking methods, laser marking produces less waste and chemicals, which offers environmental benefits."
+
+
+      
+    }
+]
+}

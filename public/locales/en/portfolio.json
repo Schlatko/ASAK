@@ -1,0 +1,155 @@
+{"items": [ 
+  {
+    "id": 1,
+    "title": "Spritzgussform",
+    "category": "Heißkanal",
+    "image": "portfolio/grid/1.png",
+    "groups": ["übersicht", "formenbau"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Spritzgussmaschine",
+    "category": "Arburg",
+    "image": "portfolio/grid/2.png",
+    "groups": ["übersicht", "formenbau"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Entstehung",
+    "category": "Fräsen",
+    "image": "portfolio/grid/3.png",
+    "groups": ["übersicht", "formenbau"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Laser",
+    "category": "Gravur",
+    "image": "portfolio/grid/4.png",
+    "groups": ["übersicht", "lasergravierung"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Scarab Ring",
+    "category": "Spritzguss",
+    "image": "portfolio/grid/spritz1.jpg",
+    "groups": ["übersicht", "spritzguss"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "First Floor",
+    "category": "WEB DESIGN",
+    "image": "portfolio/grid/6.jpg",
+    "groups": ["all", "design", "web"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Flyer Design",
+    "category": "BRANDING",
+    "image": "portfolio/grid/7.jpg",
+    "groups": ["all", "design", "branding"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/8.jpg",
+    "groups": ["all", "design", "print"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+]
+}

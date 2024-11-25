@@ -4,7 +4,7 @@
    
     {
         "id": 2,
-        "title": "Home",
+        "title": "Start",
         "link": "/",
         "megaMenu": false,
         "sub": false, 
@@ -25,45 +25,35 @@
         "subMenu": [
             {
                 "id": 3.1,
-                "title": "Moulds",
-                "link": "/blog/top-10-fastest-cars-in-the-world?id=1"
+                "title": "Mould making",
+                "link": "/formenbau"
             },
             {
                 "id": 3.2,
-                "title": "Injection Moulding",
-                "link": "/blog-grid"
+                "title": "Injection moulding",
+                "link": "/spritzguss"
             },
             {
                 "id": 3.3,
-                "title": "Prototyping",
-                "link": "/blog-sidebar"
-            },
-            {
-                "id": 3.4,
-                "title": "Special machine construction",
-                "link": "/blog-sidebar"
+                "title": "3D printing & prototypes",
+                "link": "/prototypen"
             }
+            ,
+            {
+                "id": 3.5,
+                "title": "Laser labelling",
+                "link": "/laser"
+            }
+                 
         ]  
     },
     {
         "id": 4,
         "title": "References",
-        "link": "/portfolio",
+        "link": "/referenzen",
         "megaMenu": false,
-        "sub": false, 
-        "subMenu": [
-            {
-                "id": 4.1,
-                "title": "Gallerie",
-                "link": "/boxed"
-               
-            },
-            {
-                "id": 4.2,
-                "title": "Industrien & Partner",
-                "link": "/boxed-space"
-            }
-        ]
+        "sub": false
+       
     },
     {
         "id": 5,
@@ -74,7 +64,7 @@
         "subMenu": [
             {
                 "id": 5.1,
-                "title": "Kontakt Formular",
+                "title": "Contact form",
                 "link": "/contact"
             }
         ]  
@@ -84,19 +74,8 @@
         "title": "Contact",
         "link": "/contact",
         "megaMenu": false,
-        "sub": false, 
-        "subMenu": [
-            {
-                "id": 5.1,
-                "title": "Geschichte",
-                "link": "/shop-fullwidth"
-            },
-            {
-                "id": 5.2,
-                "title": "Das Team",
-                "link": "/shop-standard"
-            }
-        ]  
+        "sub": false
+         
     }
 ]
 }

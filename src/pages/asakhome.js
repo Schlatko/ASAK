@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import FsLightbox from "fslightbox-react";
@@ -27,7 +27,7 @@ const asakhome = () => {
     AOS.refresh();
   }, []);
   return (
-    <Loader>
+    <Suspense>
   
       <HeaderASAK />
       
@@ -38,14 +38,14 @@ const asakhome = () => {
       
       
      
-      <OurTeamThree />
+      {/* <OurTeamThree />*/} 
       <ContactDetails />
       <section className="pt-0 pb-0 map-section">
         <Map classAppend="wide" />
       </section>
 
       <FooterASAK />
-    </Loader>
+    </Suspense>
   );
 };
 

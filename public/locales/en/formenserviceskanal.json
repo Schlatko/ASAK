@@ -1,0 +1,46 @@
+{   "head": "Our machinery in mould making",
+    "desc": "Our machinery offers a wide range of options for precise and efficient manufacturing solutions. With state-of-the-art machining processes, we ensure that every tool fulfils the highest quality requirements.",
+    "desc2": "",
+    "services":[
+      {
+        "id": 1,
+        "icon": "test-tube-alt",
+        
+        "title": "Die sinking and wire erosion ",
+        "text1": "Our company has extensive experience in the machining of precise and complex geometries using state-of-the-art wire and die-sinking EDM technologies.",
+        "text": [
+          {
+            
+            "test": "Charmilles Roboform and Charmilles Robofil"
+  
+          }
+        ]},
+    
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Milling",
+      "text1": "Our main machines for the production of injection moulding tools are 3D CNC milling machines. The 3D models are created using PTC Creo software, which also enables the CNC machines to be controlled.",
+     "text": [
+          {
+            
+            "test": "Deckel"
+  
+          }
+        ]},
+        {
+          "id": 3,
+          "icon": "",
+          "title": "Grinding",
+          "text1": "We use a high-quality surface grinding machine to achieve precise and flawless surfaces.",
+         "text": [
+              {
+                
+                "test": "Blohm"
+      
+              }
+            ]}
+    
+    
+]
+}

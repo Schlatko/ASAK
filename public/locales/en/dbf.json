@@ -1,0 +1,50 @@
+{
+    "header": "Fräs-, Dreh-, Schleif-, & Erodierbeiten",
+    "sub": "MASSGESCHNEIDERT UND PRÄZISE: UNSERE MECHANISCHE METALBEARBEITUNG IN VOLLER KRAFT.",
+    "aftersub": "Alle Details in der Übersicht",
+  
+    "text": "Wir sind darauf spezialisiert, individuelle Teile in geringen Stückzahlen herzustellen und stehen Ihnen gerne für weitere Fragen zur Verfügung.", 
+    "services":
+      [
+        {
+          "id": 1,
+          "title": "ANALYSE UND KUNDENBERATUNG",
+          "text": "Unsere Dienstleistungen beginnen mit einer gründlichen Analyse Ihrer Anforderungen und Ideen. In enger Zusammenarbeit mit unseren erfahrenen Ingenieuren besprechen wir die Projektziele, technischen Spezifikationen und Designanforderungen, um sicherzustellen, dass wir Ihre Erwartungen vollständig verstehen.",
+          "icon": "gears"
+        },
+        {
+          "id": 2,
+          "title": "TECHNISCHE PLANUNG UND DESIGN",
+          "text": "Nach der Analyse starten wir die technische Planung und das Design des Werkstücks. Unsere Ingenieure nutzen fortschrittliche Software für Computer-Aided Design (CAD), um präzise Modelle zu erstellen. Dabei berücksichtigen wir nicht nur die funktionalen Anforderungen, sondern auch die Auswahl optimaler Materialien für Dreh-, Bohr- und Fräsprozesse.",
+          "icon": "gears"
+        },
+        {
+          "id": 3,
+          "title": "MATERIALAUSWAHL UND VORBEREITUNG",
+          "text": "Basierend auf den Anforderungen des Projekts wählen wir sorgfältig die geeigneten Materialien aus. Die Vorbereitung umfasst die Umwandlung des CAD-Modells in das für die Bearbeitung geeignete Format. Entscheidende Parameter wie Schnittgeschwindigkeit, Vorschub und Werkzeugauswahl werden festgelegt, um eine präzise Umsetzung zu gewährleisten.",
+          "icon": "light-bulb"
+        },
+        {
+          "id": 4,
+          "title": "MECHANISCHE METALBEARBEITUNG",
+          "text": "Mit unseren Fräs-, Dreh-, Schleif- und Erodiermaschinen setzen wir die Designs präzise um. Der Prozess erfolgt schrittweise, wobei das Werkstück durch präzise Bearbeitungsschritte geformt wird. Die Auswahl der optimalen Werkzeuge und die genaue Einhaltung der technischen Spezifikationen stehen dabei im Fokus.",
+          "icon": "architecture-alt"
+        },
+        {
+          "id": 5,
+          "title": "QUALITÄTSKONTROLLE UND NACHBEARBEITUNG",
+          "text": "Nach dem Bearbeitungsvorgang erfolgt eine gründliche Qualitätskontrolle. Eventuelle Unregelmäßigkeiten werden behoben, und das Werkstück wird auf eine reibungslose Oberfläche und Passgenauigkeit überprüft. Bei Bedarf wird eine individuelle Nachbearbeitung durchgeführt, um höchste Qualität zu gewährleisten.",
+          "icon": "industries-2"
+        },
+        {
+          "id": 6,
+          "title": "TEST UND KUNDENRÜCKMELDUNGEN",
+          "text": "Abschließend durchläuft das bearbeitete Werkstück strenge Tests, um sicherzustellen, dass es den technischen Anforderungen entspricht. Kundenzufriedenheit steht an oberster Stelle, und basierend auf Rückmeldungen werden Anpassungen vorgenommen, um sicherzustellen, dass das Endprodukt Ihre Erwartungen erfüllt.",
+          "icon": "spanner"
+        }
+      ]   
+  
+      
+        
+  }
+  

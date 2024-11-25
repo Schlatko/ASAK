@@ -37,11 +37,6 @@
                 "id": 3.3,
                 "title": "3D Druck & Prototypen",
                 "link": "/prototypen"
-            },
-            {
-                "id": 3.4,
-                "title": "Dreh-, Bohr-, & Fräsarbeiten",
-                "link": "/dbf"
             }
             ,
             {
@@ -63,7 +58,7 @@
     {
         "id": 5,
         "title": "Über uns",
-        "link": "/Contact",
+        "link": "/ueberuns",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [

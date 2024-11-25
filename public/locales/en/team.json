@@ -1,12 +1,13 @@
-{   "header":"ЗАПОЗНАЙТЕ СЕ С НАШИЯ ЕКИП",
-    "subline":"ТРАДИЦИЯТА НИ ПРАВИ ПО-СИЛНИ",
+{   "header":"Our team",
+    "subline":"TRADITION MAKES US STRONGER",
+    "text":"The company was founded in 1990 by Eng. Dimitar Karagyozov and re-registered as an EOOD (Sole Proprietorship with Limited Liability) in 2006. Since our foundation, we have established a firm place in the industry and are proud to place our values of customer satisfaction, reliability and quality at the centre of our work.",
     
     "team":[
     {
         "id": 1,
-        "name": "Димитър Карагъозов",
-        "role": "главен изпълнителен директор",
-        "image": "team/mitko.jpg",
+        "name": "Dimitar Karagyozov",
+        "role": "CEO",
+        "image": "team/mitko.png",
         "social": [
             {
                 "id": 1,
@@ -27,9 +28,9 @@
     },
     {
         "id": 2,
-        "name": "Виктория Карагъозов",
-        "role": "ФИНАНСОВ ДИРЕКТОР",
-        "image": "team/viki.JPEG",
+        "name": "Viktoria Karagyozova",
+        "role": "CFO",
+        "image": "team/viki.png",
         "social": [
             {
                 "id": 1,
@@ -50,9 +51,9 @@
     },
     {
         "id": 3,
-        "name": "Николай Карагъозов",
-        "role": "ТЕХНИЧЕСКИ ДИРЕКТОР",
-        "image": "team/niki.JPEG",
+        "name": "Nikolay Karagyozov",
+        "role": "CTO",
+        "image": "team/niki.png",
         "social": [
             {
                 "id": 1,

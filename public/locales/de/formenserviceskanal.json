@@ -6,32 +6,21 @@
         "id": 1,
         "icon": "test-tube-alt",
         
-        "title": "Senkerodieren",
-        "text1": "Ideal für komplexe Konturen und tiefe Kavitäten, ermöglicht höchste Präzision selbst bei schwer zugänglichen Bereichen.",
+        "title": "Senk- und Drahterodieren",
+        "text1": "Unser Unternehmen verfügt über umfassende Erfahrung in der Bearbeitung präziser und komplexer Geometrien mithilfe modernster Draht- und Senkerodiertechnologien.",
         "text": [
           {
             
-            "test": "Charmilles Roboform"
+            "test": "Charmilles Roboform und Charmilles Robofil"
   
           }
         ]},
+    
     {
       "id": 2,
       "icon": "",
-      "title": "Drahterodieren",
-      "text1": "Perfekt für feine, maßgenaue Schnitte bei komplexen Formen, insbesondere bei hohen Anforderungen an die Passgenauigkeit.",
-      "text": [
-          {
-            
-            "test": "Charmilles Robofil"
-  
-          }
-        ]},
-    {
-      "id": 3,
-      "icon": "",
       "title": "Fräsen",
-      "text1": "Flexibel und präzise für vielfältige Formen und Strukturen.",
+      "text1": "Unsere Hauptmaschinen für die Herstellung von Spritzgusswerkzeugen sind 3D-CNC-Fräsmaschinen. Die 3D-Modelle werden mit der Software PTC Creo erstellt, die gleichzeitig auch die Steuerung der CNC-Maschinen ermöglicht.",
      "text": [
           {
             
@@ -40,14 +29,14 @@
           }
         ]},
         {
-          "id": 4,
+          "id": 3,
           "icon": "",
-          "title": "Drehen",
-          "text1": "Hochpräzise Bearbeitung rotationssymmetrischer Teile, ideal für genaue Passungen und zylindrische Formen.",
+          "title": "Schleifen",
+          "text1": "Für das Erzielen präziser und makelloser Oberflächen setzen wir auf eine hochwertige Flachschleifmaschine.",
          "text": [
               {
                 
-                "test": "Deckel"
+                "test": "Blohm"
       
               }
             ]}

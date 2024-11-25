@@ -13,6 +13,7 @@ const Portfolio = forwardRef(
     const element = useRef();
     const [shuffle, setShuffle] = useState();
     const { t } = useTranslation('portfolio');
+   
 
    useEffect(() => {
       if (element.current) {

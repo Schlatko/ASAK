@@ -16,20 +16,16 @@ const PortfolioItem = ({
   columns,
   openLightbox,
 
+
   
 })  => {
 
-  const [isLoading, setIsLoading] = useState(true);
+  
     
-      useEffect(() => {
-        // Simulate an API call
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 50000);
-      }, []);
+    
       
   return (
-    <Suspense fallback={<div>Loading....</div>}>
+    
   
       <div
         className={
@@ -73,6 +69,7 @@ const PortfolioItem = ({
                     <Icofont icon="search-1" />
                   </a>
                 </li>
+               
                 {/* <li>
                   <a href={require("../../assets/images/" + image)}>
                     <Icofont icon="link-alt" />
@@ -84,7 +81,7 @@ const PortfolioItem = ({
         {/* </ReactWow> */}
       </div>
    
-    </Suspense>
+  
   );
 };
 

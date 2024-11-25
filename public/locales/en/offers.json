@@ -1,28 +1,38 @@
-{"offers":[
+{
+  "header": "A.S.A.K.", 
+  "tagline": "Sustainable injection moulding, mould making and more, Made in Europe.",
+  "text": "In unserem Unternehmen stehen <strong>Kundenzufriedenheit</strong>, <strong>Zuverlässigkeit</strong> und <strong>Qualität</strong> an erster Stelle. Wir sind bestrebt, unseren Kunden <strong>erstklassige Dienstleistungen</strong> zu bieten, die auf ihre <strong>individuellen Bedürfnisse</strong> und <strong>Anforderungen</strong> zugeschnitten sind. Der <strong>komplette Produktionsablauf</strong>, angefangen von der Herstellung der Formen bis hin zur Fertigung der Teile, findet in <strong>Europa</strong> statt. Wir legen großen Wert auf <strong>Nachhaltigkeit</strong>. Dies ermöglicht es uns, unseren Kunden nicht nur <strong>höchste Qualitätsstandards</strong> zu bieten, sondern auch unserer Verpflichtung gegenüber einer <strong>nachhaltigen Produktion</strong> und dem <strong>'Made in Europe'-Prinzip</strong> gerecht zu werden.", 
+  "offers":
+  [
   {
     "id": 1,
-    "icon": "industries-5",
-    "title": "Moulds",
-    "text": "We need sure generate the internet repeat predefine tend true chunks as necessary tend true chunks"
+    "icon": "calculations",
+    "title": "Mould making",
+    "text": "Precise moulds, tailored to your requirements. Our mould making department turns your ideas into reality.",
+    "link": "/formenbau"
   },
   {
     "id": 2,
-    "icon": "cement-mix",
-    "title": "Injection Moulding",
-    "text": "We need sure generate the internet repeat predefine tend true chunks as necessary tend true chunks"
+    "icon": "industries",
+    "title": "Injection moulding",
+    "text": "High-quality injection moulding, perfected for first-class products. Rely on our expertise in injection moulding.",
+    "link": "/spritzguss"
   },
   {
     "id": 3,
-    "icon": "labour",
-    "title": "Prototypes",
-    "text": "We need sure generate the internet repeat predefine tend true chunks as necessary tend true chunks"
-  },
+    "icon": "architecture-alt",
+    "title": "3D printing & prototypes",
+    "text": "Innovative 3D prototypes that turn your visions into reality. Discover the world of prototyping with us.",
+    "link": "/prototypen"
+  }
+  ,
   {
     "id": 4,
-    "icon": "labour",
-    "title": "Special machine construction",
-    "text": "We need sure generate the internet repeat predefine tend true chunks as necessary tend true chunks"
+    "icon": "meteor",
+    "title": "Laser labelling",
+    "text": "Laser precision for your marking solutions. Leave a lasting impression with our laser markings.",
+    "link": "/laser"
   }
+  
 ]
 }
-  

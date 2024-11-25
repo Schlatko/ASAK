@@ -1,0 +1,38 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Areas of application for laser labelling on plastic",
+      "text": "Automotive industry",
+      "text2": "Labelling of plastic parts in vehicles, serial numbers, data codes."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      
+      "text": "Electronics",
+      "text2": "Labelling of plastic housings of electronic devices, circuit boards, plugs. "
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "text": "Medical technology",
+      "text2" : "Marking of plastic medical devices, packaging and instruments."
+    }
+    ,
+    {
+      "id": 4,
+      "icon": "Formen aus dem 3D Drucker",
+      "text": "Packaging industry",
+      "text2": "Labelling of plastic packaging for product identification and tracking."
+    },
+    {
+      "id": 5,
+      "icon": "Konsumgüter",
+      "text": "Consumer goods",
+      "text2": "Personalised lettering on plastic products such as household goods, gadgets or sports equipment."
+    }
+
+]
+}

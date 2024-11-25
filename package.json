@@ -58,7 +58,8 @@
     "shufflejs": "^6.1.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.9",
-    "use-lax": "^4.0.4"
+    "use-lax": "^4.0.4",
+    "yet-another-react-lightbox": "^3.21.7"
   },
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",

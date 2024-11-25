@@ -42,7 +42,7 @@ function App({ASAK, callback}) {
         <Route exact path={`${process.env.PUBLIC_URL}/formenbau`} element={<Formenbau></Formenbau>} />
         <Route exact path={`${process.env.PUBLIC_URL}/referenzen`} element={<Referenzen></Referenzen>} />
         <Route exact path={`${process.env.PUBLIC_URL}/prototypen`} element={<Prototypen></Prototypen>} />
-        <Route exact path={`${process.env.PUBLIC_URL}/dbf`} element={<Dbf></Dbf>} />
+       
         <Route exact path={`${process.env.PUBLIC_URL}/laser`} element={<Laser></Laser>} />
         <Route exact path={`${process.env.PUBLIC_URL}/montage`} element={<Montage></Montage>} />
         <Route exact path={`${process.env.PUBLIC_URL}/ueberuns`} element={<Ueberuns></Ueberuns>} />

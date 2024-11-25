@@ -80,6 +80,9 @@ body {
 	font-family: 'Hind', sans-serif;
 }
 
+.lilaser li {
+font-size: 36px;
+}
 .wrapper {
 	position: relative;
     z-index: 20;

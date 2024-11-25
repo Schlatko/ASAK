@@ -15,7 +15,9 @@ import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture
 import SpritzKomplett from "../../components/WhoWeAre/SpritzKomplett";
 import OffersASAK from "../../components/Services/Construction/OffersASAK";
 import { useTranslation } from "react-i18next";
-import spritzmaschine from "../../assets/images/Spritzguss/Spritz1.png";
+import spritzmaschine from "../../assets/images/Spritzguss/spritz1.jpg";
+import spritzmaschine2 from "../../assets/images/Spritzguss/spritz2.jpg";
+import spritzmaschine3 from "../../assets/images/Spritzguss/spritz3.jpg";
 
 
 
@@ -43,12 +45,12 @@ const spritzguss = () => {
       <SpritzServicesLeft
         title={t('header2')}
         tagline={t('sub2')}
-        serviceImg={spritzmaschine}
+        serviceImg={spritzmaschine2}
       />
       <SpritzServices2
         title={t('header2')}
         tagline={t('sub2')}
-        serviceImg={spritzmaschine}
+        serviceImg={spritzmaschine3}
       />
         
         <FooterASAK/>

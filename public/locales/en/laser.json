@@ -1,0 +1,73 @@
+{
+  "header": "Laser engraving",
+  "sub": "Efficient laser labelling for your products",
+  "aftersub": "All details at a glance",
+
+  "text": "Our state-of-the-art laser marking system takes your products to a new level of quality. Laser marking enables permanent, precise and high-resolution labelling on a wide range of materials, including plastic, metal and ceramic.", 
+  "services":
+    [
+      {
+        "id": 1,
+        "title": "Permanent labelling ",
+        "text": "Our laser labelling guarantees permanent markings that do not fade or smudge, even under extreme conditions.",
+        "icon": "gears"
+      },
+      {
+        "id": 2,
+        "title": "Fine details and sharpness",
+        "text": "Laser engraving offers precise and razor-sharp results, so that even tiny lettering, logos or codes are legible.",
+        "icon": "gears"
+      },
+      {
+        "id": 3,
+        "title": "High efficiency",
+        "text": "Contactless labelling ensures fast and smooth marking without damaging the workpiece.",
+        "icon": "light-bulb"
+      },
+      {
+        "id": 4,
+        "title": "Short delivery times",
+        "text": "We understand that time is of the essence in production. Our efficient production processes enable us to guarantee you short delivery times without compromising on quality.",
+        "icon": "architecture-alt"
+      },
+      {
+        "id": 5,
+        "title": "Cost efficiency",
+        "text": "We rely on intelligent designs and optimised production processes to minimise the costs of injection moulds and offer you competitive prices.",
+        "icon": "industries-2"
+      },
+      {
+        "id": 6,
+        "title": "Customer-orientated service",
+        "text": "Your satisfaction is our top priority. Our dedicated team supports you throughout the entire project and is available to answer your questions and concerns.",
+        "icon": "spanner"
+      }
+    ],
+    "accordion":
+      [
+        {
+          "id": 1,
+          "title": "Aluminium moulds",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
+        },
+        {
+          "id": 2,
+          "title": "Gehärterter Stahl",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat obcaecati, beatae. Facilis dolore ipsam facere perferendis deserunt commodi blanditiis nisi accusamus omnis, animi vel tenetur cumque, sed veritatis?"
+        },
+        {
+          "id": 3,
+          "title": "Heißkanal",
+          "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+        },
+        {
+          "id": 4,
+          "title": "Fourth Accordion",
+          "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+        }
+      ]
+      
+
+    
+      
+}

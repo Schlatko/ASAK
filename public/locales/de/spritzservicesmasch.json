@@ -8,21 +8,16 @@
       "icon": "test-tube-alt",
       
       "title": "Maschinenkapazitäten",
-      "text1": "Unsere Maschinen bieten eine Bandbreite an Kapazitäten, die es uns ermöglichen, verschiedenste Bauteile herzustellen – von kleinen, präzisen Teilen bis zu größeren Komponenten.",
+      "text1": "Unsere Maschinen der Firma Arburg bieten eine Bandbreite an Kapazitäten, die es uns ermöglichen, verschiedenste Bauteile herzustellen – von kleinen, präzisen Teilen bis zu größeren Komponenten.",
       "text": [
         {
           
-          "test": "Schussgewicht: 5 g bis 150 g"
+          "test": "Schussgewicht: bis 80 g"
 
         },
         {
           
-          "test": "Maximale Formgröße: 370 mm x 370 mm"
-    
-        },
-        {
-          
-          "test": "Zykluszeiten: ab 10 Sekunden (je nach Bauteil)"
+          "test": "Maximale Formgröße: 346 mm x 346 mm"
     
         }
       ]

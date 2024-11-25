@@ -1,0 +1,50 @@
+{   "head": "Machinery",
+    "desc": "Our modern machinery includes injection moulding machines of various tonnages, which enable us to produce both small and large series precisely and efficiently. Our technologically advanced machines ensure high quality and repeat accuracy.",
+    "desc2": "",
+    "services":[
+  
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      
+      "title": "Machine capacities",
+      "text1": "Our Arburg machines offer a range of capacities that enable us to produce a wide variety of parts - from small, precise parts to larger components.",
+      "text": [
+        {
+          
+          "test": "Shot weight: up to 80 g"
+
+        },
+        {
+          
+          "test": "Maximum mould size: 346 mm x 346 mm"
+    
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Technological equipment",
+      "text1": "Our technological equipment includes modern automation solutions and quality assurance systems. This guarantees efficient production and maximum precision.",
+      "text": [
+        {
+          
+          "test": "Robot for the automatic removal of parts"
+
+        },
+        {
+          
+          "test": "Inline quality control"
+
+        },
+        {
+          
+          "test": "Temperature control units for optimum mould temperature control"
+
+        }
+      ]
+    }
+    
+]
+}

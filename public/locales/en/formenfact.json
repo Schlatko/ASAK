@@ -1,0 +1,29 @@
+{
+    "counter":
+    [
+    {
+        "id": 1,
+        "value": "Materials",
+        "title": "Aluminium moulds - cost-effective for small series",
+        "icon": "clock-time"
+    },
+    {
+        "id": 2,
+        "value": "Hardened steel",
+        "title": "346x346 mm",
+        "icon": "slightly-smile"
+    },
+    {
+        "id": 3,
+        "value": "Hot runner",
+        "title": "POM, PUR, PC, PMMA, PE, ABS, and much more.",
+        "icon": "trophy"
+    },
+    {
+        "id": 4,
+        "value": "Batch sizes",
+        "title": "Small and large quantities.",
+        "icon": "coffee-cup"
+    }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Advantages of 3D printing",
+      "text": "Speed and efficiency",
+      "text2": "3D printing enables rapid prototype development. Conventional manufacturing processes can take weeks or months, whereas 3D printers can create high-precision models in hours or days. This significantly speeds up the entire product development cycle."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      
+      "text": "Cost efficiency",
+      "text2": "Compared to traditional manufacturing methods, 3D printing can be more cost-effective, especially for small quantities or complex geometries. This is particularly advantageous if you need prototypes at different stages of development."
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "text": "Freedom of design",
+      "text2" : "3D printing makes it possible to create complex structures and organic shapes that would be difficult or impossible to realise using conventional manufacturing methods. This creative freedom promotes innovation in product development."
+    }
+    ,
+    {
+      "id": 4,
+      "icon": "Rapid Prototyping",
+      "text": "Rapid Prototyping",
+      "text2": "By using 3D printing technologies, we can iterate your prototypes quickly and cost-effectively. This makes the development process easier, as we can give you quick feedback and you can pass on any customisation requests to us."
+      
+    }
+    ,
+    {
+      "id": 5,
+      "icon": "Formen aus dem 3D Drucker",
+      "text": "Small series production",
+      "text2": "In addition to prototype development, we can also produce small batches using 3D printing. This enables us to manufacture customised or individualised products for you at low cost without the need for expensive tools for mass production."
+
+
+      
+    }
+   
+]
+}

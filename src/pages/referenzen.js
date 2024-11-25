@@ -32,8 +32,8 @@ const asakhome = () => {
  
   const { t } = useTranslation('referenzen');
   return (
-    <Suspense fallback={<div>Loading....</div>}> 
-    <Loader>
+   
+    <Suspense>
       
 
     <HeaderASAK />
@@ -46,8 +46,8 @@ const asakhome = () => {
     
 
       <FooterASAK />
-    </Loader>
     </Suspense>
+   
   );
 };
 

@@ -1,0 +1,58 @@
+{
+  "header": "Mould making at A.S.A.K.",
+  "sub": "MASTERING MOLDS DELIVERING EXCELLENCE",
+  "header2": "Selection of the material",
+  "sub2": "The choice of material depends on factors such as the number of pieces, material of the end product, product size and desired accuracy. It is important to consider the specific requirements of each project in order to select the optimum mould.",
+  "header3": "Selection of injection method",
+  "sub3": "Injection moulds can be classified according to the injection method, i.e. the way in which the molten plastic material is introduced into the mould. There are essentially two main types of injection methods.",
+  "header4": "Undercuts",
+  "sub4": "The production of undercuts in injection moulding requires special techniques and mechanisms, as they indicate areas in a moulded part that cannot be separated by simply pushing the two halves of the mould apart. Undercuts can be caused by overhanging structures or internal features, for example.",
+
+  "aftersub": "All details at a glance",
+  "tagline": "Innovation through mould making: Perfect tools for your injection moulding success.",
+  
+  "text": "Injection mould construction is a crucial step in plastics processing. This is where the tools used for the production of plastic parts by injection moulding are created. Injection moulding enables the cost-effective, fast and precise manufacture of products in large quantities. The quality of the injection moulds has a significant influence on the end products, which is why professional production is of the utmost importance. We understand the importance of efficient and reliable injection mould construction for your company.", 
+  "services":
+    [
+      {
+        "id": 1,
+        "title": "Customised solutions",
+        "text": "Every project is unique and we develop our injection moulds according to your individual requirements and specifications. Whether prototype moulds, injection moulds or hot runner moulds, we offer you a broad spectrum.",
+        "icon": "gears"
+      },
+      {
+        "id": 2,
+        "title": "In-house mould making",
+        "text": "Thanks to our in-house mould construction, we significantly shorten the throughput times of new and existing moulds. This is precisely why we can make changes and optimisations to injection moulding tools quickly and easily. This means that series production can continue as quickly as possible.",
+        "icon": "gears"
+      },
+      {
+        "id": 3,
+        "title": "Highest quality",
+        "text": "Our experienced team of engineers and technicians work with the latest technology and precise manufacturing methods to deliver first-class injection moulds that guarantee a long service life and repeat accuracy.",
+        "icon": "light-bulb"
+      },
+      {
+        "id": 4,
+        "title": "Short delivery times",
+        "text": "We understand that time is of the essence in production. Our efficient production processes enable us to guarantee you short delivery times without compromising on quality.",
+        "icon": "architecture-alt"
+      },
+      {
+        "id": 5,
+        "title": "Cost efficiency",
+        "text": "We rely on intelligent designs and optimised production processes to minimise the costs of injection moulds and offer you competitive prices.",
+        "icon": "industries-2"
+      },
+      {
+        "id": 6,
+        "title": "Customer-orientated service",
+        "text": "Your satisfaction is our top priority. Our dedicated team supports you throughout the entire project and is available to answer your questions and concerns.",
+        "icon": "spanner"
+      }
+    ]
+      
+
+    
+      
+}

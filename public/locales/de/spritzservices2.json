@@ -74,7 +74,7 @@
         },
         {
           
-          "test": "Großserien: bis zu 1 Million Stück"
+          "test": "Großserien: ab 1000 Stück"
 
         },
         {
@@ -98,17 +98,7 @@
       "text": [
         {
           
-          "test": "Entgraten und Polieren der Teile"
-
-        },
-        {
-          
-          "test": "Bedrucken und Lackieren"
-
-        },
-        {
-          
-          "test": "Ultraschallschweißen von Kunststoffteilen"
+          "test": "Entgraten und Reinigen der Teile"
 
         },
         {
@@ -131,17 +121,6 @@
 
         },
         {
-          
-          "test": "Maßprüfungen"
-
-        },
-        {
-          
-          "test": "Materialprüfungen nach DIN-Normen"
-
-        },
-        {
-          
           "test": "Dokumentation und Rückverfolgbarkeit"
 
         }

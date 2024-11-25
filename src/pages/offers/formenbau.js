@@ -14,9 +14,9 @@ import FactsFormenbauKomplett from "../../components/FunFacts/FactsFormenbauKomp
 import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture";
 import FormenbauKomplett from "../../components/WhoWeAre/FormenbauKomplett";
 import OffersASAK from "../../components/Services/Construction/OffersASAK";
-import material from "../../assets/images/Formenbau/Formenbau1.png";
+import material from "../../assets/images/Formenbau/matr1.jpg";
 import schieber from "../../assets/images/Formenbau/Schieber.png";
-import duesen from "../../assets/images/Formenbau/Duesen.png";
+import duesen from "../../assets/images/Formenbau/matr2.jpg";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";
 

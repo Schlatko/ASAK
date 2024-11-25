@@ -43,15 +43,21 @@ const Portfolio = forwardRef(
 
     const closeLightbox = () => {
       setIsOpen(false);
+      console.log('closeLightboxHit');
+      console.log(isOpen);
     };
     const openLightbox = (e, photo) => {
+      console.log(e);
       e.preventDefault();
       setPhoto(photo);
       setIsOpen(true);
+      console.log(photo)
+      console.log(isOpen);
+      console.log('OpenLightBox');
     };
 
     return (
-      <Suspense fallback={<div>Loading....</div>}> 
+     
         
       <section
         className={"pb-0 pt-3" + (classAppend ? classAppend : "")}
@@ -66,12 +72,12 @@ const Portfolio = forwardRef(
         <div className={"container" + (layout === "wide" ? "-fluid" : "")}>
           <div className="row">
             <div className={"container" + (layout === "wide" ? "-fluid" : "") + " text-center"}>
-              {filter === "true" ? (
+             {/*   {filter === "true" ? (
                 <PortfolioFilter
                   categories={categories}
                   handleClick={filterElements}
                 />
-              ) : null}
+              ) : null}*/} 
               
               <div
                 id="portfolio-grid"
@@ -92,6 +98,7 @@ const Portfolio = forwardRef(
                           space={space ? "true" : "false"}
                           columns={columns}
                           openLightbox={openLightbox}
+                          
                         />
                       ))
                   : t('items', {returnObjects: true}).map((item, i) => (
@@ -104,6 +111,7 @@ const Portfolio = forwardRef(
                         space={space ? "true" : "false"}
                         columns={columns}
                         openLightbox={openLightbox}
+                        
                       />
                     ))}
               </div>
@@ -118,7 +126,7 @@ const Portfolio = forwardRef(
         </div>
       </section>
       
-      </Suspense>
+  
    );
   }
  

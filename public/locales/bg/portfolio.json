@@ -1,9 +1,9 @@
 {"items": [ 
   {
     "id": 1,
-    "title": "Spritzgussform",
-    "category": "Heißkanal",
-    "image": "portfolio/grid/1.png",
+    "title": "Kamera Apperatur - PC",
+    "category": "Abmasse: 140mmx65mmx40mm",
+    "image": "portfolio/grid/Aparatur_Kamera_PC_140mmx65mmx40mm_31g.png",
     "groups": ["übersicht", "formenbau"],
     "links": [
       {
@@ -22,7 +22,7 @@
     "id": 2,
     "title": "Spritzgussmaschine",
     "category": "Arburg",
-    "image": "portfolio/grid/2.png",
+    "image": "portfolio/grid/Bedingung_Medizin_ASA_145mmx55mmx15mm_49g.png",
     "groups": ["übersicht", "formenbau"],
     "links": [
       {
@@ -79,7 +79,7 @@
     "id": 5,
     "title": "Verbinder",
     "category": "Spritzguss",
-    "image": "portfolio/grid/spritz1.jpg",
+    "image": "portfolio/grid/5.png",
     "groups": ["übersicht", "spritzguss"],
     "links": [
       {
@@ -98,7 +98,7 @@
     "id": 6,
     "title": "First Floor",
     "category": "WEB DESIGN",
-    "image": "portfolio/grid/spritz2.jpg",
+    "image": "portfolio/grid/6.png",
     "groups": ["übersicht", "spritzguss"],
     "links": [
       {
@@ -117,7 +117,7 @@
     "id": 7,
     "title": "Flyer Design",
     "category": "BRANDING",
-    "image": "portfolio/grid/spritz3.jpg",
+    "image": "portfolio/grid/7.png",
     "groups": ["übersicht", "spritzguss"],
     "links": [
       {
@@ -136,7 +136,7 @@
     "id": 8,
     "title": "Card Mocks",
     "category": "PRINT DESIGN",
-    "image": "portfolio/grid/spritz4.jpg",
+    "image": "portfolio/grid/8.png",
     "groups": ["übersicht", "spritzguss"],
     "links": [
       {
@@ -151,5 +151,127 @@
       }
     ]
   }
+  ,
+  {
+    "id": 9,
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/9.png",
+    "groups": ["übersicht", "spritzguss"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+  ,
+  {
+    "id": 10,
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/10.png",
+    "groups": ["übersicht", "spritzguss"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+  ,
+  {
+    "id": 11,
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/11.png",
+    "groups": ["übersicht", "spritzguss"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+  ,
+  {
+    "id": 12,
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/12.png",
+    "groups": ["übersicht", "spritzguss"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+  ,
+  {
+    "id": 13,
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/13.png",
+    "groups": ["übersicht", "spritzguss"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+  ,
+  {
+    "id": 14,
+    "title": "Card Mocks",
+    "category": "PRINT DESIGN",
+    "image": "portfolio/grid/14.png",
+    "groups": ["übersicht", "spritzguss"],
+    "links": [
+      {
+        "id": 1,
+        "icon": "search-1",
+        "link": "!#"
+      },
+      {
+        "id": 2,
+        "icon": "link-alt",
+        "link": "!#"
+      }
+    ]
+  }
+  
+
 ]
 }
