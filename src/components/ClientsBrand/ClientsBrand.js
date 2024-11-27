@@ -1,9 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
+import { useTranslation } from "react-i18next";
 import clientsData from "../../data/BrandsSlider/clients-brand.json";
 
 const ClientsBrand = ({ children, classAppend }) => {
+  const { t } = useTranslation('referenzen');
   const settings = {
     className: "clients-brand-carousel",
     slidesToShow: 3,
@@ -34,7 +36,7 @@ const ClientsBrand = ({ children, classAppend }) => {
   return (
     <section className="pt-50 pb-50 white-bg">
       <div>
-<h2 className="font-500 text-center">Unsere Partner & Kunden</h2>
+<h2 className="font-500 text-center">{t('outline')}</h2>
 
       </div>
       <div className="container">

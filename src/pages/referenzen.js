@@ -37,7 +37,7 @@ const asakhome = () => {
       
 
     <HeaderASAK />
-    <TitelASAK title={t('header')} tagline={t('sub')} />  
+    <TitelASAK title={t('header')} tagline={t('tagline')} />  
    <ClientsBrand/>
     <section className="pt-100 pt-100">
       <Portfolio filter="true" columns="2" layout="box" space="true"/>
