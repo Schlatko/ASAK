@@ -1,6 +1,6 @@
 import React, {Suspense} from "react";
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 
 // Pages
 
@@ -23,9 +23,9 @@ import Referenzen from "./pages/referenzen.js";
 import Ueberuns from "./pages/ueberuns.js";
 import Boxed2 from "./pages/portfolio/PortfolioWideTwo.js";
 
+
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-0QZ3K396JQ"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+ReactGA.initialize("G-0QZ3K396JQ");
 
 function App({ASAK, callback}) {
 
@@ -33,6 +33,7 @@ function App({ASAK, callback}) {
     <Suspense fallback={<div>Loading....</div>}> 
     <BrowserRouter basename={"/"}>
     <ScrollToTop>
+      <Helmet><script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="dc5f3370-0340-4d54-adf8-21f967cc4e29" data-blockingmode="auto" type="text/javascript"></script></Helmet>
         <ContactButtons></ContactButtons>
         <Routes>
         <Route exact path={`${process.env.PUBLIC_URL}/`} element={<Asakhome/>} />
