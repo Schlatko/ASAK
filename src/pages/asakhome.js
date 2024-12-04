@@ -22,7 +22,7 @@ import OffersASAK from "../components/Services/Construction/OffersASAK";
 import HomeOffers from "../components/Services/Construction/HomeOffers";
 
 const asakhome = () => {
-
+  ReactGA.pageview('/about/contact-us');
   ReactGA.send({
     hitType: "pageview",
     page: "/",

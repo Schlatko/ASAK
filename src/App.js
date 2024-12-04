@@ -26,6 +26,7 @@ import Boxed2 from "./pages/portfolio/PortfolioWideTwo.js";
 
 import ReactGA from 'react-ga';
 ReactGA.initialize("G-0QZ3K396JQ");
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App({ASAK, callback}) {
 
