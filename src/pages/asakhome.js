@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import FsLightbox from "fslightbox-react";
 import Loader from "./../components/Loader/Loader";
+import ReactGA from 'react-ga';
 
 import HeroSliderTwo from "./asakhome/HeroSliderTwo";
 
@@ -21,6 +22,13 @@ import OffersASAK from "../components/Services/Construction/OffersASAK";
 import HomeOffers from "../components/Services/Construction/HomeOffers";
 
 const asakhome = () => {
+
+  ReactGA.send({
+    hitType: "pageview",
+    page: "/",
+    title: "home"
+
+  })
   const [toggler, setToggler] = useState(false);
   useEffect(() => {
     AOS.init();
