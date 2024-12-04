@@ -14,7 +14,7 @@ import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture
 import LaserKomplett from "../../components/WhoWeAre/LaserKomplett";
 import OffersASAK from "../../components/Services/Construction/OffersASAK";
 import serviceOneImg from "../../assets/images/laser/laser.png";
-import serviceTwoImg from "../../assets/images/laser/laser2.png";
+import serviceTwoImg from "../../assets/images/laser/laser.jpg";
 import { useTranslation } from "react-i18next";
 
 

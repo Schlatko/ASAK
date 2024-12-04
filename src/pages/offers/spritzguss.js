@@ -15,9 +15,9 @@ import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture
 import SpritzKomplett from "../../components/WhoWeAre/SpritzKomplett";
 import OffersASAK from "../../components/Services/Construction/OffersASAK";
 import { useTranslation } from "react-i18next";
-import spritzmaschine from "../../assets/images/Spritzguss/spritz1.jpg";
+import spritzmaschine from "../../assets/images/Spritzguss/spritz5.jpg";
 import spritzmaschine2 from "../../assets/images/Spritzguss/spritz2.jpg";
-import spritzmaschine3 from "../../assets/images/Spritzguss/spritz3.jpg";
+import spritzmaschine3 from "../../assets/images/Spritzguss/spritz1.jpg";
 
 
 

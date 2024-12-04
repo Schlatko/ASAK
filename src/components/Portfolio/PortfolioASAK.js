@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, forwardRef,Suspense } from "react";
 import dataPortfolio from "../../data/Portfolio/creative-agency-data.json";
 import PortfolioFilter from "../../elements/Portfolio/PortfolioFilter";
 import PortfolioItem from "./PortfolioItemASAK";
-import Loader from "../../components/Loader/Loader";
+import Loader from "../Loader/Loader";
 import Shuffle from "shufflejs";
 import "react-image-lightbox/style.css";
 import Lightbox from "react-image-lightbox";

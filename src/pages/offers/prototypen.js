@@ -12,7 +12,7 @@ import FactsFormenbauKomplett from "../../components/FunFacts/FactsFormenbauKomp
 import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture";
 import PrototypenKomplett from "../../components/WhoWeAre/PrototypenKomplett";
 import OffersASAK from "../../components/Services/Construction/OffersASAK";
-import serviceOneImg from "../../assets/images/Prototypen/3DVorteile.png";
+import serviceOneImg from "../../assets/images/Prototypen/3dPrint.jpg";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";
 
