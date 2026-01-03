@@ -19,30 +19,30 @@
         {
             "id": 3,
             "title": "Услуги",
-            "link": "/bg/offers",
+            "link": "/bg/uslugi",
             "megaMenu": false,
             "sub": true, 
             "subMenu": [
                 {
                     "id": 3.1,
                     "title": "Шприцформи",
-                    "link": "/bg/formenbau"
+                    "link": "/bg/izrabotka-na-matrici"
                 },
                 {
                     "id": 3.2,
                     "title": "Шприцване на пластмасови изделия",
-                    "link": "/bg/spritzguss"
+                    "link": "/bg/shpritsovane"
                 },
                 {
                     "id": 3.3,
                     "title": "3D принтиране и прототипи",
-                    "link": "/bg/prototypen"
+                    "link": "/bg/3d-printirane"
                 }
                 ,
                 {
                     "id": 3.5,
                     "title": "Лазерно гравиране",
-                    "link": "/bg/laser"
+                    "link": "/bg/lazerno-gravirane"
                 }
                
             ]  
@@ -50,7 +50,7 @@
         {
             "id": 4,
             "title": "Референции",
-            "link": "/bg/referenzen",
+            "link": "/bg/referentsii",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -70,7 +70,7 @@
         {
             "id": 5,
             "title": "За нас",
-            "link": "/bg/ueberuns",
+            "link": "/bg/za-nas",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -84,7 +84,7 @@
         {
             "id": 6,
             "title": "Контатки",
-            "link": "/bg/contact",
+            "link": "/bg/kontakti",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [

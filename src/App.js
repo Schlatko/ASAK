@@ -44,8 +44,8 @@ function App({ASAK, callback}) {
             <Route path="/:lang">
 
             <Route path="leistungen" element={<Offers />} />
-<Route path="uslugi" element={<Offers />} />
-<Route path="services" element={<Offers />} />
+            <Route path="uslugi" element={<Offers />} />
+            <Route path="services" element={<Offers />} />
     
     {/* Spritzguss - 3 Namen, 1 Komponente */}
     <Route path="spritzguss" element={<Spritzguss />} />
@@ -54,8 +54,8 @@ function App({ASAK, callback}) {
 
     {/* Laser - 3 Namen, 1 Komponente */}
     <Route path="laser" element={<Laser />} />
-    <Route path="lazerno-ryazane" element={<Laser />} />
-    <Route path="laser-cutting" element={<Laser />} />
+    <Route path="lazerno-gravirane" element={<Laser />} />
+    <Route path="laser-engraving" element={<Laser />} />
 
     {/* Über uns */}
     <Route path="ueberuns" element={<Ueberuns />} />

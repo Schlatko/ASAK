@@ -45,8 +45,8 @@ const spritzguss = () => {
     "High-precision laser cutting and engraving services for industrial parts in Sofia."
   } />
   <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/laser" />
-<link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/lazerno-ryazane" />
-<link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-cutting" />
+<link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/lazerno-gravirane" />
+<link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-engraving" />
 <link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/laser" />
 </Helmet>
 

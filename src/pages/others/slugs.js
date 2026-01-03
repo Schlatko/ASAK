@@ -14,10 +14,15 @@ export const slugMapping = {
       bg: "shpritsovane", 
       en: "injection-molding" 
     },
+    "referenzen": { 
+    de: "referenzen", 
+    bg: "referentsii", 
+    en: "references" 
+  },
     "laser": { 
       de: "laser", 
-      bg: "lazerno-ryazane", 
-      en: "laser-cutting" 
+      bg: "lazerno-gravirane", 
+      en: "laser-engraving" 
     },
     "ueberuns": { 
       de: "ueberuns", 
@@ -34,7 +39,6 @@ export const slugMapping = {
       bg: "izrabotka-na-matrici", 
       en: "mold-making" 
     },
-
   "offers": { 
     de: "leistungen", 
     bg: "uslugi", 

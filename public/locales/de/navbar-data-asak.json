@@ -5,7 +5,7 @@
     {
         "id": 2,
         "title": "Start",
-        "link": "/",
+        "link": "/de",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
@@ -19,7 +19,7 @@
     {
         "id": 3,
         "title": "Leistungen",
-        "link": "/de/offers",
+        "link": "/de/leistungen",
         "megaMenu": false,
         "sub": true, 
         "subMenu": [
@@ -72,7 +72,7 @@
     {
         "id": 6,
         "title": "Kontakt",
-        "link": "/de/contact",
+        "link": "/de/kontakt",
         "megaMenu": false,
         "sub": false
          
