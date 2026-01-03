@@ -6,16 +6,12 @@ import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import FormenServices from "./detail/FormenServices";
 import FormenServicesLeft from "./detail/FormenServicesLeft";
-import FormenServicesAuswerfer from "./detail/FormenServicesAuswerfer";
 import TitelASAKFormenbau from "../../components/PageTitle/TitelASAKFormenbau";
-import Spritzdetail from "./detail/spritzdetail";
-import UebersichtSpritz from "../../components/WhoWeAre/UebersichtSpritz";
-import FactsFormenbauKomplett from "../../components/FunFacts/FactsFormenbauKomplett";
-import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture";
+
 import FormenbauKomplett from "../../components/WhoWeAre/FormenbauKomplett";
-import OffersASAK from "../../components/Services/Construction/OffersASAK";
+
 import material from "../../assets/images/Formenbau/matr3.jpg";
-import schieber from "../../assets/images/Formenbau/Schieber.png";
+
 import duesen from "../../assets/images/Formenbau/matr2.jpg";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";

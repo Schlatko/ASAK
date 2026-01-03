@@ -1,10 +1,9 @@
 import React from "react";
 import Loader from "../components/Loader/Loader";
-import HeaderOne from "../components/Header/HeaderOne";
+
 import PageTitleContact from "../components/PageTitle/PageTitleContact";
 import ContactDetails from "./contact/ContactDetails";
-import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
-import FooterOne from "../components/Footer/FooterOne";
+
 import HeaderASAK from "../components/Header/HeaderASAK";
 
 import Map from "../components/Maps/Gmap";

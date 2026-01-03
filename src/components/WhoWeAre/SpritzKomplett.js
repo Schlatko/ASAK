@@ -1,5 +1,5 @@
 import React from "react";
-import dataFeatures from "../../data/About/about-corporate-business.json";
+
 import HeadingSectionSpritzKomplett from "../HeadingSection/HeadingSectionSpritzKomplett";
 import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
 import { useTranslation } from "react-i18next";

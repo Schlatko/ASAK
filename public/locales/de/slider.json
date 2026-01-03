@@ -8,13 +8,13 @@
         {
           "id": 1,
           "text": "Kontakt",
-          "link": "/contact",
+          "link": "/de/kontakt",
           "type": "btn-color blue btn-circle"
         },
         {
           "id": 2,
           "text": "Leistungen",
-          "link": "/offers",
+          "link": "/de/leistungen",
           "type": "btn-color blue btn-circle"
         }
       
@@ -29,13 +29,13 @@
         {
           "id": 1,
           "text": "Kontakt",
-          "link": "/contact",
+          "link": "/de/kontakt",
           "type": "btn-color blue btn-circle"
         },
         {
           "id": 2,
           "text": "Leistungen",
-          "link": "/offers",
+          "link": "/de/leistungen",
           "type": "btn-color blue btn-circle"
         }
       

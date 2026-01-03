@@ -1,9 +1,7 @@
 import React, { Suspense, useEffect, useState  } from "react";
 // import ReactWow from "react-wow";
 import Icofont from "react-icofont";
-import Loader from "../../components/Loader/Loader";
-import mana from "../../assets/images/portfolio/grid/1.png";
-import { preloadImage } from './preloadImage';
+
 
 const PortfolioItem = ({
   title,

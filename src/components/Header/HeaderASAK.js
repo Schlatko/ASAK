@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useCallback } from "react";
 import Icofont from "react-icofont";
 import DropdownMenuAsak from "../Navs/DropdownMenuAsak";
-import SearchOverlay from "../../elements/SearchOverlay";
-import AttributeNav from "../Navs/AttributeNav";
+
+
 import MainLogo from "../MainLogo";
-import CartSearchTop from "../Navs/CartSearchTop";
+
 import LanguageSelector from "../../elements/LanguageSelector"
-import LanguageSelectorde from "../../elements/LanguageSelectorde"
+
 import { useTranslation } from "react-i18next";
 
 
@@ -69,7 +69,7 @@ const HeaderAsak = ({ type }) => {
           (fixed || type === "white" ? "" : "navbar-white")
         }
       >
-        <SearchOverlay show={show} onClick={hideSearchForm} />
+        
         <div className="container">
           
           <button

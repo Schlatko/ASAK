@@ -1,7 +1,6 @@
 import React from "react";
-import dataFeatures from "../../data/About/about-corporate-business.json";
 import HeadingSection from "../HeadingSection/HeadingSectionSpritz";
-import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
+
 import { useTranslation } from "react-i18next";
 
 const WhoWeAreThree = () => {

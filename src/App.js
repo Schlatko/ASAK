@@ -7,21 +7,20 @@ import { Helmet } from "react-helmet";
 import Page404 from "./pages/others/Page404";
 //import ComingSoon from "./pages/others/ComingSoon";
 import ScrollToTop from "./helpers/ScrollToTop";
-import ContatButtons from "./helpers/ContactButtons";
+
 import Asakhome from "./pages/asakhome";
 import ContactsASAK from "./pages/ContactsASAK.js"
 import Offers from "./pages/offers.js";
 import Spritzguss from "./pages/offers/spritzguss.js";
 import Impressum from "./pages/offers/impressum.js";
 import Formenbau from "./pages/offers/formenbau.js";
-import Dbf from "./pages/offers/dbf.js";
-import Montage from "./pages/offers/montage.js";
+
 import Laser from "./pages/offers/laser.js";
 import Prototypen from "./pages/offers/prototypen.js";
 import ContactButtons from "./helpers/ContactButtons";
 import Referenzen from "./pages/referenzen.js";
 import Ueberuns from "./pages/ueberuns.js";
-import Boxed2 from "./pages/portfolio/PortfolioWideTwo.js";
+
 
 
 import ReactGA from 'react-ga';

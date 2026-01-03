@@ -6,12 +6,9 @@ import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import ProtoServices from "./detail/ProtoServices";
 import TitelASAKProto from "../../components/PageTitle/TitelASAKProto";
-import Spritzdetail from "./detail/spritzdetail";
-import UebersichtSpritz from "../../components/WhoWeAre/UebersichtSpritz";
-import FactsFormenbauKomplett from "../../components/FunFacts/FactsFormenbauKomplett";
-import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture";
+
 import PrototypenKomplett from "../../components/WhoWeAre/PrototypenKomplett";
-import OffersASAK from "../../components/Services/Construction/OffersASAK";
+
 import serviceOneImg from "../../assets/images/Prototypen/3dPrint.jpg";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";

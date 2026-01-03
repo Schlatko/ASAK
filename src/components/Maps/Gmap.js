@@ -197,7 +197,7 @@ const Gmap = ({ classAppend }) => {
   return (
     <div id="myMap" className={classAppend ? classAppend : ""}>
 
-<APIProvider apiKey={'AIzaSyAyVRq51cp-SqcEbvqJy0EJ_Ly08Of5xJA'}>
+<APIProvider apiKey={'AIzaSyBzeA5P6sBsoUT-SUQUcnpehqA0N1NWpwQ'}>
     <Map zoom={16} center={{lat: 42.70604124112984, lng: 23.343932377134163}}>
       <Marker position={{lat: 42.70604124112984, lng: 23.343932377134163}} />
     </Map>

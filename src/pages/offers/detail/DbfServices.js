@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import dataServices from "../../../data/Services/our-services-two.json";
+
 import { useTranslation } from "react-i18next";
 import ServiceBox from "../../../components/OurServices/ServiceBoxDbf";
 

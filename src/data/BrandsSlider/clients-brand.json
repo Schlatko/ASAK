@@ -1,17 +1,17 @@
 [
-  {
-    "id": 1,
-    "image": "clients/Untitled-1.png",
-    "name": "client-1"
-  },
-  {
-    "id": 2,
-    "image": "clients/indsoft.png",
-    "name": "client2"
-  },
-  {
-    "id": 3,
-    "image": "clients/meusburger.svg",
-    "name": "client-3"
-  }
-]
+    {
+      "id": 1,
+      "image": "clients/Untitled-1.png",
+      "name": "client-1"
+    },
+    {
+      "id": 2,
+      "image": "clients/indsoft.png",
+      "name": "client2"
+    },
+    {
+      "id": 3,
+      "image": "clients/meusburger.svg",
+      "name": "client-3"
+    }
+  ]

@@ -1,10 +1,8 @@
 import React from "react";
-import dataFeatures from "../../data/About/about-corporate-business.json";
+
 import HeadingSectionFormenbau from "../HeadingSection/HeadingSectionFormenbau";
 import FeatureBoxTwo from "../../elements/FeatureBox/FeatureBoxTwo";
 import { useTranslation } from "react-i18next";
-import AccordionsComponent from "../../components/Accordions/AccordionsComponent";
-import dataAccordion from "../../data/Accordion/accordions-data.json";
 
 const WhoWeAreThree = () => {
 const { t } = useTranslation('formenbau');

@@ -7,12 +7,9 @@ import HeaderASAK from "../../components/Header/HeaderASAK";
 import LaserServices from "./detail/LaserServices";
 import LaserServicesAnw from "./detail/LaserServicesAnw";
 import TitelASAKLaser from "../../components/PageTitle/TitelASAKLaser";
-import Spritzdetail from "./detail/spritzdetail";
-import UebersichtSpritz from "../../components/WhoWeAre/UebersichtSpritz";
-import FactsFormenbauKomplett from "../../components/FunFacts/FactsFormenbauKomplett";
-import FunFactsArchitecture from "../../components/FunFacts/FunFactsArchitecture";
+
 import LaserKomplett from "../../components/WhoWeAre/LaserKomplett";
-import OffersASAK from "../../components/Services/Construction/OffersASAK";
+
 import serviceOneImg from "../../assets/images/laser/laser.png";
 import serviceTwoImg from "../../assets/images/laser/laser.jpg";
 import { useTranslation } from "react-i18next";

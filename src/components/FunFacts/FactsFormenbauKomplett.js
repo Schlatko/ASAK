@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import parse from "html-react-parser";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
-import dataCounters from "../../data/Counters/counter-data2.json";
+
 import { useTranslation } from "react-i18next";
 
 const FunFactsArchitecture = ({ title, tagline, children }) => {
