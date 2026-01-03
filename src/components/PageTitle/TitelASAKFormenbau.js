@@ -10,7 +10,7 @@ const PageTitleService = ({ title, tagline }) => (
     <div className="container">
       <div className="row">
       <div className="col-sm-8 hero-text white-color text-center">
-        <h2>{title}</h2>
+        <h1>{title}</h1>
         <h4 className="text-uppercase white-color">{tagline}</h4>
       </div>
     </div>

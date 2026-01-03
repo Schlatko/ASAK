@@ -18,6 +18,7 @@ import { useTranslation } from "react-i18next";
 import OffersASAK from "../components/Services/Construction/OffersASAK";
 import HomeOffers from "../components/Services/Construction/HomeOffers";
 import TitelASAK from "../components/PageTitle/TitelASAK";
+import { Helmet } from "react-helmet";
 
 
 
@@ -30,11 +31,26 @@ const asakhome = () => {
     AOS.refresh();
   }, []);
  
-  const { t } = useTranslation('referenzen');
+
+  const { t, i18n } = useTranslation('referenzen');
   return (
    
     <Suspense>
-      
+      <Helmet>
+  <title>
+  {i18n.language === 'bg' 
+      ? "Референции и проекти | АСАК – Нашите клиенти" 
+      : i18n.language === 'de' 
+        ? "Referenzen & Projekte | ASAK – Unsere Erfolgsgeschichten" 
+        : "References & Projects | ASAK – Our Case Studies"}
+    
+  </title>
+  <meta name="description" content={
+    i18n.language === 'en' 
+      ? "Explore our manufacturing projects in automotive, medical, and electronics. Over 30 years of experience in Bulgaria." 
+      : t('seo_desc')
+  } />
+</Helmet>
 
     <HeaderASAK />
     <TitelASAK title={t('header')} tagline={t('tagline')} />  

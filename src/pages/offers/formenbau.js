@@ -19,6 +19,7 @@ import schieber from "../../assets/images/Formenbau/Schieber.png";
 import duesen from "../../assets/images/Formenbau/matr2.jpg";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";
+import { Helmet } from "react-helmet";
 
 //
 
@@ -28,11 +29,28 @@ const spritzguss = () => {
       AOS.init();
       AOS.refresh();
     }, []);
-    const { t } = useTranslation('formenbau');
+    const { t, i18n } = useTranslation('formenbau');
 
     return (
       <Loader>
-
+ <Helmet>
+  <title>
+    {i18n.language === 'bg' 
+      ? "Изработка на шприцформи и матрици София | ASAK" 
+      : i18n.language === 'de' 
+        ? "Formenbau & Werkzeugbau in Bulgarien | ASAK" 
+        : "Mold Making & Tooling Services Bulgaria | ASAK"}
+  </title>
+  <meta name="description" content={
+    i18n.language === 'bg' ? "Проектиране и производство на висококачествени матрици." :
+    i18n.language === 'de' ? "Konstruktion und Bau von Spritzgusswerkzeugen in Sofia." :
+    "Design and manufacturing of high-quality injection molds and tooling in Sofia."
+  } />
+  <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/formenbau" />
+<link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/izrabotka-na-matrici" />
+<link rel="alternate" hreflang="en" href="https://asak-bg.com/en/mold-making" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/formenbau" />
+</Helmet>
         <HeaderASAK />
         <TitelASAKFormenbau title={t('header')} tagline={t('tagline')} />
         <FormenbauKomplett></FormenbauKomplett>

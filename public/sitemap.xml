@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://asak-bg.com/de</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de"/>
+  </url>
+  <url>
+    <loc>https://asak-bg.com/bg</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg"/>
+  </url>
+
+  <url>
+    <loc>https://asak-bg.com/de/leistungen</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/uslugi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/services"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/leistungen"/>
+  </url>
+
+  <url>
+    <loc>https://asak-bg.com/de/spritzguss</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/shpritsovane"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/injection-molding"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/spritzguss"/>
+  </url>
+
+  <url>
+    <loc>https://asak-bg.com/de/formenbau</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/izrabotka-na-matrici"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/mold-making"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/formenbau"/>
+  </url>
+
+  <url>
+    <loc>https://asak-bg.com/de/laser</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/lazerno-ryazane"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-cutting"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/laser"/>
+  </url>
+
+  <url>
+    <loc>https://asak-bg.com/de/prototypen</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/3d-printirane"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/3d-printing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/prototypen"/>
+  </url>
+
+  <url>
+    <loc>https://asak-bg.com/de/ueberuns</loc>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/za-nas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/about-us"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/ueberuns"/>
+  </url>
+
+</urlset>

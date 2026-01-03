@@ -20,6 +20,16 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
 
   .init({
+    detection: {
+      // 1. Suche zuerst im Pfad (z.B. /bg/...)
+      order: ['path', 'cookie', 'localStorage', 'navigator'],
+      // 2. An welcher Stelle der URL steht die Sprache (0 wäre direkt nach der Domain)
+      lookupFromPathIndex: 0,
+      // 3. Sprache in der URL speichern/beibehalten
+      caches: ['cookie']
+    },
+    
+    supportedLngs: ['de', 'bg', 'en'],
     fallbackLng: 'bg',
     debug: true,
     keySeparator: '.',

@@ -15,7 +15,7 @@ import OffersASAK from "../../components/Services/Construction/OffersASAK";
 import serviceOneImg from "../../assets/images/Prototypen/3dPrint.jpg";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";
-
+import { Helmet } from "react-helmet";
 
 
 
@@ -25,10 +25,28 @@ const spritzguss = () => {
       AOS.init();
       AOS.refresh();
     }, []);
-    const { t } = useTranslation('prototypen');
+    const { t, i18n } = useTranslation('prototypen');
 
     return (
       <Loader>
+        <Helmet>
+  <title>
+    {i18n.language === 'bg' 
+      ? "3D принтиране и бързо прототипиране София | ASAK" 
+      : i18n.language === 'de' 
+        ? "3D-Druck & Prototyping in Bulgarien | ASAK" 
+        : "3D Printing & Rapid Prototyping Sofia | ASAK"}
+  </title>
+  <meta name="description" content={
+    i18n.language === 'bg' ? "Изработка на индустриални прототипи или сери чрез 3D принтиране в София." :
+    i18n.language === 'de' ? "Schnelle Herstellung von Prototypen mittels 3D-Druck in Sofia." :
+    "Industrial 3D printing and rapid prototyping services in Sofia, Bulgaria."
+  } />
+  <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/prototypen" />
+<link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/3d-printirane" />
+<link rel="alternate" hreflang="en" href="https://asak-bg.com/en/3d-printing" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/prototypen" />
+</Helmet>
 
         <HeaderASAK />
         <TitelASAKProto title={t('header')} tagline={t('sub')} />

@@ -2,11 +2,13 @@ import React from "react";
 import dataSocial from "../../data/Social/social-footer.json";
 import Icofont from "react-icofont";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
 
 
 
 const FooterCopyright = (() => {
-  const { t } = useTranslation('footer');
+  const { t, i18n } = useTranslation('footer');
 
 return (
   <div className="footer-copyright">
@@ -30,9 +32,12 @@ return (
         </div>
         <div className="col-md-4 col-xs-12">
           
-          <a className="readmore" href={`${process.env.PUBLIC_URL}/impressum`}>
-          {t('link')}
-                </a>
+        <Link 
+  className="readmore" 
+  to={`/${i18n.language}/impressum`}
+>
+  {t('link')}
+</Link>
          
         </div>
       </div>

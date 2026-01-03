@@ -16,6 +16,7 @@ import OffersASAK from "../../components/Services/Construction/OffersASAK";
 import serviceOneImg from "../../assets/images/laser/laser.png";
 import serviceTwoImg from "../../assets/images/laser/laser.jpg";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 
 
 
@@ -26,10 +27,28 @@ const spritzguss = () => {
       AOS.init();
       AOS.refresh();
     }, []);
-    const { t } = useTranslation('laser');
+    const { t,i18n } = useTranslation('laser');
 
     return (
       <Loader>
+     <Helmet>
+  <title>
+    {i18n.language === 'bg' 
+      ? "Лазерно рязане и гравиране на метали София | ASAK" 
+      : i18n.language === 'de' 
+        ? "Laserschneiden & Lasergravur in Bulgarien | ASAK" 
+        : "Precision Laser Cutting & Engraving Bulgaria | ASAK"}
+  </title>
+  <meta name="description" content={
+    i18n.language === 'bg' ? "Прецизно лазерно рязане и гравиране на метални детайли в София." :
+    i18n.language === 'de' ? "Hochwertiges Laserschneiden und Gravieren in Bulgarien." :
+    "High-precision laser cutting and engraving services for industrial parts in Sofia."
+  } />
+  <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/laser" />
+<link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/lazerno-ryazane" />
+<link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-cutting" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/laser" />
+</Helmet>
 
         <HeaderASAK />
         <TitelASAKLaser title={t('header')} tagline={t('sub')} />

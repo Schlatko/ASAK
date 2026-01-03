@@ -18,6 +18,7 @@ import { useTranslation } from "react-i18next";
 import spritzmaschine from "../../assets/images/Spritzguss/spritz5.jpg";
 import spritzmaschine2 from "../../assets/images/Spritzguss/spritz2.jpg";
 import spritzmaschine3 from "../../assets/images/Spritzguss/spritz1.jpg";
+import { Helmet } from "react-helmet";
 
 
 
@@ -28,11 +29,29 @@ const spritzguss = () => {
       AOS.init();
       AOS.refresh();
     }, []);
-    const { t } = useTranslation('spritzguss');
+    const { t, i18n } = useTranslation('spritzguss');
 
     return (
       <Loader>
-
+{/* 2. Helmet direkt hier platzieren */}
+<Helmet>
+  <title>
+    {i18n.language === 'bg' 
+      ? "Шприцоване на пластмаси и матрици София | ASAK" 
+      : i18n.language === 'de' 
+        ? "Spritzguss & Formenbau in Bulgarien | ASAK" 
+        : "Injection Molding & Mold Making Bulgaria | ASAK"}
+  </title>
+  <meta name="description" content={
+    i18n.language === 'bg' ? "Професионално шприцоване и изработка на матрици в София." :
+    i18n.language === 'de' ? "Präziser Spritzguss und Formenbau in Sofia." :
+    "Professional injection molding and mold making services in Sofia, Bulgaria."
+  } />
+  <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/spritzguss" />
+<link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/shpritsovane" />
+<link rel="alternate" hreflang="en" href="https://asak-bg.com/en/injection-molding" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/spritzguss" />
+</Helmet>
         <HeaderASAK />
         <TitelASAK title={t('header')} tagline={t('sub')} />
         <SpritzKomplett></SpritzKomplett>
