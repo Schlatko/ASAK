@@ -26,23 +26,23 @@
             {
                 "id": 3.1,
                 "title": "Mould making",
-                "link": "/en/formenbau"
+                "link": "/en/mold-making"
             },
             {
                 "id": 3.2,
                 "title": "Injection moulding",
-                "link": "/en/spritzguss"
+                "link": "/en/injection-molding"
             },
             {
                 "id": 3.3,
                 "title": "3D printing & prototypes",
-                "link": "/en/prototypen"
+                "link": "/en/3d-printing"
             }
             ,
             {
                 "id": 3.5,
                 "title": "Laser labelling",
-                "link": "/en/laser"
+                "link": "/en/laser-engraving"
             }
                  
         ]  
@@ -50,7 +50,7 @@
     {
         "id": 4,
         "title": "References",
-        "link": "/en/referenzen",
+        "link": "/en/references",
         "megaMenu": false,
         "sub": false
        
@@ -58,7 +58,7 @@
     {
         "id": 5,
         "title": "About us",
-        "link": "/en/Contact",
+        "link": "/en/contact",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [

@@ -9,21 +9,21 @@
     "icon": "calculations",
     "title": "Formenbau",
     "text": "Präzise Formen, maßgeschneidert für Ihre Anforderungen. Unser Formenbau setzt Ihre Ideen in die Realität um.",
-    "link": "/formenbau"
+    "link": "/de/formenbau"
   },
   {
     "id": 2,
     "icon": "industries",
     "title": "Spritzguss",
     "text": "Hochwertiger Spritzguss, perfektioniert für erstklassige Produkte. Vertrauen Sie auf unsere Expertise im Spritzgießen.",
-    "link": "/spritzguss"
+    "link": "/de/spritzguss"
   },
   {
     "id": 3,
     "icon": "architecture-alt",
     "title": "3D Druck & Prototypen",
     "text": "Innovative 3D Prototypen, die Ihre Visionen Wirklichkeit werden lassen. Entdecken Sie die Welt des Prototypenbaus mit uns.",
-    "link": "/prototypen"
+    "link": "/de/prototypen"
   }
   ,
   {
@@ -31,7 +31,7 @@
     "icon": "meteor",
     "title": "Laserbeschriftungen",
     "text": "Laserpräzision für Ihre Markierungslösungen. Hinterlassen Sie bleibenden Eindruck mit unseren Laserbeschriftungen.",
-    "link": "/laser"
+    "link": "/de/laser"
   }
   
 ]

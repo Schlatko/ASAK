@@ -9,21 +9,21 @@
     "icon": "calculations",
     "title": "Mould making",
     "text": "Precise moulds, tailored to your requirements. Our mould making department turns your ideas into reality.",
-    "link": "/formenbau"
+    "link": "/en/mold-making"
   },
   {
     "id": 2,
     "icon": "industries",
     "title": "Injection moulding",
     "text": "High-quality injection moulding, perfected for first-class products. Rely on our expertise in injection moulding.",
-    "link": "/spritzguss"
+    "link": "/en/injection-molding"
   },
   {
     "id": 3,
     "icon": "architecture-alt",
     "title": "3D printing & prototypes",
     "text": "Innovative 3D prototypes that turn your visions into reality. Discover the world of prototyping with us.",
-    "link": "/prototypen"
+    "link": "/en/3d-printing"
   }
   ,
   {
@@ -31,7 +31,7 @@
     "icon": "meteor",
     "title": "Laser labelling",
     "text": "Laser precision for your marking solutions. Leave a lasting impression with our laser markings.",
-    "link": "/laser"
+    "link": "/en/laser-engraving"
   }
   
 ]
