@@ -71,7 +71,7 @@ const ContactButtons = ({ children }) => {
     <>
   
       <a 
-        href="tel:+4915111682642"
+        href="tel:+359879221812"
         id="contact"
         className={"show"}
         title={t('tel')}
@@ -82,7 +82,7 @@ const ContactButtons = ({ children }) => {
       </a>
     
       <a
-        href="mailto:info@asak-eu.com"
+        href="mailto:info@asak-bg.com"
         id="contact2"
         className={"show"}
         title={t('mail')}
