@@ -19,9 +19,11 @@ const ContactThree = () =>  {
             <br />
             {t('contactform.ort')}
             <br />
-            <a href="tel:+4915111682642">{t('contactform.tel')}</a>
+            <a href="tel:+359888724803">{t('contactform.tel')}</a>
+             <br />
+            <a href="tel:+359879221812">{t('contactform.tel2')}</a>
             <br />
-            <a href="mailto:#">{t('contactform.tel')}</a>
+            <a href="mailto:#">{t('contactform.mail')}</a>
           </address>
           <h3 className="white-color">{t('contactform.arbeitszeitenh')}</h3>
           <p className="white-color">

@@ -12,14 +12,15 @@
 "strasse": "Nikola Voynovski 27",
 "ort": "1510 Sofia - Bulgarien",
 "telname": "Phone number",
-"tel": "+359 879 22 18 12",
-"tellink": "tel:+359879221812",
+"tel": "Sales BG +359 88 872 4803",
+"tel2": "Sales English and German +359 879 22 18 12",
+    "tellink": "tel:+359888724803",
 "mailname": "Email",
 "mail": "info@asak-bg.com",
 "arbeitszeitenh": "Working hours",
 "arbeitszeiten": "Monday - Friday: 08:00 Uhr bis 16:00 Uhr",
 "alertsuc": "Email successfully dispatched",
-"alerterr": "Email could not be sent. Please try again or write to us at info@asak-bg.eu"
+"alerterr": "Email could not be sent. Please try again or write to us at info@asak-bg.com"
 }
 
 }
