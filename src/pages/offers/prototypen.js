@@ -5,11 +5,11 @@ import Loader from "../../components/Loader/Loader";
 import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import ProtoServices from "./detail/ProtoServices";
-import TitelASAKProto from "../../components/PageTitle/TitelASAKProto";
+import TitelASAK from "../../components/PageTitle/TitelASAK";
 
 import PrototypenKomplett from "../../components/WhoWeAre/PrototypenKomplett";
 
-import serviceOneImg from "../../assets/images/Prototypen/3dPrint.jpg";
+import serviceOneImg from "../../assets/images/Prototypen/3d-modelirane-plastmasovi-prototipi-asak.webp";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";
 import { Helmet } from "react-helmet";
@@ -46,7 +46,11 @@ const spritzguss = () => {
 </Helmet>
 
         <HeaderASAK />
-        <TitelASAKProto title={t('header')} tagline={t('sub')} />
+         <TitelASAK title={t('header')} 
+  tagline={t('sub')}
+  imageName="3d-printirane-prototipirane-sofia-asak.webp" // Der Name aus der Tabelle
+  altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
+/>
         <PrototypenKomplett></PrototypenKomplett>
         <ProtoServices
         /*title="Technologien"

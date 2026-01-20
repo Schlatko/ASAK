@@ -3,7 +3,8 @@
       "id": 1,
       "title": "Spritzguss und Formenbau",
       "tagline": "Effiziente Kunststoffverarbeitung – maßgeschneiderte Lösungen für Ihre Anforderungen.",
-      "image": "slides/GranulatBG.png",
+      "image": "slides/shpritsovane-matrici-sofia-asak.webp",
+      "alt": "Шприцоване на пластмаса и производство на матрици в София - АСАК",
       "buttons": [
         {
           "id": 1,
@@ -24,7 +25,8 @@
       "id": 2,
       "title": "Entwicklung und Fertigung",
       "tagline": "Präzisionsformen für höchste Ansprüche – Ihr zuverlässiger Partner in der Kunststoffverarbeitung",
-      "image": "slides/MoldBG.png",
+      "image": "slides/shpritsovane-matrici-sofia-asak2.webp", 
+      "alt": "Шприцоване на пластмаса и производство на матрици в София - АСАК",
       "buttons": [
         {
           "id": 1,

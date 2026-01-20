@@ -6,12 +6,12 @@ import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import LaserServices from "./detail/LaserServices";
 import LaserServicesAnw from "./detail/LaserServicesAnw";
-import TitelASAKLaser from "../../components/PageTitle/TitelASAKLaser";
+import TitelASAK from "../../components/PageTitle/TitelASAK";
 
 import LaserKomplett from "../../components/WhoWeAre/LaserKomplett";
 
-import serviceOneImg from "../../assets/images/laser/laser.png";
-import serviceTwoImg from "../../assets/images/laser/laser.jpg";
+import serviceOneImg from "../../assets/images/laser/pretsizno-lazerno-gravirane-asak.webp";
+import serviceTwoImg from "../../assets/images/laser/lazerna-tehnologiya-plastmasa-metal-asak.webp";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
@@ -48,18 +48,24 @@ const spritzguss = () => {
 </Helmet>
 
         <HeaderASAK />
-        <TitelASAKLaser title={t('header')} tagline={t('sub')} />
+        <TitelASAK title={t('header')} 
+  tagline={t('sub')}
+  imageName="lazerno-gravirane-markirane-detayli-asak.webp" // Der Name aus der Tabelle
+  altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
+/>
         <LaserKomplett></LaserKomplett>
        
         <LaserServices
         title="Laserbeschriftungen von Kunststoffen"
         tagline="Die Laserbeschriftung auf Kunststoff ist eine hochpräzise Methode zur Kennzeichnung von Kunststoffoberflächen mittels Laserstrahl."
         serviceImg={serviceOneImg}
+        altText={t('alt_text2')}
       />
       <LaserServicesAnw
         title="Laserbeschriftungen von Kunststoffen"
         tagline="Die Laserbeschriftung auf Kunststoff ist eine hochpräzise Methode zur Kennzeichnung von Kunststoffoberflächen mittels Laserstrahl."
         serviceImg={serviceTwoImg}
+        altText={t('alt_text3')}
       />
         
         <FooterASAK/>

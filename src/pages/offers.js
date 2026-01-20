@@ -45,7 +45,11 @@ const offers = () => {
 </Helmet>
 
         <HeaderASAK />
-        <TitelASAK title={t('header')} tagline={t('sub')} />
+        <TitelASAK title={t('title')} 
+  tagline={t('tagline')}
+  imageName="uslugi-shpritsovane-plastmasa-asak.webp" // Der Name aus der Tabelle
+  altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
+/>
         <OffersASAK />
   
         <FooterASAK />

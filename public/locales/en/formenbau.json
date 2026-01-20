@@ -1,5 +1,8 @@
 {
-  "header": "Mould making at A.S.A.K.",
+  "title": "Mould making at A.S.A.K.",
+  "alt_text": "Design and manufacture of injection molds and precision dies",
+  "alt_text2": "Professional tooling equipment for the plastics industry",
+  "alt_text3": "Service, repair and maintenance of molds and dies",
   "sub": "MASTERING MOLDS DELIVERING EXCELLENCE",
   "header2": "Selection of the material",
   "sub2": "The choice of material depends on factors such as the number of pieces, material of the end product, product size and desired accuracy. It is important to consider the specific requirements of each project in order to select the optimum mould.",
@@ -10,7 +13,7 @@
 
   "aftersub": "All details at a glance",
   "tagline": "Innovation through mould making: Perfect tools for your injection moulding success.",
-  
+
   "text": "Injection mould construction is a crucial step in plastics processing. This is where the tools used for the production of plastic parts by injection moulding are created. Injection moulding enables the cost-effective, fast and precise manufacture of products in large quantities. The quality of the injection moulds has a significant influence on the end products, which is why professional production is of the utmost importance. We understand the importance of efficient and reliable injection mould construction for your company.", 
   "services":
     [

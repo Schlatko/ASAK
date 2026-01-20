@@ -6,13 +6,13 @@ import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import FormenServices from "./detail/FormenServices";
 import FormenServicesLeft from "./detail/FormenServicesLeft";
-import TitelASAKFormenbau from "../../components/PageTitle/TitelASAKFormenbau";
+import TitelASAK from "../../components/PageTitle/TitelASAK";
 
 import FormenbauKomplett from "../../components/WhoWeAre/FormenbauKomplett";
 
-import material from "../../assets/images/Formenbau/matr3.jpg";
+import material from "../../assets/images/Formenbau/instrumentalna-ekipirovka-sofia-asak.webp";
 
-import duesen from "../../assets/images/Formenbau/matr2.jpg";
+import duesen from "../../assets/images/Formenbau/remont-poddryzhka-shpricformi-asak.webp";
 import { useTranslation } from "react-i18next";
 import ContactDetails from "../contact/ContactDetails";
 import { Helmet } from "react-helmet";
@@ -48,19 +48,24 @@ const spritzguss = () => {
 <link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/formenbau" />
 </Helmet>
         <HeaderASAK />
-        <TitelASAKFormenbau title={t('header')} tagline={t('tagline')} />
+        <TitelASAK title={t('title')} 
+  tagline={t('tagline')}
+  imageName="proektirane-shpricformi-matrici-asak.webp" // Der Name aus der Tabelle
+  altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
+/>
         <FormenbauKomplett></FormenbauKomplett>
-       {/* <FactsFormenbauKomplett title={t('facttitle')} tagline={t('factsub')}>
-        {t('facttext')}</FactsFormenbauKomplett>*/}
+     
         <FormenServices
         title={t('header2')}
         tagline={t('sub2')}
         serviceImg={material}
+        altText={t('alt_text2')}
       />
       <FormenServicesLeft
         title={t('header3')}
         tagline={t('sub3')}
         serviceImg={duesen}
+        altText={t('alt_text3')}
       />
       
       

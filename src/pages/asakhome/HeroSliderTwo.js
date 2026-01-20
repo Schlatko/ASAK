@@ -38,45 +38,54 @@ const HeroSliderTwo = () => {
     <section className="pt-0 pb-0">
       <div className="slider-bg flexslider">
         <ul className="slides">
-          <Swiper modules={[EffectFade, Navigation, Autoplay, Pagination]} observer observeParents {...params}>
-          {t('slider', {returnObjects: true}).map((slide) => (
-              <li key={slide.id}>
-                <div
-                  className="slide-img"
-                  style={{
-                    background: `url(${require("../../assets/images/" +
-                      slide.image)}) center center / cover scroll no-repeat`,
-                  }}
-                ></div>
-                <div
-                  className={
-                    "hero-text-wrap " + (slide.bg ? "gradient-overlay-bg" : "")
-                  }
-                >
-                  <div className="hero-text white-color">
-                    <div className="container text-center">
-                      <h3 className="white-color font-400">
-                          {slide.tagline ? slide.tagline : ""}
-                        </h3>
-                        <h1 className="white-color text-uppercase font-500 letter-spacing-2">
-                          {slide.title}
-                        </h1>
-                      <h3 className="white-color font-400">
-                        {slide.text ? parse(slide.text) : ""}
-                      </h3>
-                      {slide.buttons.length !== 0 ? (
-                        <p className="text-center mt-30">
-                          <SliderButtons buttons={slide.buttons} />
-                        </p>
-                      ) : (
-                        ""
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </li>
-            ))}
-          </Swiper>
+         <Swiper modules={[EffectFade, Navigation, Autoplay, Pagination]} observer observeParents {...params}>
+  {t('slider', {returnObjects: true}).map((slide) => (
+      <li key={slide.id}>
+        <div
+          className="slide-img"
+          role="img" // Kennzeichnet das div als Bild für Screenreader
+          aria-label={slide.alt} // Alt-Text für Barrierefreiheit
+          style={{
+            background: `url(${require("../../assets/images/" +
+              slide.image)}) center center / cover scroll no-repeat`,
+          }}
+        >
+          {/* SEO-Fix: Verstecktes Bild für Google Indexierung */}
+          <img 
+            src={require("../../assets/images/" + slide.image)} 
+            alt={slide.alt} 
+            style={{ display: 'none' }} 
+          />
+        </div>
+        <div
+          className={
+            "hero-text-wrap " + (slide.bg ? "gradient-overlay-bg" : "")
+          }
+        >
+          <div className="hero-text white-color">
+            <div className="container text-center">
+              <h3 className="white-color font-400">
+                  {slide.tagline ? slide.tagline : ""}
+                </h3>
+                <h1 className="white-color text-uppercase font-500 letter-spacing-2">
+                  {slide.title}
+                </h1>
+              <h3 className="white-color font-400">
+                {slide.text ? parse(slide.text) : ""}
+              </h3>
+              {slide.buttons.length !== 0 ? (
+                <p className="text-center mt-30">
+                  <SliderButtons buttons={slide.buttons} />
+                </p>
+              ) : (
+                ""
+              )}
+            </div>
+          </div>
+        </div>
+      </li>
+    ))}
+</Swiper>
         </ul>
       </div>
     </section>

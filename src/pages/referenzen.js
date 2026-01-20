@@ -50,7 +50,11 @@ const asakhome = () => {
 </Helmet>
 
     <HeaderASAK />
-    <TitelASAK title={t('header')} tagline={t('tagline')} />  
+    <TitelASAK title={t('title')} 
+  tagline={t('tagline')}
+  imageName="avtomatizirano-shpritsovane-plastmasi-asak.webp" // Der Name aus der Tabelle
+  altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
+/> 
    <ClientsBrand/>
     <section className="pt-100 pt-100">
       <Portfolio filter="true" columns="2" layout="box" space="true"/>

@@ -1,5 +1,5 @@
 import React from "react";
-import serviceImg from "../../assets/images/startup-bg-right.jpg";
+
 import { useTranslation } from "react-i18next";
 
 const Ueberuns = () => {

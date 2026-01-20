@@ -3,17 +3,31 @@ import dataServices from "../../../data/Services/our-services-two.json";
 import { useTranslation } from "react-i18next";
 import ServiceBox from "../../../components/OurServices/ServiceBoxSpritz";
 
-const SpritzservicesLeft = forwardRef(({ serviceImg, title, tagline }, ref) => {
+const SpritzservicesLeft = forwardRef(({ serviceImg,altText, title, tagline }, ref) => {
 const { t } = useTranslation('spritzservicesmasch');
 
 return (
   
   <section className="white-bg" id="service" ref={ref}>
     <div className="col-md-6 col-sm-4 bg-flex bg-flex-right">
-      <div
-        className="bg-flex-holder bg-flex-cover"
-        style={{ backgroundImage: `url(${serviceImg})` }}
-      ></div>
+       <div
+          className="bg-flex-holder bg-flex-cover"
+          style={{ 
+            backgroundImage: serviceImg ? `url(${serviceImg})` : 'none',
+            backgroundColor: '#f5f5f5' 
+          }}
+          role="img"
+          aria-label={altText || t('head')}
+        >
+          {/* SEO-Fix: Verstecktes Bild für die Google Indexierung */}
+          {serviceImg && (
+            <img 
+              src={serviceImg} 
+              alt={altText || t('head')} 
+              style={{ display: 'none' }} 
+            />
+          )}
+        </div>
     </div>
     <div className="container">
       <div className="col-md-5 col-sm-7 ">

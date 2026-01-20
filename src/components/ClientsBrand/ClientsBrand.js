@@ -46,7 +46,9 @@ const ClientsBrand = ({ children, classAppend }) => {
             <Slider {...settings}>
               {clientsData.map((client) => (
                 <div className="client-logo" key={client.id}>
-                  <a href="www.amet.bg">
+                  <a   href={client.weblink} 
+                target="_blank" 
+                rel="noopener noreferrer">
                   <img
                     className="img-fluid" width={200} height={200}
                     src={require("../../assets/images/" + client.image)}

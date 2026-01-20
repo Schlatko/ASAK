@@ -31,11 +31,16 @@ const HeaderAsak = ({ type }) => {
     }
   }, []);
 
-  const resizeForm = useCallback(() => {
+ const resizeForm = useCallback(() => {
+  const searchForm = document.getElementById("fullscreen-searchform");
+  
+  // Prüfen, ob das Element überhaupt da ist
+  if (searchForm) {
     var wHeight = window.innerHeight;
-    const searchForm = document.getElementById("fullscreen-searchform");
     searchForm.style.top = wHeight / 2 + "px";
-  }, []);
+  }
+}, []);
+
 
   const showSearchForm = (e) => { 
     e.preventDefault();

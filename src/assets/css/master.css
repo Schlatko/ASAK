@@ -315,7 +315,6 @@ nav.bootsnav.navbar-sidebar ul.nav {
 .yellow-bg{background:#FDD835;}
 .green-bg{background-color:#00c07f;}
 .parallax-bg {
-    background: url(../images/background/parallax-bg.jpg) center 0 no-repeat;
     background-size: cover;
 	height: 800px;
 }
@@ -375,7 +374,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 	top:0;
 	left:0;
 }
-
+/*
 .parallax-bg-2 {
     background: url(../images/background/parallax-bg-3.jpg) center 0 no-repeat;
     background-size: cover;
@@ -426,7 +425,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
     background: url(../images/background/parallax-bg-15.jpg) center 0 no-repeat;
     background-size: cover;
 }
-
+*/
 .parallax-bg-15 {
     /* background: url(../images/background/parallax-bg-16.jpg) center 0 no-repeat; */
     background-size: cover;
@@ -443,12 +442,12 @@ nav.bootsnav.navbar-sidebar ul.nav {
 }
 
 .parallax-bg-18 {
-    background: url(../images/background/parallax-bg-20.jpg) center 0 no-repeat;
+   /* background: url(../images/background/parallax-bg-20.jpg) center 0 no-repeat;*/
     background-size: cover;
 }
 
 .parallax-bg-19 {
-    background: url(../images/background/memphis_bg.jpg) repeat;
+   /* background: url(../images/background/memphis_bg.jpg) repeat;*/
 }
 
 
@@ -3160,7 +3159,7 @@ a.readmore > span {
   position: relative;
   z-index: 1;
 }
-
+/*
 .footer-main:before {
     content: "";
     position: absolute;
@@ -3172,7 +3171,7 @@ a.readmore > span {
     background-size: contain;
     opacity: .8;
 }
-
+*/
 .footer .widget-title{
     position: relative;
     font-size: 14px;
@@ -4003,7 +4002,7 @@ color:#fff;
 	width:200px;
 }
 
-.about-us-bg{
+/*.about-us-bg{
   background:url(../images/about-us.jpg) center no-repeat;
   background-size: cover;
 }
@@ -4027,7 +4026,7 @@ color:#fff;
   background:url(../images/travel-bg-right.jpg) center no-repeat;
   background-size: cover;
 }
-
+*/
 .gym-bg-left {
   /* background:url(../images/gym-bg-left.jpg) center no-repeat; */
   background-size: cover;
@@ -4658,7 +4657,7 @@ background-position:center center;
     top: 0;
     left: 0;
 }
-
+/*
 .portfolio-cover-bg {
 	background-image: url(../images/title-bg/title-hero-1.jpg);
 }
@@ -4670,29 +4669,29 @@ background-position:center center;
 .about-cover-bg {
 	background-image: url(../images/title-bg/title-hero-3.jpg);
 }
-
+*/
 .service-cover-bg {
-	background-image: url(../images/spritz4.jpg);
+	/*background-image: url(../images/spritz4.jpg);*/
 }
 
 .service-cover-bg2 {
-	background-image: url(../images/Formenbau/header.png);
+	/*background-image: url(../images/Formenbau/header.png);*/
 }
 .service-cover-bg3 {
-	background-image: url(../images/Prototypen/protohead.jpg);
+	/*background-image: url(../images/Prototypen/protohead.jpg);*/
 }
 
 .service-cover-bg4 {
-	background-image: url(../images/dbf/dbfhead.png);
+	/* background-image: url(../images/dbf/dbfhead.png);*/
 }
 .service-cover-bg5 {
-	background-image: url(../images/laser/laserhead.png);
+/*	background-image: url(../images/laser/laserhead.png);*/
 }
 
 .contact-cover-bg {
-	background-image: url(../images/title-bg/BGContact2.png);
+	background-image: url(../images/title-bg/bgcontact2.webp);
 }
-
+/*
 .error-cover-bg {
 	background-image: url(../images/title-bg/title-hero-6.jpg);
 }
@@ -4714,7 +4713,7 @@ background-position:center center;
 .shop-cover-bg {
 	background-image: url(../images/title-bg/title-hero-10.jpg);
 }
-
+*/
 .page-title {
     position: absolute;
     padding: 10px;
@@ -5773,12 +5772,12 @@ form.register {
     top: 0;
     left: 0;
 }
-
+/*
 .man-bg {
 	background:url(../images/man-img.jpg) no-repeat center center;
 	background-size:cover;
-}
-
+}*/
+/*
 .woman-bg {
 	background:url(../images/woman-img.jpg) no-repeat center center;
 	background-size:cover;
@@ -5788,7 +5787,7 @@ form.register {
 	background:url(../images/help-img.jpg) no-repeat center center;
 	background-size:cover;
 }
-
+*/
 /* ----------------------------------------
 	Web Hosting
 -------------------------------------------*/

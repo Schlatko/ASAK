@@ -3,7 +3,8 @@
       "id": 1,
       "title": "Injection moulding and mould making",
       "tagline": "Efficient plastics processing - customised solutions for your requirements.",
-      "image": "slides/GranulatBG.png",
+      "image": "slides/shpritsovane-matrici-sofia-asak.webp",
+      "alt": "Шприцоване на пластмаса и производство на матрици в София - АСАК",
       "buttons": [
         {
           "id": 1,
@@ -24,7 +25,8 @@
       "id": 2,
       "title": "Development and production",
       "tagline": "Precision moulds for the highest demands - your reliable partner in plastics processing",
-      "image": "slides/MoldBG.png",
+      "image": "slides/shpritsovane-matrici-sofia-asak2.webp",
+      "alt": "Шприцоване на пластмаса и производство на матрици в София - АСАК",
       "buttons": [
         {
           "id": 1,

@@ -1,17 +1,20 @@
 [
     {
       "id": 1,
-      "image": "clients/Untitled-1.png",
-      "name": "client-1"
+      "image": "clients/untitled-1.webp",
+      "name": "client-1", 
+      "weblink": "https://amet-bg.com/en/"
     },
     {
       "id": 2,
-      "image": "clients/indsoft.png",
-      "name": "client2"
+      "image": "clients/indsoft.webp",
+      "name": "client2",
+      "weblink": "https://indsoft.bg/"
     },
     {
       "id": 3,
       "image": "clients/meusburger.svg",
-      "name": "client-3"
+      "name": "client-3",
+      "weblink": "https://www.meusburger.com/de-de"
     }
   ]

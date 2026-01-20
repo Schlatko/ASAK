@@ -13,9 +13,9 @@ import SpritzServices2 from "./detail/SpritzServices2";
 import SpritzKomplett from "../../components/WhoWeAre/SpritzKomplett";
 
 import { useTranslation } from "react-i18next";
-import spritzmaschine from "../../assets/images/Spritzguss/spritz5.jpg";
-import spritzmaschine2 from "../../assets/images/Spritzguss/spritz2.jpg";
-import spritzmaschine3 from "../../assets/images/Spritzguss/spritz1.jpg";
+import spritzmaschine from "../../assets/images/Spritzguss/shpritsovane-pod-nalyagane-detayli-asak.webp";
+import spritzmaschine2 from "../../assets/images/Spritzguss/seriino-proizvodstvo-plastmasa-asak.webp";
+import spritzmaschine3 from "../../assets/images/Spritzguss/kontrol-kachestvo-proizvodstvo-asak.webp";
 import { Helmet } from "react-helmet";
 
 
@@ -51,23 +51,31 @@ const spritzguss = () => {
 <link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/spritzguss" />
 </Helmet>
         <HeaderASAK />
-        <TitelASAK title={t('header')} tagline={t('sub')} />
+        
+        <TitelASAK title={t('header')} 
+  tagline={t('sub')}
+  imageName="avtomatizirano-shpritsovane-plastmasi-asak.webp" // Der Name aus der Tabelle
+  altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
+/>
         <SpritzKomplett></SpritzKomplett>
         
       <SpritzServices
         title={t('header2')}
         tagline={t('sub2')}
         serviceImg={spritzmaschine}
+        altText={t('alt_text2')} 
       />
       <SpritzServicesLeft
         title={t('header2')}
         tagline={t('sub2')}
         serviceImg={spritzmaschine2}
+        altText={t('alt_text3')} 
       />
       <SpritzServices2
         title={t('header2')}
         tagline={t('sub2')}
         serviceImg={spritzmaschine3}
+        altText={t('alt_text4')} 
       />
         
         <FooterASAK/>

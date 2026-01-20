@@ -1,547 +1,897 @@
-{"items": [ 
-  {
-    "id": 1,
-    "title": "Elektronikgehäuse - Polycarbonat",
-    "category": "Abmasse: 185mmx55mmx20mm Gewicht: 47g",
-    "image": "portfolio/grid/Gehäuse_PC_185mmx55mmx20mm_47g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  {
-    "id": 2,
-    "title": "Elektronikgehäuse - ABS",
-    "category": "Abmasse: 98mmx50mmx15mm Gewicht: 11g",
-    "image": "portfolio/grid/Abdeckung_Fenster_ABS_98mmx50mmx15mm_11g.png",
-    "groups": ["übersicht", "formenbau"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Abdeckung - Polycarbonat",
-    "category": "Abmasse: 140mmx70mmx4mm Gewicht: 31g",
-    "image": "portfolio/grid/Abdeckung_PC_140mmx70mmx4mm31g.png",
-    "groups": ["übersicht", "formenbau"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Abdeckung - Polyamid 66",
-    "category": "Abmasse: 56mmx30mmx10mm Gewicht: 2g",
-    "image": "portfolio/grid/Abdeckung_PA66_30Glas_56mmx30mmx10mm_2g.png",
-    "groups": ["übersicht", "lasergravierung"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Stopfen - TPE",
-    "category": "Abmasse: 10mmx10mmx10mm Gewicht: 0,8g",
-    "image": "portfolio/grid/Abdeckung_TPE_10mmx10mmx10mm_0_8g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Dichtungen - PVC",
-    "category": "Abmasse: 10mmx10mmx5mm Gewicht: 1g",
-    "image": "portfolio/grid/Abdichtung_PVC_10mmx10mmx5mm_1g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Abdichtungen - PVC",
-    "category": "Abmasse: 5mmx5mmx5mm",
-    "image": "portfolio/grid/Abdichtung_Soft_PVC_5mmx5mmx5mm.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Aussgiesser - PP",
-    "category": "Abmasse: 45mmx40mmx40mm Gewicht: 7g",
-    "image": "portfolio/grid/Deckel_PP_45mmx40mmx40mm_7g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  {
-    "id": 9,
-    "title": "Drehregler - POM",
-    "category": "Abmasse: 20mmx20mmx20mm Gewicht: 4g",
-    "image": "portfolio/grid/Drehknopf_POM_20mmx20mmx20mm_4g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  {
-    "id": 10,
-    "title": "Elektronikgehäuse - ABS",
-    "category": "Abmasse: 130mmx55mmx28mm Gewicht: 19g",
-    "image": "portfolio/grid/Elektronikgehaeuse_ABS_130mmx55mmx28mm_19g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  {
-    "id": 11,
-    "title": "Steckdosenanschluss - Polycarbonat",
-    "category": "Abmasse: 150mm90mmx80mm Gewicht: 145g",
-    "image": "portfolio/grid/Elektronikgehäuse_PC_150mm90mmx80mm_145g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  {
-    "id": 12,
-    "title": "Abdeckung - Polycarbonat",
-    "category": "Abmasse: 70mmx65mmx9mm Gewicht: 13g",
-    "image": "portfolio/grid/Elektronikgehaeuse_PC_70mmx65mmx9mm_13g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  
-  {
-    "id": 13,
-    "title": "Kamera Halterung - Polycarbonat",
-    "category": "Abmasse: 140mmx65mmx40mm",
-    "image": "portfolio/grid/Aparatur_Kamera_PC_140mmx65mmx40mm_31g.png",
-    "groups": ["übersicht", "formenbau"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "title": "Elektronikgehäuse - Polycarbonat",
-    "category": "Abmasse: 95mmx80mmx20mm Gewicht: 52g",
-    "image": "portfolio/grid/Gehäuse_PC_95mmx80mmx20mm_52g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  {
-    "id": 15,
-    "title": "Fenster - Polycarbonat",
-    "category": "Abmasse: 97mmx40mmx5mm Gewicht: 7g",
-    "image": "portfolio/grid/Fenster_Elektronik_PC_97mmx40mmx5mm_7g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "title": "Elektronikgehäuse - Polycarbonat",
-    "category": "Abmasse: 145mmx85mmx30mm Gewicht: 35g",
-    "image": "portfolio/grid/Elektronikgehaeuse_PC_145mmx85mmx30mm_35g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "title": "Schraubverbinder inkl. Einlegeteil - Polyamid",
-    "category": "Abmasse: 45mmx40mmx35mm Gewicht: 41g",
-    "image": "portfolio/grid/Gehäuse_PA_45mmx40mmx35mm_41g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "title": "Elektronikgehäuse - Polycarbonat",
-    "category": "Abmasse: 50mmx50mmx17mm Gewicht: 9g",
-    "image": "portfolio/grid/Gehäuse_PC_50mmx50mmx17mm_9g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "title": "Pedale - Polyamid",
-    "category": "Abmasse: 90mmx60mmx30mm Gewicht: 79g",
-    "image": "portfolio/grid/Pedale_PA_90mmx60mmx30mm_79g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "title": "Verbinder - Polycarbonat",
-    "category": "Abmasse: 20mmx20mmx25mm Gewicht: 4g",
-    "image": "portfolio/grid/Hslterung_PC_20mmx20mmx25mm_4g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "title": "Elektronikgehäuse Halterung - Polycarbonat",
-    "category": "Abmasse: 200mmx55mmx15mm Gewicht: 44g",
-    "image": "portfolio/grid/Halterung_PC_200mmx55mmx15mm_44g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "title": "Rahmenhalterung - ABS & Polycarbonat",
-    "category": "Abmasse: 35mmx12mmx5mm Gewicht: 2g",
-    "image": "portfolio/grid/Halterung_Rahmen_ABS_PC_35mmx12mmx5mm_2g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Knöpfe - Polycarbonat",
-    "category": "",
-    "image": "portfolio/grid/Knoepf_PC_.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "title": "Halterung - ABS & Polycarbonat",
-    "category": "Abmasse: 35mmx12mmx5mm Gewicht: 2g",
-    "image": "portfolio/grid/Rahmen_ABS_PC_35mmx12mmx5mm_2g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "title": "Elektronikgehäuse - Polycarbonat",
-    "category": "Abmasse: 145mmx85mmx20mm Gewicht: 62g",
-    "image": "portfolio/grid/Gehäuse_PC_145mmx85mmx20mm_62g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "title": "Rahmen - Polycarbonat",
-    "category": "Abmasse: 142mmx70mmx5mm Gewicht: 14g",
-    "image": "portfolio/grid/Rahmen_PC_142mmx70mmx5mm_14g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 27,
-    "title": "Fernbedienung Medizintechnik - ASA",
-    "category": "Abmasse: 145mmx55mmx15mm Gewicht: 49g",
-    "image": "portfolio/grid/Bedingung_Medizin_ASA_145mmx55mmx15mm_49g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  ,
-  {
-    "id": 28,
-    "title": "Ringverbinder - Polycarbonat",
-    "category": "Abmasse: 134mmx134mmx10mm Gewicht: 21g",
-    "image": "portfolio/grid/Ring_Staubsauger_PC_134mmx134mmx10mm_21g.png",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-  
-  
-
+{
+"items": [
+{
+"id": 1,
+"title": "Electronics Housing - Polycarbonate",
+"category": "Dimensions: 185mmx55mmx20mm Weight: 47g",
+"image": "portfolio/grid/korpus-polikarbonat-pc-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 2,
+"title": "Electronics Housing - ABS",
+"category": "Dimensions: 98mmx50mmx15mm Weight: 11g",
+"image": "portfolio/grid/kapak-prozorets-abs-shpritsovane-asak.webp",
+"groups": ["übersicht", "formenbau"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 3,
+"title": "Cover - Polycarbonate",
+"category": "Dimensions: 140mmx70mmx4mm Weight: 31g",
+"image": "portfolio/grid/kapak-pc-polikarbonat-matritsa-asak.webp",
+"groups": ["übersicht", "formenbau"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 4,
+"title": "Cover - Polyamide 66",
+"category": "Dimensions: 56mmx30mmx10mm Weight: 2g",
+"image": "portfolio/grid/kapak-poliamid-pa66-detayl-asak.webp",
+"groups": ["übersicht", "lasergravierung"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 5,
+"title": "Plug - TPE",
+"category": "Dimensions: 10mmx10mmx10mm Weight: 0.8g",
+"image": "portfolio/grid/kapak-tpe-elastomer-detayl-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 6,
+"title": "Seals - PVC",
+"category": "Dimensions: 10mmx10mmx5mm Weight: 1g",
+"image": "portfolio/grid/uplatnenie-pvc-tehnicheski-detayl-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 7,
+"title": "Seals - Soft PVC",
+"category": "Dimensions: 5mmx5mmx5mm",
+"image": "portfolio/grid/meko-uplatnenie-pvc-proizvodstvo-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 8,
+"title": "Pourer / Spout - PP",
+"category": "Dimensions: 45mmx40mmx40mm Weight: 7g",
+"image": "portfolio/grid/kapak-pp-polipropilen-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 9,
+"title": "Rotary Knob - POM",
+"category": "Dimensions: 20mmx20mmx20mm Weight: 4g",
+"image": "portfolio/grid/virtyasht-buton-pom-detayl-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 10,
+"title": "Electronics Housing - ABS",
+"category": "Dimensions: 130mmx55mmx28mm Weight: 19g",
+"image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 11,
+"title": "Socket Connection - Polycarbonate",
+"category": "Dimensions: 150mm90mmx80mm Weight: 145g",
+"image": "portfolio/grid/konektor-kontakt-pc-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 12,
+"title": "Cover - Polycarbonate",
+"category": "Dimensions: 70mmx65mmx9mm Weight: 13g",
+"image": "portfolio/grid/mini-korpus-elektronika-pc-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 13,
+"title": "Camera Mount - Polycarbonate",
+"category": "Dimensions: 140mmx65mmx40mm Weight: 31g",
+"image": "portfolio/grid/kamera-aparatura-pc-polikarbonat-asak.webp",
+"groups": ["übersicht", "formenbau"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 14,
+"title": "Electronics Housing - Polycarbonate",
+"category": "Dimensions: 95mmx80mmx20mm Weight: 52g",
+"image": "portfolio/grid/kompakten-korpus-pc-detayl-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 15,
+"title": "Window - Polycarbonate",
+"category": "Dimensions: 97mmx40mmx5mm Weight: 7g",
+"image": "portfolio/grid/prozorche-elektronika-pc-detayl-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 16,
+"title": "Electronics Housing - Polycarbonate",
+"category": "Dimensions: 145mmx85mmx30mm Weight: 35g",
+"image": "portfolio/grid/korpus-elektronika-pc-polikarbonat-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 17,
+"title": "Screw Connector with Insert - Polyamide",
+"category": "Dimensions: 45mmx40mmx35mm Weight: 41g",
+"image": "portfolio/grid/korpus-pa-poliamid-detayli-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 18,
+"title": "Electronics Housing - Polycarbonate",
+"category": "Dimensions: 50mmx50mmx17mm Weight: 9g",
+"image": "portfolio/grid/mini-korpus-pc-proizvodstvo-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 19,
+"title": "Pedals - Polyamide",
+"category": "Dimensions: 90mmx60mmx30mm Weight: 79g",
+"image": "portfolio/grid/pedali-pa-poliamid-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 20,
+"title": "Connector - Polycarbonate",
+"category": "Dimensions: 20mmx20mmx25mm Weight: 4g",
+"image": "portfolio/grid/adapter-stoyka-pc-polikarbonat-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 21,
+"title": "Electronics Housing Mount - Polycarbonate",
+"category": "Dimensions: 200mmx55mmx15mm Weight: 44g",
+"image": "portfolio/grid/stoyka-elektronika-pc-polikarbonat-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 22,
+"title": "Frame Holder - ABS & Polycarbonate",
+"category": "Dimensions: 35mmx12mmx5mm Weight: 2g",
+"image": "portfolio/grid/darzhach-ramka-abs-pc-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 23,
+"title": "Buttons - Polycarbonate",
+"category": "Custom Made",
+"image": "portfolio/grid/butoni-pc-polikarbonat-proizvodstvo-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 24,
+"title": "Holder - ABS & Polycarbonate",
+"category": "Dimensions: 35mmx12mmx5mm Weight: 2g",
+"image": "portfolio/grid/ramka-abs-pc-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 25,
+"title": "Electronics Housing - Polycarbonate",
+"category": "Dimensions: 145mmx85mmx20mm Weight: 62g",
+"image": "portfolio/grid/korpus-pc-shpricforma-matritsa-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 26,
+"title": "Frame - Polycarbonate",
+"category": "Dimensions: 142mmx70mmx5mm Weight: 14g",
+"image": "portfolio/grid/ramka-pc-polikarbonat-matritsa-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 27,
+"title": "Medical Remote Control - ASA",
+"category": "Dimensions: 145mmx55mmx15mm Weight: 49g",
+"image": "portfolio/grid/meditsinsko-upravlenie-asa-plastmasa-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 28,
+"title": "Ring Connector - Polycarbonate",
+"category": "Dimensions: 134mmx134mmx10mm Weight: 21g",
+"image": "portfolio/grid/prasten-prahosmukachka-pc-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 29,
+"title": "Bottom Cover - Polycarbonate",
+"category": "Dimensions: 140mmx70mmx4mm Weight: 31g",
+"image": "portfolio/grid/kapak-dolna-chast-pc-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 30,
+"title": "Wristband - TPE",
+"category": "Dimensions: 270mmx13mmx5mm Weight: 12g",
+"image": "portfolio/grid/kaishka-tpe-grivna-plastmasa-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 31,
+"title": "Medical Housing - ASA",
+"category": "Dimensions: 230mmx65mmx22mm Weight: 84g",
+"image": "portfolio/grid/meditsinski-detayl-asa-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 32,
+"title": "Sauna Electronics Lid - Polycarbonate",
+"category": "Dimensions: 145mmx85mmx20mm Weight: 62g",
+"image": "portfolio/grid/kapak-elektronika-sauna-pc-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 33,
+"title": "Cap / Lid - POM",
+"category": "Dimensions: 20mmx20mmx20mm Weight: 4g",
+"image": "portfolio/grid/kapak-pom-izrabotka-detayli-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 34,
+"title": "Dispenser - Polypropylene",
+"category": "Dimensions: 80mm diameter Weight: 3g",
+"image": "portfolio/grid/dozator-pp-plastmasovo-izdelie-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 35,
+"title": "Protection Housing - ABS",
+"category": "Dimensions: 130mmx55mmx28mm Weight: 19g",
+"image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 36,
+"title": "Viewing Window - Polycarbonate",
+"category": "Dimensions: 97mmx40mmx5mm Weight: 7g",
+"image": "portfolio/grid/prozrachno-prozorche-pc-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 37,
+"title": "Large Housing - Polycarbonate",
+"category": "Dimensions: 140mmx65mmx70mm Weight: 45g",
+"image": "portfolio/grid/korpus-elektronika-shpritsovane-sofia-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 38,
+"title": "Precision Housing - Polycarbonate",
+"category": "Dimensions: 65mmx45mmx60mm Weight: 35g",
+"image": "portfolio/grid/korpus-pribor-pc-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 39,
+"title": "Longitudinal Housing - Polystyrene",
+"category": "Dimensions: 210mmx22mmx10mm Weight: 22g",
+"image": "portfolio/grid/korpus-ps-polistirol-shpritsovane-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 40,
+"title": "Small Housing - Polystyrene",
+"category": "Dimensions: 63mmx38mmx12mm Weight: 12g",
+"image": "portfolio/grid/mini-korpus-ps-detayl-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 41,
+"title": "Camera Mount - Polyamide",
+"category": "Dimensions: 110mmx30mmx10mm Weight: 7g",
+"image": "portfolio/grid/stoyka-kamera-pa-poliamid-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 42,
+"title": "Fixation Holder - Polycarbonate",
+"category": "Dimensions: 20mmx10mmx10mm Weight: 1g",
+"image": "portfolio/grid/mini-stoyka-pc-plastmasa-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 43,
+"title": "Combo Mount - POM & PVC",
+"category": "Dimensions: 42mmx42mmx20mm Weight: 7g",
+"image": "portfolio/grid/stoyka-pom-pvc-detayl-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 44,
+"title": "Large Frame - ABS",
+"category": "Dimensions: 210mmx152mmx55mm Weight: 142g",
+"image": "portfolio/grid/ramka-abs-proizvodstvo-detayli-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 45,
+"title": "Special Frame - BayBlend (PC/ABS)",
+"category": "Material: BayBlend",
+"image": "portfolio/grid/ramka-bayblend-pc-abs-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 46,
+"title": "Industrial Frame - Polyamide",
+"category": "Dimensions: 142mmx140mmx35mm Weight: 115g",
+"image": "portfolio/grid/ramka-pa-poliamid-izrabotka-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+},
+{
+"id": 47,
+"title": "Gear - Polyamide",
+"category": "Dimensions: 40mmx40mmx45mm Weight: 7g",
+"image": "portfolio/grid/zabno-kolelo-pa-poliamid-asak.webp",
+"groups": ["übersicht", "spritzguss"],
+"links": [
+{
+"id": 1,
+"icon": "search-1",
+"link": "!#"
+},
+{
+"id": 2,
+"icon": "link-alt",
+"link": "!#"
+}
+]
+}
 ]
 }
