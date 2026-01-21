@@ -6,7 +6,7 @@ import Portfolio from "../components/Portfolio/PortfolioASAK";
 
 import ClientsBrand from "../components/ClientsBrand/ClientsBrand";
 
-
+import heroImage from "../assets/images/avtomatizirano-shpritsovane-plastmasi-asak.webp"
 
 
 import FooterASAK from "../components/Footer/FooterASAK";
@@ -14,7 +14,7 @@ import HeaderASAK from "../components/Header/HeaderASAK";
 
 import { useTranslation } from "react-i18next";
 
-import TitelASAK from "../components/PageTitle/TitelASAK";
+import TitelASAK from "../components/PageTitle/TitelASAK2";
 import { Helmet } from "react-helmet";
 
 
@@ -51,6 +51,7 @@ const asakhome = () => {
 
     <HeaderASAK />
     <TitelASAK title={t('title')} 
+    imageUrl={heroImage}
   tagline={t('tagline')}
   imageName="avtomatizirano-shpritsovane-plastmasi-asak.webp" // Der Name aus der Tabelle
   altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an

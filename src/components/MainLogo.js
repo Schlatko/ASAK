@@ -6,24 +6,60 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import für schnelles Navigieren
 import { useTranslation } from 'react-i18next'; // Um die Sprache zu erkennen
 
-const MainLogo = ({ collapse, showMenu }) => {
+const MainLogo = ({ fixed }) => {
   const { i18n } = useTranslation();
+  const homePath = `/${i18n.language || 'bg'}`;
 
-  // Wir bauen den Pfad dynamisch, z.B. /de oder /bg
-  const homePath = `/${i18n.language}`;
+  // Dynamisches Laden des Logos. Wir nutzen den Pfad, der in deiner Umgebung funktioniert.
+  let logoImg;
+  try {
+    // Versuch 1: Interner Assets-Ordner (Webpack/CRA)
+    logoImg = require("../assets/images/mainLogoAsak.png");
+  } catch (e) {
+    // Versuch 2: Public Ordner (Fallschirm)
+    logoImg = "/assets/images/mainLogoAsak.png";
+  }
 
   return (
     <div className="navbar-header">
-      <div className="logo">
-        {/* Wir ersetzen <a> durch <Link> für Single Page Application Feeling */}
-        <Link to={homePath}>
-          <img className="logo logo-display" src={logoWhite} alt="ASAK Logo" />
-          <img className="logo logo-scrolled" src={logoBlack} alt="ASAK Logo" />
+      <div className="logo min-w-[140px] flex items-center h-full">
+        <Link to={homePath} className="navbar-brand block">
+          {/* WICHTIG: Wir entfernen die harten display-none Styles. 
+            Stattdessen nutzen wir opacity oder lassen die Template-CSS Klassen arbeiten.
+          */}
+          <img 
+            className={`logo-display transition-opacity duration-300 ${fixed ? 'opacity-0 absolute' : 'opacity-100 relative'}`} 
+            src={logoImg} 
+            alt="ASAK Logo" 
+            width="140" 
+            height="40"
+            style={{ 
+                maxWidth: '140px',
+                height: 'auto',
+                objectFit: 'contain',
+                display: 'block'
+            }} 
+          />
+          <img 
+            className={`logo-scrolled transition-opacity duration-300 ${fixed ? 'opacity-100 relative' : 'opacity-0 absolute'}`} 
+            src={logoImg} 
+            alt="ASAK Logo" 
+            width="140" 
+            height="40"
+            style={{ 
+                maxWidth: '140px',
+                height: 'auto',
+                objectFit: 'contain',
+                display: 'block'
+            }} 
+          />
         </Link>
       </div>
     </div>
   );
 };
+
+
 
 
 export default MainLogo;

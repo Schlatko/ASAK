@@ -22,7 +22,7 @@ const PageTitleService = ({ title, tagline, imageName, altText }) => {
 
   return (
     <section
-      className="title-hero-bg"
+      className="title-hero-bg service-cover-bg2"
       data-stellar-background-ratio="0.2"
       style={{
         // Dynamisches Hintergrundbild setzen
@@ -40,7 +40,7 @@ const PageTitleService = ({ title, tagline, imageName, altText }) => {
       )}
 
       <div className="container">
-        <div className="page-title text-center">
+        <div className="page-title text-center col-sm-8 hero-text white-color text-center">
           <h1 className="white-color">{title}</h1>
           <h4 className="text-uppercase mt-30 white-color">{tagline}</h4>
         </div>

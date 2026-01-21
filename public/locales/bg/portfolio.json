@@ -1,897 +1,427 @@
 {
-"items": [
-{
-"id": 1,
-"title": "Корпус за електроника - Поликарбонат",
-"category": "Размери: 185mmx55mmx20mm Тегло: 47g",
-"image": "portfolio/grid/korpus-polikarbonat-pc-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 2,
-"title": "Корпус за електроника - ABS",
-"category": "Размери: 98mmx50mmx15mm Тегло: 11g",
-"image": "portfolio/grid/kapak-prozorets-abs-shpritsovane-asak.webp",
-"groups": ["übersicht", "formenbau"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 3,
-"title": "Капак - Поликарбонат",
-"category": "Размери: 140mmx70mmx4mm Тегло: 31g",
-"image": "portfolio/grid/kapak-pc-polikarbonat-matritsa-asak.webp",
-"groups": ["übersicht", "formenbau"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 4,
-"title": "Капак - Полиамид 66",
-"category": "Размери: 56mmx30mmx10mm Тегло: 2g",
-"image": "portfolio/grid/kapak-poliamid-pa66-detayl-asak.webp",
-"groups": ["übersicht", "lasergravierung"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 5,
-"title": "Тапа - TPE",
-"category": "Размери: 10mmx10mmx10mm Тегло: 0,8g",
-"image": "portfolio/grid/kapak-tpe-elastomer-detayl-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 6,
-"title": "Уплътнения - PVC",
-"category": "Размери: 10mmx10mmx5mm Тегло: 1g",
-"image": "portfolio/grid/uplatnenie-pvc-tehnicheski-detayl-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 7,
-"title": "Уплътнения - меко PVC",
-"category": "Размери: 5mmx5mmx5mm",
-"image": "portfolio/grid/meko-uplatnenie-pvc-proizvodstvo-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 8,
-"title": "Дозатор / Накрайник - PP",
-"category": "Размери: 45mmx40mmx40mm Тегло: 7g",
-"image": "portfolio/grid/kapak-pp-polipropilen-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 9,
-"title": "Въртящ бутон - POM",
-"category": "Размери: 20mmx20mmx20mm Тегло: 4g",
-"image": "portfolio/grid/virtyasht-buton-pom-detayl-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 10,
-"title": "Корпус за електроника - ABS",
-"category": "Размери: 130mmx55mmx28mm Тегло: 19g",
-"image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 11,
-"title": "Контактен елемент - Поликарбонат",
-"category": "Размери: 150mm90mmx80mm Тегло: 145g",
-"image": "portfolio/grid/konektor-kontakt-pc-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 12,
-"title": "Капак - Поликарбонат",
-"category": "Размери: 70mmx65mmx9mm Тегло: 13g",
-"image": "portfolio/grid/mini-korpus-elektronika-pc-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 13,
-"title": "Стойка за камера - Поликарбонат",
-"category": "Размери: 140mmx65mmx40mm Тегло: 31g",
-"image": "portfolio/grid/kamera-aparatura-pc-polikarbonat-asak.webp",
-"groups": ["übersicht", "formenbau"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 14,
-"title": "Корпус за електроника - Поликарбонат",
-"category": "Размери: 95mmx80mmx20mm Тегло: 52g",
-"image": "portfolio/grid/kompakten-korpus-pc-detayl-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 15,
-"title": "Прозорче - Поликарбонат",
-"category": "Размери: 97mmx40mmx5mm Тегло: 7g",
-"image": "portfolio/grid/prozorche-elektronika-pc-detayl-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 16,
-"title": "Корпус за електроника - Поликарбонат",
-"category": "Размери: 145mmx85mmx30mm Тегло: 35g",
-"image": "portfolio/grid/korpus-elektronika-pc-polikarbonat-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 17,
-"title": "Винтов съединител с вложка - Полиамид",
-"category": "Размери: 45mmx40mmx35mm Тегло: 41g",
-"image": "portfolio/grid/korpus-pa-poliamid-detayli-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 18,
-"title": "Корпус за електроника - Поликарбонат",
-"category": "Размери: 50mmx50mmx17mm Тегло: 9g",
-"image": "portfolio/grid/mini-korpus-pc-proizvodstvo-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 19,
-"title": "Педали - Полиамид",
-"category": "Размери: 90mmx60mmx30mm Тегло: 79g",
-"image": "portfolio/grid/pedali-pa-poliamid-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 20,
-"title": "Съединител - Поликарбонат",
-"category": "Размери: 20mmx20mmx25mm Тегло: 4g",
-"image": "portfolio/grid/adapter-stoyka-pc-polikarbonat-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 21,
-"title": "Държач за корпус - Поликарбонат",
-"category": "Размери: 200mmx55mmx15mm Тегло: 44g",
-"image": "portfolio/grid/stoyka-elektronika-pc-polikarbonat-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 22,
-"title": "Държач за рамка - ABS и Поликарбонат",
-"category": "Размери: 35mmx12mmx5mm Тегло: 2g",
-"image": "portfolio/grid/darzhach-ramka-abs-pc-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 23,
-"title": "Бутони - Поликарбонат",
-"category": "Специална изработка",
-"image": "portfolio/grid/butoni-pc-polikarbonat-proizvodstvo-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 24,
-"title": "Държач - ABS и Поликарбонат",
-"category": "Размери: 35mmx12mmx5mm Тегло: 2g",
-"image": "portfolio/grid/ramka-abs-pc-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 25,
-"title": "Корпус за електроника - Поликарбонат",
-"category": "Размери: 145mmx85mmx20mm Тегло: 62g",
-"image": "portfolio/grid/korpus-pc-shpricforma-matritsa-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 26,
-"title": "Рамка - Поликарбонат",
-"category": "Размери: 142mmx70mmx5mm Тегло: 14g",
-"image": "portfolio/grid/ramka-pc-polikarbonat-matritsa-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 27,
-"title": "Дистанционно за мед. техника - ASA",
-"category": "Размери: 145mmx55mmx15mm Тегло: 49g",
-"image": "portfolio/grid/meditsinsko-upravlenie-asa-plastmasa-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 28,
-"title": "Пръстеновиден съединител - Поликарбонат",
-"category": "Размери: 134mmx134mmx10mm Тегло: 21g",
-"image": "portfolio/grid/prasten-prahosmukachka-pc-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 29,
-"title": "Капак (долна част) - Поликарбонат",
-"category": "Размери: 140mmx70mmx4mm Тегло: 31g",
-"image": "portfolio/grid/kapak-dolna-chast-pc-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 30,
-"title": "Каишка - TPE",
-"category": "Размери: 270mmx13mmx5mm Тегло: 12g",
-"image": "portfolio/grid/kaishka-tpe-grivna-plastmasa-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 31,
-"title": "Корпус за мед. техника - ASA",
-"category": "Размери: 230mmx65mmx22mm Тегло: 84g",
-"image": "portfolio/grid/meditsinski-detayl-asa-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 32,
-"title": "Капак за сауна електроника - Поликарбонат",
-"category": "Размери: 145mmx85mmx20mm Тегло: 62g",
-"image": "portfolio/grid/kapak-elektronika-sauna-pc-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 33,
-"title": "Затваряща капачка - POM",
-"category": "Размери: 20mmx20mmx20mm Тегло: 4g",
-"image": "portfolio/grid/kapak-pom-izrabotka-detayli-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 34,
-"title": "Дозатор - Полипропилен",
-"category": "Размери: 80mm диаметър Тегло: 3g",
-"image": "portfolio/grid/dozator-pp-plastmasovo-izdelie-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 35,
-"title": "Защитен корпус - ABS",
-"category": "Размери: 130mmx55mmx28mm Тегло: 19g",
-"image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 36,
-"title": "Прозрачно прозорче - Поликарбонат",
-"category": "Размери: 97mmx40mmx5mm Тегло: 7g",
-"image": "portfolio/grid/prozrachno-prozorche-pc-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 37,
-"title": "Голям корпус - Поликарбонат",
-"category": "Размери: 140mmx65mmx70mm Тегло: 45g",
-"image": "portfolio/grid/korpus-elektronika-shpritsovane-sofia-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 38,
-"title": "Прецизен корпус - Поликарбонат",
-"category": "Размери: 65mmx45mmx60mm Тегло: 35g",
-"image": "portfolio/grid/korpus-pribor-pc-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 39,
-"title": "Продълговат корпус - Полистирол",
-"category": "Размери: 210mmx22mmx10mm Тегло: 22g",
-"image": "portfolio/grid/korpus-ps-polistirol-shpritsovane-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 40,
-"title": "Малък корпус - Полистирол",
-"category": "Размери: 63mmx38mmx12mm Тегло: 12g",
-"image": "portfolio/grid/mini-korpus-ps-detayl-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 41,
-"title": "Стойка за камера - Полиамид",
-"category": "Размери: 110mmx30mmx10mm Тегло: 7g",
-"image": "portfolio/grid/stoyka-kamera-pa-poliamid-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 42,
-"title": "Фиксиращ държач - Поликарбонат",
-"category": "Размери: 20mmx10mmx10mm Тегло: 1g",
-"image": "portfolio/grid/mini-stoyka-pc-plastmasa-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 43,
-"title": "Комбинирана стойка - POM и PVC",
-"category": "Размери: 42mmx42mmx20mm Тегло: 7g",
-"image": "portfolio/grid/stoyka-pom-pvc-detayl-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 44,
-"title": "Голяма рамка - ABS",
-"category": "Размери: 210mmx152mmx55mm Тегло: 142g",
-"image": "portfolio/grid/ramka-abs-proizvodstvo-detayli-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 45,
-"title": "Специална рамка - BayBlend (PC/ABS)",
-"category": "Материал: BayBlend",
-"image": "portfolio/grid/ramka-bayblend-pc-abs-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 46,
-"title": "Индустриална рамка - Полиамид",
-"category": "Размери: 142mmx140mmx35mm Тегло: 115g",
-"image": "portfolio/grid/ramka-pa-poliamid-izrabotka-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-},
-{
-"id": 47,
-"title": "Зъбно колело - Полиамид",
-"category": "Размери: 40mmx40mmx45mm Тегло: 7g",
-"image": "portfolio/grid/zabno-kolelo-pa-poliamid-asak.webp",
-"groups": ["übersicht", "spritzguss"],
-"links": [
-{
-"id": 1,
-"icon": "search-1",
-"link": "!#"
-},
-{
-"id": 2,
-"icon": "link-alt",
-"link": "!#"
-}
-]
-}
-]
+  "items": [
+    {
+      "id": 1,
+      "title": "Корпус за електроника - Поликарбонат",
+      "category": "Размери: 185mmx55mmx20mm Тегло: 47g",
+      "image": "portfolio/grid/korpus-polikarbonat-pc-asak.webp",
+      "altText": "Прецизно шприцоване на корпус за електроника от поликарбонат - АСАК София",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 2,
+      "title": "Корпус за електроника - ABS",
+      "category": "Размери: 98mmx50mmx15mm Тегло: 11g",
+      "image": "portfolio/grid/kapak-prozorets-abs-shpritsovane-asak.webp",
+      "altText": "Изработка на ABS капак за електроника чрез шприцоване под налягане",
+      "groups": ["übersicht", "formenbau"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 3,
+      "title": "Капак - Поликарбонат",
+      "category": "Размери: 140mmx70mmx4mm Тегло: 31g",
+      "image": "portfolio/grid/kapak-pc-polikarbonat-matritsa-asak.webp",
+      "altText": "Капак от поликарбонат, произведен с високопрецизна матрица от АСАК",
+      "groups": ["übersicht", "formenbau"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 4,
+      "title": "Капак - Полиамид 66",
+      "category": "Размери: 56mmx30mmx10mm Тегло: 2g",
+      "image": "portfolio/grid/kapak-poliamid-pa66-detayl-asak.webp",
+      "altText": "Технически детайл от полиамид PA66 с лазерно гравиране",
+      "groups": ["übersicht", "lasergravierung"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 5,
+      "title": "Тапа - TPE",
+      "category": "Размери: 10mmx10mmx10mm Тегло: 0,8g",
+      "image": "portfolio/grid/kapak-tpe-elastomer-detayl-asak.webp",
+      "altText": "Еластомерна тапа TPE, шприцована за индустриални приложения",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 6,
+      "title": "Уплътнения - PVC",
+      "category": "Размери: 10mmx10mmx5mm Тегло: 1g",
+      "image": "portfolio/grid/uplatnenie-pvc-tehnicheski-detayl-asak.webp",
+      "altText": "PVC уплътнения за технически изделия, шприцовани в София",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 7,
+      "title": "Уплътнения - меко PVC",
+      "category": "Размери: 5mmx5mmx5mm",
+      "image": "portfolio/grid/meko-uplatnenie-pvc-proizvodstvo-asak.webp",
+      "altText": "Производство на меки PVC уплътнители за индустрията",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 8,
+      "title": "Дозатор / Накрайник - PP",
+      "category": "Размери: 45mmx40mmx40mm Тегло: 7g",
+      "image": "portfolio/grid/kapak-pp-polipropilen-shpritsovane-asak.webp",
+      "altText": "Шприцоване на полипропиленов дозатор за хранителната индустрия",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 9,
+      "title": "Въртящ бутон - POM",
+      "category": "Размери: 20mmx20mmx20mm Тегло: 4g",
+      "image": "portfolio/grid/virtyasht-buton-pom-detayl-asak.webp",
+      "altText": "Детайл от POM - прецизен въртящ се бутон за апаратура",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 10,
+      "title": "Корпус за електроника - ABS",
+      "category": "Размери: 130mmx55mmx28mm Тегло: 19g",
+      "image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
+      "altText": "ABS корпус за електронни устройства, шприцован под налягане",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 11,
+      "title": "Конектор / Контакт - Поликарбонат",
+      "category": "Размери: 150mmx90mmx80mm Тегло: 145g",
+      "image": "portfolio/grid/konektor-kontakt-pc-shpritsovane-asak.webp",
+      "altText": "Шприцоване на поликарбонатен конектор за електрически системи",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 12,
+      "title": "Мини корпус за електроника - Поликарбонат",
+      "category": "Размери: 70mmx65mmx9mm Тегло: 13g",
+      "image": "portfolio/grid/mini-korpus-elektronika-pc-asak.webp",
+      "altText": "Миниатюрен поликарбонатен корпус за прецизна електроника",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 13,
+      "title": "Апаратура за камера - Поликарбонат",
+      "category": "Размери: 140mmx65mmx40mm Тегло: 31g",
+      "image": "portfolio/grid/kamera-aparatura-pc-polikarbonat-asak.webp",
+      "altText": "Елемент за камерна апаратура от поликарбонат, шприцован от АСАК",
+      "groups": ["übersicht", "formenbau"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 14,
+      "title": "Компактен корпус - Поликарбонат",
+      "category": "Размери: 95mmx80mmx20mm Тегло: 52g",
+      "image": "portfolio/grid/kompakten-korpus-pc-detayl-asak.webp",
+      "altText": "Компактен поликарбонатен корпус за индустриални приложения",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 15,
+      "title": "Прозорче за електроника - Поликарбонат",
+      "category": "Размери: 97mmx40mmx5mm Тегло: 7g",
+      "image": "portfolio/grid/prozorche-elektronika-pc-detayl-asak.webp",
+      "altText": "Прозрачно прозорче за електроника от поликарбонат - прецизна изработка",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 16,
+      "title": "Голям корпус за електроника - Поликарбонат",
+      "category": "Размери: 145mmx85mmx30mm Тегло: 35g",
+      "image": "portfolio/grid/korpus-elektronika-pc-polikarbonat-asak.webp",
+      "altText": "Голям електронен корпус от висококачествен поликарбонат",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 17,
+      "title": "Корпус с вложка - Полиамид",
+      "category": "Размери: 45mmx40mmx35mm Тегло: 41g",
+      "image": "portfolio/grid/korpus-pa-poliamid-detayli-asak.webp",
+      "altText": "Шприцован полиамиден корпус с вградена метална вложка",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 18,
+      "title": "Мини корпус - Поликарбонат",
+      "category": "Размери: 50mmx50mmx17mm Тегло: 9g",
+      "image": "portfolio/grid/mini-korpus-pc-proizvodstvo-asak.webp",
+      "altText": "Мини корпус за прецизни сензори, шприцован от поликарбонат",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 19,
+      "title": "Педали - Полиамид",
+      "category": "Размери: 90mmx60mmx30mm Тегло: 79g",
+      "image": "portfolio/grid/pedali-pa-poliamid-shpritsovane-asak.webp",
+      "altText": "Шприцоване на индустриални педали от устойчив полиамид",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 20,
+      "title": "Адаптерна стойка - Поликарбонат",
+      "category": "Размери: 20mmx20mmx25mm Тегло: 4g",
+      "image": "portfolio/grid/adapter-stoyka-pc-polikarbonat-asak.webp",
+      "altText": "Поликарбонатна адаптерна стойка за техническо оборудване",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 21,
+      "title": "Стойка за електроника - Поликарбонат",
+      "category": "Размери: 200mmx55mmx15mm Тегло: 44g",
+      "image": "portfolio/grid/stoyka-elektronika-pc-polikarbonat-asak.webp",
+      "altText": "Дълга поликарбонатна стойка за монтаж на електроника",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 22,
+      "title": "Държач за рамка - ABS/PC",
+      "category": "Размери: 35mmx12mmx5mm Тегло: 2g",
+      "image": "portfolio/grid/darzhach-ramka-abs-pc-asak.webp",
+      "altText": "Държач за рамка от ABS и поликарбонат, шприцован под налягане",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 23,
+      "title": "Бутони - Поликарбонат",
+      "category": "Специализирани детайли",
+      "image": "portfolio/grid/butoni-pc-polikarbonat-proizvodstvo-asak.webp",
+      "altText": "Комплект бутони от поликарбонат за операторски панели",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 24,
+      "title": "Рамка за закрепване - ABS/PC",
+      "category": "Размери: 35mmx12mmx5mm Тегло: 2g",
+      "image": "portfolio/grid/ramka-abs-pc-shpritsovane-asak.webp",
+      "altText": "Малка рамка от ABS и поликарбонат за индустриален монтаж",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 25,
+      "title": "Корпус за матрица - Поликарбонат",
+      "category": "Размери: 145mmx85mmx20mm Тегло: 62g",
+      "image": "portfolio/grid/korpus-pc-shpricforma-matritsa-asak.webp",
+      "altText": "Поликарбонатен корпус, произведен с прецизна шприцформа",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 26,
+      "title": "Рамка - Поликарбонат",
+      "category": "Размери: 142mmx70mmx5mm Тегло: 14g",
+      "image": "portfolio/grid/ramka-pc-polikarbonat-matritsa-asak.webp",
+       "altText": "Компактен поликарбонатен корпус за техническо оборудване",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 27,
+      "title": "Мед. управление - ASA",
+      "category": "Размери: 145mmx55mmx15mm Тегло: 49g",
+      "image": "portfolio/grid/meditsinsko-upravlenie-asa-plastmasa-asak.webp",
+      "altText": "Медицинско дистанционно управление от ASA пластмаса",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 28,
+      "title": "Пръстен за прахосмукачка - Поликарбонат",
+      "category": "Размери: 134mmx134mmx10mm Тегло: 21g",
+      "image": "portfolio/grid/prasten-prahosmukachka-pc-asak.webp",
+      "altText": "Пръстеновиден детайл за прахосмукачка от поликарбонат",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 29,
+      "title": "Капак долна част - Поликарбонат",
+      "category": "Размери: 140mmx70mmx4mm Тегло: 31g",
+      "image": "portfolio/grid/kapak-dolna-chast-pc-shpritsovane-asak.webp",
+      "altText": "Долна част на поликарбонатен капак за техническо изделие",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 30,
+      "title": "Каишка / Гривна - TPE",
+      "category": "Размери: 270mmx13mmx5mm Тегло: 12g",
+      "image": "portfolio/grid/kaishka-tpe-grivna-plastmasa-asak.webp",
+      "altText": "Еластична каишка от TPE пластмаса за индустриални сензори",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 31,
+      "title": "Медицински детайл - ASA",
+      "category": "Размери: 230mmx65mmx22mm Тегло: 84g",
+      "image": "portfolio/grid/meditsinski-detayl-asa-shpritsovane-asak.webp",
+      "altText": "Висококачествен медицински детайл от ASA, шприцован в София",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 32,
+      "title": "Капак за сауна електроника - Поликарбонат",
+      "category": "Размери: 145mmx85mmx20mm Тегло: 62g",
+      "image": "portfolio/grid/kapak-elektronika-sauna-pc-asak.webp",
+      "altText": "Защитен капак за сауна електроника от термоустойчив поликарбонат",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 33,
+      "title": "Затварящ капак - POM",
+      "category": "Размери: 20mmx20mmx20mm Тегло: 4g",
+      "image": "portfolio/grid/kapak-pom-izrabotka-detayli-asak.webp",
+      "altText": "Прецизен затварящ капак от POM за механични възли",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 34,
+      "title": "Дозатор - Полипропилен",
+      "category": "Размери: 80mm Диаметър Тегло: 3g",
+      "image": "portfolio/grid/dozator-pp-plastmasovo-izdelie-asak.webp",
+      "altText": "Пластмасов дозатор от полипропилен за широко потребление",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 35,
+      "title": "Защитен корпус - ABS",
+      "category": "Размери: 130mmx55mmx28mm Тегло: 19g",
+      "image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
+      "altText": "Защитен ABS корпус за електронни платки и модули",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 36,
+      "title": "Прозрачен прозорец - Поликарбонат",
+      "category": "Размери: 97mmx40mmx5mm Тегло: 7g",
+      "image": "portfolio/grid/prozrachno-prozorche-pc-asak.webp",
+      "altText": "Кристално прозрачно прозорче от поликарбонат за дисплеи",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 37,
+      "title": "Корпус за електроника - София",
+      "category": "Размери: 140mmx65mmx70mm Тегло: 45g",
+      "image": "portfolio/grid/korpus-elektronika-shpritsovane-sofia-asak.webp",
+      "altText": "Сложен корпус за електроника, шприцован в базата на АСАК в София",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 38,
+      "title": "Корпус за прибор - Поликарбонат",
+      "category": "Размери: 65mmx45mmx60mm Тегло: 35g",
+      "image": "portfolio/grid/korpus-pribor-pc-shpritsovane-asak.webp",
+      "altText": "Поликарбонатен корпус за измервателен прибор",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 39,
+      "title": "Корпус - Полистирол",
+      "category": "Размери: 210mmx22mmx10mm Тегло: 22g",
+      "image": "portfolio/grid/korpus-ps-polistirol-shpritsovane-asak.webp",
+      "altText": "Дълъг корпус от полистирол, произведен чрез шприцоване под налягане",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 40,
+      "title": "Мини корпус - Полистирол",
+      "category": "Размери: 63mmx38mmx12mm Тегло: 12g",
+      "image": "portfolio/grid/mini-korpus-ps-detayl-asak.webp",
+      "altText": "Миниатюрен полистиролен корпус за битова техника",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 41,
+      "title": "Стойка за камера - Полиамид",
+      "category": "Размери: 110mmx30mmx10mm Тегло: 7g",
+      "image": "portfolio/grid/stoyka-kamera-pa-poliamid-asak.webp",
+      "altText": "Черна полиамидна стойка за охранителна камера",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 42,
+      "title": "Мини стойка - Поликарбонат",
+      "category": "Размери: 20mmx10mmx10mm Тегло: 1g",
+      "image": "portfolio/grid/mini-stoyka-pc-plastmasa-asak.webp",
+      "altText": "Малка стойка от поликарбонат за закрепване на сензори",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 43,
+      "title": "Стойка POM/PVC - Детайл",
+      "category": "Размери: 42mmx42mmx20mm Тегло: 7g",
+      "image": "portfolio/grid/stoyka-pom-pvc-detayl-asak.webp",
+      "altText": "Техническа стойка от POM и PVC за индустриален монтаж",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 44,
+      "title": "Рамка за производство - ABS",
+      "category": "Размери: 210mmx152mmx55mm Тегло: 142g",
+      "image": "portfolio/grid/ramka-abs-proizvodstvo-detayli-asak.webp",
+      "altText": "Голяма ABS рамка за индустриално производство",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 45,
+      "title": "Рамка BayBlend - ABS/PC",
+      "category": "Материал: BayBlend (PC+ABS)",
+      "image": "portfolio/grid/ramka-bayblend-pc-abs-asak.webp",
+      "altText": "Рамка от високотехнологичен материал BayBlend (PC+ABS)",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 46,
+      "title": "Рамка - Полиамид",
+      "category": "Размери: 142mmx140mmx35mm Тегло: 115g",
+      "image": "portfolio/grid/ramka-pa-poliamid-izrabotka-asak.webp",
+      "altText": "Индустриална рамка от полиамид, шприцована от АСАК",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 47,
+      "title": "Зъбно колело - Полиамид",
+      "category": "Размери: 40mmx40mmx45mm Тегло: 7g",
+      "image": "portfolio/grid/zabno-kolelo-pa-poliamid-asak.webp",
+      "altText": "Прецизно зъбно колело от полиамид за механични задвижвания",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    }
+  ]
 }

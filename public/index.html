@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="bg"> <!-- Standardmäßig auf BG oder DE setzen, je nach Hauptmarkt -->
+<html lang="bg">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/asaklogo.png" />
@@ -7,65 +7,83 @@
     <meta name="theme-color" content="#000000" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    <!-- Standard Meta-Tags als Fallback -->
-    <meta name="description" content="ASAK EOOD - Изработка на матрици и шприцване на пластмасови изделия в София, България." />
+    <!-- Primäre SEO Meta-Tags -->
+    <title>ASAK - Изработка на матрици и шприцване на пластмаса</title>
+    <meta name="description" content="ASAK EOOD - Вашият партньор за прецизна изработка на матрици, шприцване под налягане и 3D принтиране в София, България. Над 30 години опит." />
+    <meta name="keywords" content="шприцоване, матрици, пластмаса, София, инструментална екипировка, 3D принтиране, лазерно гравиране" />
     <meta name="author" content="ASAK" />
+
+    <!-- Open Graph / Facebook (Wichtig für das Teilen von Links) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://asak-bg.com/" />
+    <meta property="og:title" content="ASAK - Индустриални решения за пластмаса и матрици" />
+    <meta property="og:description" content="Професионално шприцоване под налягане и проектиране на шприцформи в София." />
+    <meta property="og:image" content="https://asak-bg.com/asaklogo.png" />
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/asaklogo.png" />
     
-    <!-- Performance: Preconnect für externe Ressourcen -->
+    <!-- Performance-Optimierung: Vorladen kritischer Ressourcen -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Stylesheets: 'print' media hack für nicht-kritisches CSS zur Vermeidung von Render-Blocking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" media="print" onload="this.media='all'">
     
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!-- Dieser Titel wird nur angezeigt, bis React Helmet übernimmt -->
-    <title>ASAK - Изработка на матрици и шприцване</title>
-   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "ASAK - Шприцоване и матрици",
-  "image": "https://asak-bg.com/asaklogo.png",
-  "@id": "https://asak-bg.com",
-  "url": "https://asak-bg.com",
-  "telephone": "+359 88 872 4803",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Nikola Voynovski 27",
-    "addressLocality": "Sofia",
-    "postalCode": "1510",
-    "addressCountry": "BG"
-  },
-  "contactPoint": [
+    <!-- Strukturierte Daten für Google (LocalBusiness) -->
+    <script type="application/ld+json">
     {
-      "@type": "ContactPoint",
-      "telephone": "+359 88 872 4803",
-      "contactType": "technical support",
-      "areaServed": "BG",
-      "availableLanguage": ["Bulgarian"]
-    },
-    {
-      "@type": "ContactPoint",
-      "telephone": "+359 879 22 18 12",
-      "contactType": "sales",
-      "areaServed": ["BG", "DE", "AT", "CH"],
-      "availableLanguage": ["Bulgarian", "German", "English"]
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ASAK - Шприцоване и матрици",
+      "image": "https://asak-bg.com/asaklogo.png",
+      "@id": "https://asak-bg.com",
+      "url": "https://asak-bg.com",
+      "telephone": "+359 888 72 48 03",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Nikola Voynovski 27",
+        "addressLocality": "Sofia",
+        "postalCode": "1510",
+        "addressCountry": "BG"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.7102,
+        "longitude": 23.3517
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:30",
+        "closes": "17:30"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+359 888 72 48 03",
+          "contactType": "technical support",
+          "areaServed": "BG",
+          "availableLanguage": ["Bulgarian"]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+359 879 22 18 12",
+          "contactType": "sales",
+          "areaServed": ["BG", "DE", "AT", "CH"],
+          "availableLanguage": ["Bulgarian", "German", "English"]
+        }
+      ]
     }
-  ]
-}
-</script>
-
+    </script>
   </head>
   <body>
-    <!-- WICHTIG: Den Text hier ändern, damit Google keinen Warnhinweis anzeigt -->
     <noscript>
       <h1>ASAK - Изработка на матрици и шприцване</h1>
       <p>За да разгледате нашите услуги за шприцване и изработка на матрици, моля, активирайте JavaScript.</p>
     </noscript>
 
     <div class="wrapper" id="main"></div>
-
-    <!-- React Skripte werden hier automatisch beim Build eingefügt -->
   </body>
 </html>

@@ -4,7 +4,8 @@ import "aos/dist/aos.css";
 import Loader from "./../components/Loader/Loader";
 import FooterASAK from "../components/Footer/FooterASAK";
 import HeaderASAK from "../components/Header/HeaderASAK";
-import TitelASAK from "../components/PageTitle/TitelASAK";
+import TitelASAK from "../components/PageTitle/TitelASAK2";
+import heroImage from "../assets/images/uslugi-shpritsovane-plastmasa-asak.webp"
 
 import OffersASAK from "../components/Services/Construction/OffersASAK";
 import { useTranslation } from "react-i18next";
@@ -46,6 +47,7 @@ const offers = () => {
 
         <HeaderASAK />
         <TitelASAK title={t('title')} 
+         imageUrl={heroImage}
   tagline={t('tagline')}
   imageName="uslugi-shpritsovane-plastmasa-asak.webp" // Der Name aus der Tabelle
   altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an

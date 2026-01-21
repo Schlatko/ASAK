@@ -6,8 +6,8 @@ import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import LaserServices from "./detail/LaserServices";
 import LaserServicesAnw from "./detail/LaserServicesAnw";
-import TitelASAK from "../../components/PageTitle/TitelASAK";
-
+import TitelASAK from "../../components/PageTitle/TitelASAK2";
+import heroImage from "../../assets/images/lazerno-gravirane-markirane-detayli-asak.webp"
 import LaserKomplett from "../../components/WhoWeAre/LaserKomplett";
 
 import serviceOneImg from "../../assets/images/laser/pretsizno-lazerno-gravirane-asak.webp";
@@ -49,6 +49,7 @@ const spritzguss = () => {
 
         <HeaderASAK />
         <TitelASAK title={t('header')} 
+        imageUrl={heroImage}
   tagline={t('sub')}
   imageName="lazerno-gravirane-markirane-detayli-asak.webp" // Der Name aus der Tabelle
   altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an

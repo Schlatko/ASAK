@@ -4,11 +4,12 @@ import "aos/dist/aos.css";
 import Loader from "./../../components/Loader/Loader";
 import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
-import TitelASAK from "../../components/PageTitle/TitelASAK";
+import TitelASAK from "../../components/PageTitle/TitelASAK2";
 
 import SpritzServices from "./detail/SpritzServices";
 import SpritzServicesLeft from "./detail/SpritzservicesLeft";
 import SpritzServices2 from "./detail/SpritzServices2";
+import heroImage from "../../assets/images/avtomatizirano-shpritsovane-plastmasi-asak.webp"
 
 import SpritzKomplett from "../../components/WhoWeAre/SpritzKomplett";
 
@@ -53,6 +54,7 @@ const spritzguss = () => {
         <HeaderASAK />
         
         <TitelASAK title={t('header')} 
+        imageUrl={heroImage}
   tagline={t('sub')}
   imageName="avtomatizirano-shpritsovane-plastmasi-asak.webp" // Der Name aus der Tabelle
   altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an

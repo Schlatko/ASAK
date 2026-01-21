@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 import ReactGA from 'react-ga';
 
-import HeroSliderTwo from "./asakhome/HeroSliderTwo";
+import HeroSliderTwo from "./asakhome/HeroSliderOne";
 
 
 
@@ -69,9 +69,9 @@ const asakhome = () => {
      
       {/* <OurTeamThree />*/} 
       <ContactDetails />
-      <section className="pt-0 pb-0 map-section">
+   { /*  <section className="pt-0 pb-0 map-section">
         <Map classAppend="wide" />
-      </section>
+      </section> */}
 
       <FooterASAK />
     </Suspense>

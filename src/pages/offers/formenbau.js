@@ -6,8 +6,8 @@ import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import FormenServices from "./detail/FormenServices";
 import FormenServicesLeft from "./detail/FormenServicesLeft";
-import TitelASAK from "../../components/PageTitle/TitelASAK";
-
+import TitelASAK from "../../components/PageTitle/TitelASAK2";
+import heroImage from "../../assets/images/proektirane-shpricformi-matrici-asak2.webp"
 import FormenbauKomplett from "../../components/WhoWeAre/FormenbauKomplett";
 
 import material from "../../assets/images/Formenbau/instrumentalna-ekipirovka-sofia-asak.webp";
@@ -50,6 +50,7 @@ const spritzguss = () => {
         <HeaderASAK />
         <TitelASAK title={t('title')} 
   tagline={t('tagline')}
+  imageUrl={heroImage}
   imageName="proektirane-shpricformi-matrici-asak.webp" // Der Name aus der Tabelle
   altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
 />

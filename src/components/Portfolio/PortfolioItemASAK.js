@@ -6,6 +6,7 @@ import Icofont from "react-icofont";
 const PortfolioItem = ({
   title,
   category,
+  altText,
   image,
   links,
   space,
@@ -44,7 +45,7 @@ const PortfolioItem = ({
             }
           >
             <div className="dark-overlay"></div>
-            <img src={require("../../assets/images/" + image)} width={1600} height={1200} alt="" />
+            <img src={require("../../assets/images/" + image)} width={1600} height={1200} loading="lazy" alt={altText || title} />
            
             <div className="portfolio-wrap">
             

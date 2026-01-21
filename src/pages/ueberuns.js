@@ -46,9 +46,9 @@ const ContactSimple = () => {
 
      
 
-      <section className="pt-0 pb-0 map-section">
+      {/*<section className="pt-0 pb-0 map-section">
         <Map classAppend="wide" />
-      </section>
+      </section>*/}
       
       <FooterASAK />
     </Loader>

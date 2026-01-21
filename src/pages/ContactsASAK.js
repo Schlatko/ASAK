@@ -1,6 +1,7 @@
 import React from "react";
 import Loader from "../components/Loader/Loader";
-import PageTitleContact from "../components/PageTitle/PageTitleContact";
+import TitelASAK from "../components/PageTitle/TitelASAK2";
+import heroImage from "../assets/images/avtomatizirano-shpritsovane-plastmasi-asak.webp"
 import ContactDetails from "./contact/ContactDetails";
 import HeaderASAK from "../components/Header/HeaderASAK";
 import Map from "../components/Maps/Gmap";
@@ -10,7 +11,7 @@ import { useTranslation } from "react-i18next";
 
 const ContactSimple = () => {
   // 2. i18n hier definieren
-  const { i18n } = useTranslation();
+  const {t,  i18n } = useTranslation('cont');
 
   // 3. return() verwenden
   return (
@@ -36,7 +37,12 @@ const ContactSimple = () => {
 
       <HeaderASAK />
       
-      <PageTitleContact />
+      <TitelASAK title={t('title')} 
+    imageUrl={heroImage}
+  tagline={t('tagline')}
+  imageName="avtomatizirano-shpritsovane-plastmasi-asak.webp" // Der Name aus der Tabelle
+  altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an
+/> 
       <ContactDetails />
 
       <section className="pt-0 pb-0 map-section">

@@ -6,7 +6,7 @@ import FooterASAK from "../../components/Footer/FooterASAK";
 import HeaderASAK from "../../components/Header/HeaderASAK";
 import ProtoServices from "./detail/ProtoServices";
 import TitelASAK from "../../components/PageTitle/TitelASAK";
-
+import heroImage from "../../assets/images/3d-printirane-prototipirane-sofia-asak.webp"
 import PrototypenKomplett from "../../components/WhoWeAre/PrototypenKomplett";
 
 import serviceOneImg from "../../assets/images/Prototypen/3d-modelirane-plastmasovi-prototipi-asak.webp";
@@ -47,6 +47,7 @@ const spritzguss = () => {
 
         <HeaderASAK />
          <TitelASAK title={t('header')} 
+           imageUrl={heroImage}
   tagline={t('sub')}
   imageName="3d-printirane-prototipirane-sofia-asak.webp" // Der Name aus der Tabelle
   altText={t('alt_text')} // Den Alt-Text legst du in deinen i18n Dateien an

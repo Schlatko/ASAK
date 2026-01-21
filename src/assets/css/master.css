@@ -437,7 +437,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 }
 
 .parallax-bg-17 {
-    background: url(../images/background/ASAKBGBes.png) center 0 no-repeat;
+  /*  background: url(../images/background/ASAKBGBes.png) center 0 no-repeat;*/
     background-size: cover;
 }
 
