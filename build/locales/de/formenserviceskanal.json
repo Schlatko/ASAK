@@ -1,21 +1,46 @@
-{
+{   "head": "Unser Maschinenpark im Formenbau",
+    "desc": "Unser Maschinenpark bietet vielfältige Möglichkeiten für präzise und effiziente Fertigungslösungen. Mit hochmodernen Bearbeitungsverfahren stellen wir sicher, dass jedes Werkzeug höchsten Qualitätsansprüchen gerecht wird.",
+    "desc2": "",
     "services":[
-    {
-      "id": 1,
-      "icon": "test-tube-alt",
-      "title": "Kaltkanalsystem",
-      "text": "Bei Standardanwendungen und wenn keine besondere Anforderung an die Präzision der Teilezuführung besteht.",
-      "text2": "Bei einem Kaltkanalsystem erfolgt die Einspritzung des geschmolzenen Kunststoffmaterials über ein Anguss- und Einspritzsystem, das sich außerhalb der eigentlichen Form befindet. Nach dem Einspritzen des Materials wird der Angusskanal entfernt, und das Teil wird von den Schiebern der Form freigegeben.",
-      
-      "text3": "Beispiel: Flaschenverschlüsse, bei denen die Position des Eingusses nicht entscheidend für die Funktionalität ist."
-    },
+      {
+        "id": 1,
+        "icon": "test-tube-alt",
+        
+        "title": "Senk- und Drahterodieren",
+        "text1": "Unser Unternehmen verfügt über umfassende Erfahrung in der Bearbeitung präziser und komplexer Geometrien mithilfe modernster Draht- und Senkerodiertechnologien.",
+        "text": [
+          {
+            
+            "test": "Charmilles Roboform und Charmilles Robofil"
+  
+          }
+        ]},
+    
     {
       "id": 2,
       "icon": "",
-      "title": "Heißkanalsystem",
-      "text": "Bei mittleren bis hohen Stückzahlen.",
-      "text2": "Heißkanalsysteme werden oft bei hochpräzisen Anwendungen eingesetzt, bei denen eine genaue Steuerung des Materialflusses erforderlich ist, um Angüsse zu minimieren und Materialverschwendung zu reduzieren.",
-      "text3": "Beispiel: Elektronikgehäuse, bei denen präzise Eingüsse für die Montage von Komponenten erforderlich sind."
-    }
+      "title": "Fräsen",
+      "text1": "Unsere Hauptmaschinen für die Herstellung von Spritzgusswerkzeugen sind 3D-CNC-Fräsmaschinen. Die 3D-Modelle werden mit der Software PTC Creo erstellt, die gleichzeitig auch die Steuerung der CNC-Maschinen ermöglicht.",
+     "text": [
+          {
+            
+            "test": "Deckel"
+  
+          }
+        ]},
+        {
+          "id": 3,
+          "icon": "",
+          "title": "Schleifen",
+          "text1": "Für das Erzielen präziser und makelloser Oberflächen setzen wir auf eine hochwertige Flachschleifmaschine.",
+         "text": [
+              {
+                
+                "test": "Blohm"
+      
+              }
+            ]}
+    
+    
 ]
 }

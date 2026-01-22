@@ -1,0 +1,86 @@
+{"header":
+
+[
+   
+    {
+        "id": 2,
+        "title": "Start",
+        "link": "/ASAK/",
+        "megaMenu": false,
+        "sub": false, 
+        "subMenu": [
+            {
+                "id": 2.1,
+                "title": "Empty",
+                "link": "/about"
+               
+            }]
+    },
+    {
+        "id": 3,
+        "title": "Services",
+        "link": "/ASAK/offers",
+        "megaMenu": false,
+        "sub": true, 
+        "subMenu": [
+            {
+                "id": 3.1,
+                "title": "Mould making",
+                "link": "/formenbau"
+            },
+            {
+                "id": 3.2,
+                "title": "Injection moulding",
+                "link": "/spritzguss"
+            },
+            {
+                "id": 3.3,
+                "title": "3D printing & prototypes",
+                "link": "/prototypen"
+            },
+            {
+                "id": 3.4,
+                "title": "Dreh-, Bohr-, & Fräsarbeiten",
+                "link": "/dbf"
+            }
+            ,
+            {
+                "id": 3.5,
+                "title": "Laser labelling",
+                "link": "/laser"
+            }
+                 
+        ]  
+    },
+    {
+        "id": 4,
+        "title": "RefereReferencesnzen",
+        "link": "/ASAK/referenzen",
+        "megaMenu": false,
+        "sub": false
+       
+    },
+    {
+        "id": 5,
+        "title": "About us",
+        "link": "/ASAK/Contact",
+        "megaMenu": false,
+        "sub": false, 
+        "subMenu": [
+            {
+                "id": 5.1,
+                "title": "Contact form",
+                "link": "/contact"
+            }
+        ]  
+    },
+    {
+        "id": 6,
+        "title": "Contact",
+        "link": "/ASAK/contact",
+        "megaMenu": false,
+        "sub": false
+         
+    }
+]
+}

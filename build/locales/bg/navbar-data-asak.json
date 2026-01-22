@@ -5,7 +5,7 @@
         {
             "id": 2,
             "title": "Начало",
-            "link": "/ASAK/",
+            "link": "/bg",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -19,35 +19,30 @@
         {
             "id": 3,
             "title": "Услуги",
-            "link": "/ASAK/offers",
+            "link": "/bg/uslugi",
             "megaMenu": false,
             "sub": true, 
             "subMenu": [
                 {
                     "id": 3.1,
                     "title": "Шприцформи",
-                    "link": "/formenbau"
+                    "link": "/bg/izrabotka-na-matrici"
                 },
                 {
                     "id": 3.2,
                     "title": "Шприцване на пластмасови изделия",
-                    "link": "/spritzguss"
+                    "link": "/bg/shpritsovane"
                 },
                 {
                     "id": 3.3,
                     "title": "3D принтиране и прототипи",
-                    "link": "/prototypen"
-                },
-                {
-                    "id": 3.4,
-                    "title": "Механично металообработване",
-                    "link": "/dbf"
-                } 
+                    "link": "/bg/3d-printirane"
+                }
                 ,
                 {
                     "id": 3.5,
                     "title": "Лазерно гравиране",
-                    "link": "/laser"
+                    "link": "/bg/lazerno-gravirane"
                 }
                
             ]  
@@ -55,7 +50,7 @@
         {
             "id": 4,
             "title": "Референции",
-            "link": "/ASAK/referenzen",
+            "link": "/bg/referentsii",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
@@ -75,21 +70,21 @@
         {
             "id": 5,
             "title": "За нас",
-            "link": "/ASAK/ueberuns",
+            "link": "/bg/za-nas",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [
                 {
                     "id": 5.1,
                     "title": "Kontakt Formular",
-                    "link": "/contact"
+                    "link": "/bg/contact"
                 }
             ]  
         },
         {
             "id": 6,
             "title": "Контатки",
-            "link": "/ASAK/contact",
+            "link": "/bg/kontakti",
             "megaMenu": false,
             "sub": false, 
             "subMenu": [

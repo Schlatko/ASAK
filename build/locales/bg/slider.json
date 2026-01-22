@@ -1,20 +1,21 @@
 {"slider":[
   {
     "id": 1,
-    "title": "Изработване на пластмасови изделия и матрици",
-    "tagline": "Ефициентна обработка на пластмаси - индивидуални решения за Вашите изисквания.",
-    "image": "slides/GranulatBG.png",
+    "title": "Изработване на пластмасови изделия и шприцформи",
+    "tagline": "Обработка на пластмаси - индивидуални решения за Вашите изисквания.",
+    "image": "slides/shpritsovane-matrici-sofia-asak4.webp",
+    "alt": "Шприцоване на пластмаса и производство на матрици в София - АСАК",
     "buttons": [
       {
         "id": 1,
         "text": "Контакти",
-        "link": "!#",
+        "link": "/bg/kontakti",
         "type": "btn-color blue btn-circle"
       },
       {
         "id": 2,
         "text": "Услуги",
-        "link": "/offers",
+        "link": "/bg/uslugi",
         "type": "btn-color blue btn-circle"
       }
     
@@ -23,19 +24,20 @@
   {
     "id": 2,
     "title": "Инженеринг и производство",
-    "tagline": "Прецизни форми за най-високите изисквания - вашият надежден партньор в изработката на пластмасови изделия",
-    "image": "slides/MoldBG.png",
+    "tagline": "Прецизни форми за най-високите изисквания - Вашият надежден партньор в изработката на пластмасови изделия",
+    "image": "slides/shpritsovane-matrici-sofia-asak2.webp",
+    "alt": "Шприцоване на пластмаса и производство на матрици в София - АСАК",
     "buttons": [
       {
         "id": 1,
         "text": "Контакти",
-        "link": "!#",
+        "link": "/bg/kontakti",
         "type": "btn-color blue btn-circle"
       },
       {
         "id": 2,
         "text": "Услуги",
-        "link": "/offers",
+        "link": "/bg/uslugi",
         "type": "btn-color blue btn-circle"
       }
     ]

@@ -1,155 +1,427 @@
-{"items": [ 
-  {
-    "id": 1,
-    "title": "Spritzgussform",
-    "category": "Heißkanal",
-    "image": "portfolio/grid/1.png",
-    "groups": ["übersicht", "formenbau"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Spritzgussmaschine",
-    "category": "Arburg",
-    "image": "portfolio/grid/2.png",
-    "groups": ["übersicht", "formenbau"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Entstehung",
-    "category": "Fräsen",
-    "image": "portfolio/grid/3.png",
-    "groups": ["übersicht", "formenbau"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Laser",
-    "category": "Gravur",
-    "image": "portfolio/grid/4.png",
-    "groups": ["übersicht", "lasergravierung"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Scarab Ring",
-    "category": "Spritzguss",
-    "image": "portfolio/grid/spritz1.jpg",
-    "groups": ["übersicht", "spritzguss"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "First Floor",
-    "category": "WEB DESIGN",
-    "image": "portfolio/grid/6.jpg",
-    "groups": ["all", "design", "web"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Flyer Design",
-    "category": "BRANDING",
-    "image": "portfolio/grid/7.jpg",
-    "groups": ["all", "design", "branding"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Card Mocks",
-    "category": "PRINT DESIGN",
-    "image": "portfolio/grid/8.jpg",
-    "groups": ["all", "design", "print"],
-    "links": [
-      {
-        "id": 1,
-        "icon": "search-1",
-        "link": "!#"
-      },
-      {
-        "id": 2,
-        "icon": "link-alt",
-        "link": "!#"
-      }
-    ]
-  }
-]
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Elektronikgehäuse - Polycarbonat",
+      "category": "Maße: 185mmx55mmx20mm Gewicht: 47g",
+      "image": "portfolio/grid/korpus-polikarbonat-pc-asak.webp",
+      "altText": "Präzisions-Spritzguss von Elektronikgehäusen aus Polycarbonat - ASAK Sofia",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 2,
+      "title": "Elektronikgehäuse - ABS",
+      "category": "Maße: 98mmx50mmx15mm Gewicht: 11g",
+      "image": "portfolio/grid/kapak-prozorets-abs-shpritsovane-asak.webp",
+      "altText": "Herstellung von ABS-Abdeckungen für Elektronik mittels Spritzguss",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 3,
+      "title": "Abdeckung - Polycarbonat",
+      "category": "Maße: 140mmx70mmx4mm Gewicht: 31g",
+      "image": "portfolio/grid/kapak-pc-polikarbonat-matritsa-asak.webp",
+      "altText": "Abdeckung aus Polycarbonat, gefertigt mit Hochpräzisions-Matrizen von ASAK",
+      "groups": ["übersicht", "formenbau"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 4,
+      "title": "Abdeckung - Polyamid 66",
+      "category": "Maße: 56mmx30mmx10mm Gewicht: 2g",
+      "image": "portfolio/grid/kapak-poliamid-pa66-detayl-asak.webp",
+      "altText": "Technisches Bauteil aus Polyamid PA66 mit Lasergravur",
+      "groups": ["übersicht", "lasergravierung"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 5,
+      "title": "Stopfen - TPE",
+      "category": "Maße: 10mmx10mmx10mm Gewicht: 0,8g",
+      "image": "portfolio/grid/kapak-tpe-elastomer-detayl-asak.webp",
+      "altText": "Elastomer-Stopfen TPE, im Spritzguss für industrielle Anwendungen gefertigt",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 6,
+      "title": "Dichtungen - PVC",
+      "category": "Maße: 10mmx10mmx5mm Gewicht: 1g",
+      "image": "portfolio/grid/uplatnenie-pvc-tehnicheski-detayl-asak.webp",
+      "altText": "PVC-Dichtungen für technische Produkte, hergestellt in Sofia",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 7,
+      "title": "Abdichtungen - Weich-PVC",
+      "category": "Maße: 5mmx5mmx5mm",
+      "image": "portfolio/grid/meko-uplatnenie-pvc-proizvodstvo-asak.webp",
+      "altText": "Serienfertigung von Weich-PVC-Abdichtungen für die Industrie",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 8,
+      "title": "Dosierer / Ausgießer - PP",
+      "category": "Maße: 45mmx40mmx40mm Gewicht: 7g",
+      "image": "portfolio/grid/kapak-pp-polipropilen-shpritsovane-asak.webp",
+      "altText": "Spritzguss von Polypropylen-Dosierern für die Lebensmittelindustrie",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 9,
+      "title": "Drehknopf - POM",
+      "category": "Maße: 20mmx20mmx20mm Gewicht: 4g",
+      "image": "portfolio/grid/virtyasht-buton-pom-detayl-asak.webp",
+      "altText": "Bauteil aus POM - präziser Drehknopf für technische Apparaturen",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 10,
+      "title": "Elektronikgehäuse - ABS",
+      "category": "Maße: 130mmx55mmx28mm Gewicht: 19g",
+      "image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
+      "altText": "ABS-Gehäuse für Elektronik-Module, hergestellt in Sofia",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 11,
+      "title": "Kontakt - Polycarbonat",
+      "category": "Maße: 150mmx90mmx80mm Gewicht: 145g",
+      "image": "portfolio/grid/konektor-kontakt-pc-shpritsovane-asak.webp",
+      "altText": "Spritzguss von Polycarbonat-Steckverbindern für elektrische Systeme",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 12,
+      "title": "Mini-Elektronikgehäuse - Polycarbonat",
+      "category": "Maße: 70mmx65mmx9mm Gewicht: 13g",
+      "image": "portfolio/grid/mini-korpus-elektronika-pc-asak.webp",
+      "altText": "Miniatur-Polycarbonat-Gehäuse für Präzisionselektronik",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 13,
+      "title": "Kamera-Halterung - Polycarbonat",
+      "category": "Maße: 140mmx65mmx40mm Gewicht: 31g",
+      "image": "portfolio/grid/kamera-aparatura-pc-polikarbonat-asak.webp",
+      "altText": "Halterung für Kamera-Apparaturen aus Polycarbonat",
+      "groups": ["übersicht", "formenbau"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 14,
+      "title": "Kompaktgehäuse - Polycarbonat",
+      "category": "Maße: 95mmx80mmx20mm Gewicht: 52g",
+      "image": "portfolio/grid/kompakten-korpus-pc-detayl-asak.webp",
+      "altText": "Kompaktes Polycarbonat-Gehäuse für technische Anwendungen",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 15,
+      "title": "Elektronik-Sichtfenster - Polycarbonat",
+      "category": "Maße: 97mmx40mmx5mm Gewicht: 7g",
+      "image": "portfolio/grid/prozorche-elektronika-pc-detayl-asak.webp",
+      "altText": "Präzises Sichtfenster für Elektronikgehäuse aus Polycarbonat",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 16,
+      "title": "Großes Elektronikgehäuse - Polycarbonat",
+      "category": "Maße: 145mmx85mmx30mm Gewicht: 35g",
+      "image": "portfolio/grid/korpus-elektronika-pc-polikarbonat-asak.webp",
+      "altText": "Großformatiges Elektronikgehäuse aus hochwertigem Polycarbonat",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 17,
+      "title": "Gehäuse mit Einlegeteil - Polyamid",
+      "category": "Maße: 45mmx40mmx35mm Gewicht: 41g",
+      "image": "portfolio/grid/korpus-pa-poliamid-detayli-asak.webp",
+      "altText": "Spritzguss-Polyamidgehäuse mit integriertem Metalleinlegeteil",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 18,
+      "title": "Mini-Gehäuse - Polycarbonat",
+      "category": "Maße: 50mmx50mmx17mm Gewicht: 9g",
+      "image": "portfolio/grid/mini-korpus-pc-proizvodstvo-asak.webp",
+      "altText": "Kleinstgehäuse aus Polycarbonat für industrielle Sensoren",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 19,
+      "title": "Pedale - Polyamid",
+      "category": "Maße: 90mmx60mmx30mm Gewicht: 79g",
+      "image": "portfolio/grid/pedali-pa-poliamid-shpritsovane-asak.webp",
+      "altText": "Spritzguss von belastbaren Industriepedalen aus Polyamid",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 20,
+      "title": "Adapter-Halterung - Polycarbonat",
+      "category": "Maße: 20mmx20mmx25mm Gewicht: 4g",
+      "image": "portfolio/grid/adapter-stoyka-pc-polikarbonat-asak.webp",
+      "altText": "Technische Adapter-Halterung aus Polycarbonat",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 21,
+      "title": "Elektronik-Halterung - Polycarbonat",
+      "category": "Maße: 200mmx55mmx15mm Gewicht: 44g",
+      "image": "portfolio/grid/stoyka-elektronika-pc-polikarbonat-asak.webp",
+      "altText": "Lange Polycarbonat-Halterung für die Elektronikmontage",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 22,
+      "title": "Rahmenhalterung - ABS/PC",
+      "category": "Maße: 35mmx12mmx5mm Gewicht: 2g",
+      "image": "portfolio/grid/darzhach-ramka-abs-pc-asak.webp",
+      "altText": "Halterung für Gehäuserahmen aus ABS/PC-Blend",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 23,
+      "title": "Knöpfe - Polycarbonat",
+      "category": "Spezialbauteile",
+      "image": "portfolio/grid/butoni-pc-polikarbonat-proizvodstvo-asak.webp",
+      "altText": "Satz spritzgegossener Knöpfe aus Polycarbonat für Bedienfelder",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 24,
+      "title": "Befestigungsrahmen - ABS/PC",
+      "category": "Maße: 35mmx12mmx5mm Gewicht: 2g",
+      "image": "portfolio/grid/ramka-abs-pc-shpritsovane-asak.webp",
+      "altText": "Kleiner Befestigungsrahmen aus ABS und Polycarbonat",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 25,
+      "title": "Formengehäuse - Polycarbonat",
+      "category": "Maße: 145mmx85mmx20mm Gewicht: 62g",
+      "image": "portfolio/grid/korpus-pc-shpricforma-matritsa-asak.webp",
+      "altText": "Polycarbonat-Bauteil, gefertigt mit Präzisions-Spritzform",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 26,
+      "title": "Rahmen - Polycarbonat",
+      "category": "Maße: 142mmx70mmx5mm Gewicht: 14g",
+      "image": "portfolio/grid/ramka-pc-polikarbonat-matritsa-asak.webp",
+      "altText": "Gehäuserahmen aus Polycarbonat - Werkzeugbau und Spritzguss",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 27,
+      "title": "Medizinische Steuerung - ASA",
+      "category": "Maße: 145mmx55mmx15mm Gewicht: 49g",
+      "image": "portfolio/grid/meditsinsko-upravlenie-asa-plastmasa-asak.webp",
+      "altText": "Fernbedienungsgehäuse für Medizintechnik aus ASA-Kunststoff",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 28,
+      "title": "Staubsauger-Ring - Polycarbonat",
+      "category": "Maße: 134mmx134mmx10mm Gewicht: 21g",
+      "image": "portfolio/grid/prasten-prahosmukachka-pc-asak.webp",
+      "altText": "Ringförmiges Ersatzteil für Staubsauger aus Polycarbonat",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 29,
+      "title": "Abdeckung Unterseite - Polycarbonat",
+      "category": "Maße: 140mmx70mmx4mm Gewicht: 31g",
+      "image": "portfolio/grid/kapak-dolna-chast-pc-shpritsovane-asak.webp",
+      "altText": "Unterseite einer technischen Abdeckung aus Polycarbonat",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 30,
+      "title": "Armband - TPE",
+      "category": "Maße: 270mmx13mmx5mm Gewicht: 12g",
+      "image": "portfolio/grid/kaishka-tpe-grivna-plastmasa-asak.webp",
+      "altText": "Elastisches Armband aus TPE für Sensorik-Anwendungen",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 31,
+      "title": "Medizinisches Bauteil - ASA",
+      "category": "Maße: 230mmx65mmx22mm Gewicht: 84g",
+      "image": "portfolio/grid/meditsinski-detayl-asa-shpritsovane-asak.webp",
+      "altText": "Hochwertiges medizinisches Gehäuseteil aus ASA-Material",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 32,
+      "title": "Saunasteuerung-Abdeckung - Polycarbonat",
+      "category": "Maße: 145mmx85mmx20mm Gewicht: 62g",
+      "image": "portfolio/grid/kapak-elektronika-sauna-pc-asak.webp",
+      "altText": "Hitzebeständige Abdeckung für Sauna-Elektronik aus Polycarbonat",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 33,
+      "title": "Verschlussdeckel - POM",
+      "category": "Maße: 20mmx20mmx20mm Gewicht: 4g",
+      "image": "portfolio/grid/kapak-pom-izrabotka-detayli-asak.webp",
+      "altText": "Präzisions-Verschlusskappe aus POM für Maschinenbau",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 34,
+      "title": "Dosierer - Polypropylen",
+      "category": "Maße: 80mm Durchmesser Gewicht: 3g",
+      "image": "portfolio/grid/dozator-pp-plastmasovo-izdelie-asak.webp",
+      "altText": "Spritzgegossener Dosierer aus Polypropylen (PP)",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 35,
+      "title": "Schutzgehäuse - ABS",
+      "category": "Maße: 130mmx55mmx28mm Gewicht: 19g",
+      "image": "portfolio/grid/korpus-elektronika-abs-shpritsovane-asak.webp",
+      "altText": "Industrielles Schutzgehäuse aus ABS-Kunststoff",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 36,
+      "title": "Sichtfenster - Polycarbonat",
+      "category": "Maße: 97mmx40mmx5mm Gewicht: 7g",
+      "image": "portfolio/grid/prozrachno-prozorche-pc-asak.webp",
+      "altText": "Glasklares Polycarbonat-Sichtfenster für technische Geräte",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 37,
+      "title": "Elektronikgehäuse - Sofia",
+      "category": "Maße: 140mmx65mmx70mm Gewicht: 45g",
+      "image": "portfolio/grid/korpus-elektronika-shpritsovane-sofia-asak.webp",
+      "altText": "Komplexes Spritzguss-Gehäuse, gefertigt am Standort Sofia",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 38,
+      "title": "Messgerätegehäuse - Polycarbonat",
+      "category": "Maße: 65mmx45mmx60mm Gewicht: 35g",
+      "image": "portfolio/grid/korpus-pribor-pc-shpritsovane-asak.webp",
+      "altText": "Polycarbonat-Gehäuse für präzise Messinstrumente",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 39,
+      "title": "Längsgehäuse - Polystyrol",
+      "category": "Maße: 210mmx22mmx10mm Gewicht: 22g",
+      "image": "portfolio/grid/korpus-ps-polistirol-shpritsovane-asak.webp",
+      "altText": "Spritzguss eines länglichen Gehäuses aus Polystyrol",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 40,
+      "title": "Mini-Gehäuse - Polystyrol",
+      "category": "Maße: 63mmx38mmx12mm Gewicht: 12g",
+      "image": "portfolio/grid/mini-korpus-ps-detayl-asak.webp",
+      "altText": "Miniaturgehäuse aus Polystyrol für Haushaltselektronik",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 41,
+      "title": "Kamerahalterung - Polyamid",
+      "category": "Maße: 110mmx30mmx10mm Gewicht: 7g",
+      "image": "portfolio/grid/stoyka-kamera-pa-poliamid-asak.webp",
+      "altText": "Schwarze Kamerahalterung aus widerstandsfähigem Polyamid",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 42,
+      "title": "Mini-Halterung - Polycarbonat",
+      "category": "Maße: 20mmx10mmx10mm Gewicht: 1g",
+      "image": "portfolio/grid/mini-stoyka-pc-plastmasa-asak.webp",
+      "altText": "Kleine Polycarbonat-Halterung zur Fixierung von Kleinteilen",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 43,
+      "title": "Halterung POM/PVC - Detail",
+      "category": "Maße: 42mmx42mmx20mm Gewicht: 7g",
+      "image": "portfolio/grid/stoyka-pom-pvc-detayl-asak.webp",
+      "altText": "Kombinationsbauteil aus POM und PVC für Montagezwecke",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 44,
+      "title": "Produktionsrahmen - ABS",
+      "category": "Maße: 210mmx152mmx55mm Gewicht: 142g",
+      "image": "portfolio/grid/ramka-abs-proizvodstvo-detayli-asak.webp",
+      "altText": "Großformatiger Montagerahmen aus ABS-Kunststoff",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 45,
+      "title": "Rahmen BayBlend - ABS/PC",
+      "category": "Material: BayBlend (PC+ABS)",
+      "image": "portfolio/grid/ramka-bayblend-pc-abs-asak.webp",
+      "altText": "Hochfester Rahmen aus BayBlend (ABS/PC-Mischung)",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 46,
+      "title": "Industrierahmen - Polyamid",
+      "category": "Maße: 142mmx140mmx35mm Gewicht: 115g",
+      "image": "portfolio/grid/ramka-pa-poliamid-izrabotka-asak.webp",
+      "altText": "Robuster Industrierahmen aus hochwertigem Polyamid",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    },
+    {
+      "id": 47,
+      "title": "Zahnrad - Polyamid",
+      "category": "Maße: 40mmx40mmx45mm Gewicht: 7g",
+      "image": "portfolio/grid/zabno-kolelo-pa-poliamid-asak.webp",
+      "altText": "Präzisionszahnrad aus Polyamid für industrielle Getriebe",
+      "groups": ["übersicht", "spritzguss"],
+      "links": [{"id": 1, "icon": "search-1", "link": "!#"}, {"id": 2, "icon": "link-alt", "link": "!#"}]
+    }
+  ]
 }

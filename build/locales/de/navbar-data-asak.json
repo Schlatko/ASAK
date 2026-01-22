@@ -5,49 +5,44 @@
     {
         "id": 2,
         "title": "Start",
-        "link": "/ASAK/",
+        "link": "/de",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
             {
                 "id": 2.1,
                 "title": "Leer",
-                "link": "/about"
+                "link": "/de/about"
                
             }]
     },
     {
         "id": 3,
         "title": "Leistungen",
-        "link": "/ASAK/offers",
+        "link": "/de/leistungen",
         "megaMenu": false,
         "sub": true, 
         "subMenu": [
             {
                 "id": 3.1,
                 "title": "Formenbau",
-                "link": "/formenbau"
+                "link": "/de/formenbau"
             },
             {
                 "id": 3.2,
                 "title": "Spritzguss",
-                "link": "/spritzguss"
+                "link": "/de/spritzguss"
             },
             {
                 "id": 3.3,
                 "title": "3D Druck & Prototypen",
-                "link": "/prototypen"
-            },
-            {
-                "id": 3.4,
-                "title": "Dreh-, Bohr-, & Fräsarbeiten",
-                "link": "/dbf"
+                "link": "/de/prototypen"
             }
             ,
             {
                 "id": 3.5,
                 "title": "Laserbeschriftungen",
-                "link": "/laser"
+                "link": "/de/laser"
             }
                  
         ]  
@@ -55,7 +50,7 @@
     {
         "id": 4,
         "title": "Referenzen",
-        "link": "/ASAK/referenzen",
+        "link": "/de/referenzen",
         "megaMenu": false,
         "sub": false
        
@@ -63,7 +58,7 @@
     {
         "id": 5,
         "title": "Über uns",
-        "link": "/ASAK/Contact",
+        "link": "/de/ueberuns",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
@@ -77,7 +72,7 @@
     {
         "id": 6,
         "title": "Kontakt",
-        "link": "/ASAK/contact",
+        "link": "/de/kontakt",
         "megaMenu": false,
         "sub": false
          

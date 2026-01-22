@@ -1,0 +1,47 @@
+{
+    "header": "Injection moulding",
+    "sub": "Precise production of first-class plastic components.",
+    "header2": "Selection of the material",
+  "sub2": "The choice of material depends on factors such as the number of pieces, material of the end product, product size and desired accuracy. It is important to consider the specific requirements of each project in order to select the optimum mould.",
+  "header3": "Choice of injection method",
+  "sub3": "Injection moulds can be classified according to the injection method, i.e. the way in which the molten plastic material is introduced into the mould. There are essentially two main types of injection methods.",
+  "header4": "Undercuts",
+  "sub4": "The production of undercuts in injection moulding requires special techniques and mechanisms, as they indicate areas in a moulded part that cannot be separated by simply pushing the two halves of the mould apart. Undercuts can be caused by overhanging structures or internal features, for example.",
+    "aftersub": "All details at a glance",
+    "tagline": "Test",
+
+    "alt_text": "Design and manufacture of injection molds and precision dies",
+  "alt_text2": "Professional tooling equipment for the plastics industry",
+  "alt_text3": "Service, repair and maintenance of molds and dies",
+   "alt_text4": "Design and manufacture of injection molds and precision dies",
+
+    "facttitle": "Machinery",
+    "factsub": "What we have to offer",
+    "facttext": "Our injection moulding company offers you a wide range of injection moulding services. We specialise in processing all common plastic materials and use state-of-the-art technologies. With machines up to a clamping force of 800 kN, we can handle both small and large projects with ease.",
+    "counter": [
+      {
+          "id": 1,
+          "value": 800 ,
+          "title": "kN Schließkraft",
+          "icon": "clock-time"
+      },
+      {
+          "id": 2,
+          "value": 220,
+          "title": "Happy Clients",
+          "icon": "slightly-smile"
+      },
+      {
+          "id": 3,
+          "value": 108,
+          "title": "Awwwards",
+          "icon": "trophy"
+      },
+      {
+          "id": 4,
+          "value": 650,
+          "title": "Projects a Year",
+          "icon": "coffee-cup"
+      }
+  ]
+  }

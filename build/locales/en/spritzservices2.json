@@ -1,0 +1,131 @@
+{   "head": "Services",
+    "desc": "We offer you comprehensive injection moulding services - from design and tool production, prototyping and series production to post-processing and assembly. Our flexible processes guarantee customised solutions, while our quality management ensures the highest standards.",
+    "desc2": "",
+    "services":[
+  
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      
+      "title": "Design and toolmaking",
+      "text1": "From the idea to the finished solution: we support you in the development of your product and ensure an optimised tool design. This ensures that production runs smoothly and efficiently.",
+      "text": [
+        {
+          
+          "test": "CAD-supported design"
+
+        },
+        {
+          
+          "test": "Development of prototype tools"
+    
+        },
+        {
+          
+          "test": "Customisation of existing tools"
+    
+        },
+        {
+          
+          "test": "Maintenance and optimisation of injection moulds"
+    
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Prototyping",
+      "text1": "Mit Prototypen und Vorserienmustern können Sie Ihr Produkt vor der Serienfertigung testen. Dadurch lassen sich eventuelle Anpassungen frühzeitig vornehmen, was Zeit und Kosten spart.",
+      "text": [
+        {
+          
+          "test": "3D-gedruckte Prototypen"
+
+        },
+        {
+          
+          "test": "Spritzguss-Prototypen mit Testwerkzeugen"
+
+        },
+        {
+          
+          "test": "Rapid Prototyping für schnelle Umsetzung"
+
+        },
+        {
+          
+          "test": "Vorserienfertigung zur Validierung"
+
+        }
+      ]
+    }
+    ,
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Klein- und Großserienfertigung",
+      "text1": "Wir bieten maximale Flexibilität: Egal ob Kleinserie für Spezialprojekte oder Großserie für Massenproduktion – unsere Fertigungsprozesse sind auf Ihre Bedürfnisse abgestimmt.",
+      "text": [
+        {
+          
+          "test": "Kleinserien: 100 bis 1.000 Stück"
+
+        },
+        {
+          
+          "test": "Großserien: ab 1000 Stück"
+
+        },
+        {
+          
+          "test": "Just-in-Time-Fertigung nach Bedarf"
+
+        },
+        {
+          
+          "test": "Serienproduktion mit Losgrößenoptimierung"
+
+        }
+      ]
+    }
+    ,
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Nachbearbeitung und Montage",
+      "text1": "Neben der reinen Fertigung übernehmen wir auch alle notwendigen Nachbearbeitungsschritte sowie die Montage einzelner Komponenten zu Baugruppen.",
+      "text": [
+        {
+          
+          "test": "Entgraten und Reinigen der Teile"
+
+        },
+        {
+          
+          "test": "Baugruppenmontage und Funktionstests"
+
+        }
+      ]
+    }
+    ,
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Qualitätsmanagement",
+      "text1": "Qualität steht bei uns an erster Stelle. Durch systematische Prüfverfahren und moderne Messtechniken stellen wir sicher, dass Ihre Produkte höchsten Standards entsprechen.",
+      "text": [
+        {
+          
+          "test": "100%-Kontrolle"
+
+        },
+        {
+          "test": "Dokumentation und Rückverfolgbarkeit"
+
+        }
+      ]
+    }
+    
+]
+}

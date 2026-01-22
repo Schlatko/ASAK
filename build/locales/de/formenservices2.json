@@ -1,0 +1,27 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Aluminium",
+      "text": "Bei Prototypen, kleineren Produktionsmengen und wenn eine schnellere Wärmeübertragung erforderlich ist.",
+      "text2": "Aluminium ist leichter und leitet Wärme effizienter als Stahl. Daher sind Aluminiumformen besonders geeignet, wenn schnelle Zykluszeiten erforderlich sind, etwa für Prototypen oder kleinere Produktionsläufe. Sie eignen sich jedoch nicht für hohe Stückzahlen, da Aluminium im Vergleich zu Stahl weniger verschleißfest ist."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Gehärteter Stahl",
+      "text": "Bei mittleren bis hohen Stückzahlen.",
+      "text2": "Edelstahlformen sind langlebig und widerstandsfähig gegenüber Verschleiß. Sie eignen sich gut für die Produktion größerer Mengen hochwertiger Kunststoffteile."
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "title": "Ungehärteter Stahl",
+      "text": "Bei niedrigeren Produktionsmengen und wenn die Kosteneffizienz wichtig ist.",
+      "text2" : "Ungehärteter Stahl ist kostengünstiger als gehärteter Stahl und kann in Situationen eingesetzt werden, in denen die Haltbarkeit und Verschleißfestigkeit von gehärtetem Stahl nicht unbedingt erforderlich sind. Es eignet sich gut für kleinere Produktionsmengen und Prototypen, bei denen die Kosteneffizienz eine größere Rolle spielt als die Lebensdauer der Form."
+    }
+    
+    
+]
+}

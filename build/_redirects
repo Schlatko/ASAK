@@ -1,1 +1,9 @@
+# Gezielte 301-Weiterleitungen für alte URLs
+
+/formenbau      /de/formenbau      301
+/spritzguss     /de/spritzguss     301
+/referenzen     /de/referenzen     301
+/laser          /de/laser          301  
+/prototypen     /de/prototypen     301
+/offers         /de/offers         301
 /* /index.html 200

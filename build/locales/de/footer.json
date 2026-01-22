@@ -1,11 +1,12 @@
-  {
+  { 
+    "link": "Impressum & Datenschutz",
     "aname": "Adresse",
     "adress": "Nikola Voynovski 27, 1510 Sofia",
     "telname": "Telefon",
-    "tel": "+49 151 111682642",
-    "tellink": "tel:+4915111682642",
+    "tel": "+359 888 72 48 03",
+    "tellink": "tel:+359888724803",
     "mailname": "E-Mail",
-    "mail": "info@asak-eu.com"
+    "mail": "info@asak-bg.com"
 
   }
 

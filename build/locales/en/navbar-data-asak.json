@@ -4,99 +4,78 @@
    
     {
         "id": 2,
-        "title": "Home",
-        "link": "/",
+        "title": "Start",
+        "link": "/en",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
             {
                 "id": 2.1,
                 "title": "Leer",
-                "link": "/about"
+                "link": "/en/about"
                
             }]
     },
     {
         "id": 3,
         "title": "Services",
-        "link": "/offers",
+        "link": "/en/offers",
         "megaMenu": false,
         "sub": true, 
         "subMenu": [
             {
                 "id": 3.1,
-                "title": "Moulds",
-                "link": "/blog/top-10-fastest-cars-in-the-world?id=1"
+                "title": "Mould making",
+                "link": "/en/mold-making"
             },
             {
                 "id": 3.2,
-                "title": "Injection Moulding",
-                "link": "/blog-grid"
+                "title": "Injection moulding",
+                "link": "/en/injection-molding"
             },
             {
                 "id": 3.3,
-                "title": "Prototyping",
-                "link": "/blog-sidebar"
-            },
-            {
-                "id": 3.4,
-                "title": "Special machine construction",
-                "link": "/blog-sidebar"
+                "title": "3D printing & prototypes",
+                "link": "/en/3d-printing"
             }
+            ,
+            {
+                "id": 3.5,
+                "title": "Laser labelling",
+                "link": "/en/laser-engraving"
+            }
+                 
         ]  
     },
     {
         "id": 4,
         "title": "References",
-        "link": "/portfolio",
+        "link": "/en/references",
         "megaMenu": false,
-        "sub": false, 
-        "subMenu": [
-            {
-                "id": 4.1,
-                "title": "Gallerie",
-                "link": "/boxed"
-               
-            },
-            {
-                "id": 4.2,
-                "title": "Industrien & Partner",
-                "link": "/boxed-space"
-            }
-        ]
+        "sub": false
+       
     },
     {
         "id": 5,
         "title": "About us",
-        "link": "/Contact",
+        "link": "/en/contact",
         "megaMenu": false,
         "sub": false, 
         "subMenu": [
             {
                 "id": 5.1,
-                "title": "Kontakt Formular",
-                "link": "/contact"
+                "title": "Contact form",
+                "link": "/en/contact"
             }
         ]  
     },
     {
         "id": 6,
         "title": "Contact",
-        "link": "/contact",
+        "link": "/en/contact",
         "megaMenu": false,
-        "sub": false, 
-        "subMenu": [
-            {
-                "id": 5.1,
-                "title": "Geschichte",
-                "link": "/shop-fullwidth"
-            },
-            {
-                "id": 5.2,
-                "title": "Das Team",
-                "link": "/shop-standard"
-            }
-        ]  
+        "sub": false
+         
     }
 ]
 }

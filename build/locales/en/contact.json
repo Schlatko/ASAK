@@ -1,12 +1,12 @@
 {"contact":
     
         {
-    "header": "Kontaktieren Sie uns",
+    "header": "Give us a call: +49 151 11 682642",
     "name": "Name",
-    "email": "E-Mail",
-    "telefon": "Telefonnummer",
-    "nachricht": "Nachricht",
-    "button": "Abschicken"
+    "email": "Email",
+    "telefon": "Phone number",
+    "nachricht": "Message",
+    "button": "Send"
 }
 
 }

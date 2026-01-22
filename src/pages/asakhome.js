@@ -22,7 +22,7 @@ import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 
 const asakhome = () => {
-  ReactGA.pageview('/about/contact-us');
+  ReactGA.pageview('/bg');
   ReactGA.send({
     hitType: " ",
     page: "/",

@@ -9,15 +9,18 @@
 "nachricht": "Съобщение",
 "button": "Изпращане",
 "adhead": "Адрес",
-"strasse": "Ул.Никола Войновски 27",
+"strasse": "ул. Никола Войновски 27",
 "ort": "1510 София - България",
 "telname": "Тел",
-"tel": "+49 151 111682642",
-"tellink": "tel:+4915111682642",
+"tel": "Sales BG +359 888 72 48 03",
+"tel2": "Sales English and German +359 879 22 18 12",
+    "tellink": "tel:+359888724803",
 "mailname": "Имейл",
-"mail": "info@asak-eu.com",
+"mail": "info@asak-bg.com",
 "arbeitszeitenh": "Работно време",
-"arbeitszeiten": "Понеделник - Петък: 08:00 Uhr bis 16:00 Uhr"
+"arbeitszeiten": "Понеделник - Петък: 08:00 ч. - 16:00 ч.",
+"alertsuc": "Имейлът е изпратен успешно",
+"alerterr": "Имейлът не може да бъде изпратен. Моля, опитайте отново или ни пишете на info@asak-bg.com"
 }
 
 }

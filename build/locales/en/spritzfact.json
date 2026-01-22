@@ -1,0 +1,29 @@
+{
+    "counter":
+    [
+    {
+        "id": 1,
+        "value": "Schließkraft",
+        "title": "800 kN",
+        "icon": "clock-time"
+    },
+    {
+        "id": 2,
+        "value": "Aufspannfläche",
+        "title": "370x370 mm",
+        "icon": "slightly-smile"
+    },
+    {
+        "id": 3,
+        "value": "Materialien",
+        "title": "POM, PUR, PC, PMMA, PE, ABS, uvm.",
+        "icon": "trophy"
+    },
+    {
+        "id": 4,
+        "value": "Losgrößen",
+        "title": "Klein und Großstückzahlen.",
+        "icon": "coffee-cup"
+    }
+    ]
+}

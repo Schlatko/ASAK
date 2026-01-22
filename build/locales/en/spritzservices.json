@@ -1,0 +1,90 @@
+{   "head": "Materials",
+    "desc": "We process a wide range of plastics, including standard and high-performance polymers. Our expertise helps you to select the ideal material for your project - be it for high strength, flexibility or special chemical resistance.",
+    "desc2": "We process a wide range of plastics, including standard and high-performance polymers. Our expertise helps you to select the ideal material for your project - be it for high strength, flexibility or special chemical resistance.",
+    "services":[
+  
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      
+      "title": "Injection moulded plastics",
+      "text1": "We process all common plastics by injection moulding and support you in choosing the optimum material for your project. Below you will find a selection of the plastics that we process.",
+      "text": [
+        {
+          
+          "test": "Polypropylene (PP)"
+
+        },
+        {
+          
+          "test": "thermoplastic elastomers (TPE)"
+    
+        },
+        {
+          
+          "test": "Polyamides (PA6, PA6.6)"
+    
+        },
+        {
+          
+          "test": "Polybutylen terephthalate (PBT)"
+    
+        },
+        {
+          
+          "test": "Polycarbonates (PC)"
+    
+        },
+        {
+          
+          "test": "Acrylonitrile butadiene styrene  (ABS)"
+    
+        },
+        {
+          
+          "test": "and more"
+    
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Speciality materials and additives",
+      "text1": "We offer a wide range of speciality plastics and additives that enable special properties for specific requirements. This allows us to optimally customise materials for your individual projects.",
+      "text": [
+        {
+          
+          "test": "Heat resistance"
+
+        },
+        {
+          
+          "test": "UV protection"
+
+        },
+        {
+          
+          "test": "Chemical resistance"
+
+        },
+        {
+          
+          "test": "Increased strength through glass fibre reinforcement"
+
+        },
+        {
+          
+          "test": "Flame protection"
+
+        },
+        {
+          
+          "test": "Improved impact strength"
+
+        }
+      ]
+    }
+    
+]
+}

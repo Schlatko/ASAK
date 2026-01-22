@@ -1,0 +1,50 @@
+{   "head": "Maschinenpark",
+    "desc": "Unser moderner Maschinenpark umfasst Spritzgussmaschinen verschiedener Tonnagen, die es uns ermöglichen, sowohl Klein- als auch Großserien präzise und effizient zu fertigen. Unsere technologisch fortschrittlichen Maschinen sorgen für hohe Qualität und Wiederholgenauigkeit.",
+    "desc2": "",
+    "services":[
+  
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      
+      "title": "Maschinenkapazitäten",
+      "text1": "Unsere Maschinen der Firma Arburg bieten eine Bandbreite an Kapazitäten, die es uns ermöglichen, verschiedenste Bauteile herzustellen – von kleinen, präzisen Teilen bis zu größeren Komponenten.",
+      "text": [
+        {
+          
+          "test": "Schussgewicht: bis 80 g"
+
+        },
+        {
+          
+          "test": "Maximale Formgröße: 346 mm x 346 mm"
+    
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Technologische Ausstattung",
+      "text1": "Unsere technologische Ausstattung umfasst moderne Automatisierungslösungen und Qualitätssicherungssysteme. Dies garantiert eine effiziente Produktion und höchste Präzision.",
+      "text": [
+        {
+          
+          "test": "Roboter für das automatische Entnehmen der Teile"
+
+        },
+        {
+          
+          "test": "Inline-Qualitätskontrolle"
+
+        },
+        {
+          
+          "test": "Temperiergeräte für optimale Werkzeugtemperierung"
+
+        }
+      ]
+    }
+    
+]
+}

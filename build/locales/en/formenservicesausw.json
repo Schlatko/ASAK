@@ -1,0 +1,20 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Mechanical sliders",
+      "text": "For simpler moulded parts or if the complexity of the part allows it.",
+      "text2": "Mechanical slide valves are simpler in design and often more cost-effective. They are well suited to applications where the movement of the sliding elements is less complex.",
+      "text3": "Example: Housing parts for electronic devices that do not require complex movements of the sliding elements."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Hydraulic sliders",
+      "text": "For complex moulded parts with different directions of movement or when precise control of the sliding elements is required.",
+      "text2": "Hydraulic slides offer precise and controlled movement, which is particularly important when complex moulded parts are to be produced.",
+      "text3": "Examples: Toys with moving parts where the sliding elements need to be controlled precisely."
+    }
+]
+}

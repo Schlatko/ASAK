@@ -1,0 +1,27 @@
+{
+    "services":[
+    {
+      "id": 1,
+      "icon": "test-tube-alt",
+      "title": "Aluminium",
+      "text": "For prototypes, smaller production quantities and when faster heat transfer is required.",
+      "text2": "Aluminium is lighter and conducts heat more efficiently than steel. Aluminium moulds are therefore particularly suitable when fast cycle times are required, for example for prototypes or smaller production runs. However, they are not suitable for large quantities, as aluminium is less wear-resistant than steel."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Hardened steel",
+      "text": "For medium to high quantities.",
+      "text2": "Stainless steel moulds are durable and resistant to wear. They are well suited to the production of large quantities of high-quality plastic parts."
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "title": "Unhardened steel",
+      "text": "For lower production volumes and when cost efficiency is important.",
+      "text2" : "Unhardened steel is less expensive than hardened steel and can be used in situations where the durability and wear resistance of hardened steel is not essential. It is well suited for smaller production runs and prototypes where cost efficiency is more important than mould life."
+    }
+    
+    
+]
+}

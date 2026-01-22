@@ -1,0 +1,60 @@
+{   "head": "Our expertise in materials and technologies",
+    "desc": "As a family business, we rely on in-depth knowledge and years of experience in the selection and application of materials and technologies. We always choose the right material for your project. With a precise eye for detail, we also offer solutions for sophisticated moulding techniques and injection methods in order to find the optimum method for every requirement.",
+    "desc2": "",
+    "services":[
+      {
+        "id": 1,
+        "icon": "test-tube-alt",
+        
+        "title": "Materials",
+        "text1": "Depending on your requirements, we use the ideal materials for your projects and rely on high-quality products from Meusburger:",
+        "text": [
+          {
+            
+            "test": "Aluminium - For prototypes and smaller production quantities"
+  
+          },
+          {
+            
+            "test": "Steel - ideal for high quantities"
+      
+          }
+        ]},
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Undercuts",
+      "text1": "Specialised techniques for sophisticated geometries and component structures:",
+      "text": [
+          {
+            
+            "test": "Mechanical sliders - cost-efficient solution for simpler moulded parts"
+  
+          },
+          {
+            
+            "test": "Hydraulic slides - For more complex moulded parts with precisely controllable sliding movements"
+      
+          }
+        ]},
+    {
+      "id": 3,
+      "icon": "",
+      "title": "Injection methods",
+      "text1": "The optimum injection method for different quantities and requirements. For precise and efficient material feed, we rely on the high-quality solutions from Thermoplay for hot runner systems.",
+     "text": [
+          {
+            
+            "test": "Cold runner system"
+  
+          },
+          {
+            
+            "test": "Hot runner system"
+      
+          }
+        ]}
+    
+    
+]
+}

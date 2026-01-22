@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import DropdownItem from "./DropdownItem";
 import MegaDropdown from "./MegaDropdown";
@@ -7,46 +7,60 @@ import useWindowResizeListener from "../../helpers/useWindowResizeListener";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 
-const DropdownMenuAsak = () => {
-  const { t } = useTranslation('navbar-data-asak');
-  const [activeDropdown, setActiveDropdown] = useState(null);
 
-  const menuData = t('header', { returnObjects: true });
-  const items = Array.isArray(menuData) ? menuData : [];
+const DropdownMenu = () => {
+
+// className={"dropdown-toggle " + (dropdown.sub === true ? "nav-link" : "")}  
+  useWindowResizeListener();
+
+  
+  const { t } = useTranslation('navbar-data-asak');
+ // {dataNav.map((dropdown, i) => (
+   //{t('navbar-data-asak', {returnObjects: true}).map((dropdown, i) => (
+     // {t("dataNav.title")}
+  const handleHover = (e) => {
+    e.preventDefault();
+    const width = window.innerWidth;
+    if (width < 991) {
+      const el = e.target;
+      if (e.target.nextSibling) {
+        if (el.parentElement.classList.contains("on")) {
+          el.nextSibling.style.display = "none";
+          el.parentElement.classList.remove("on");
+          el.nextSibling.style.opacity = 0;
+          el.nextSibling.classList.remove("fadeIn");
+        } else {
+          el.parentElement.classList.add("on");
+          el.nextSibling.style.display = "block";
+          el.nextSibling.style.opacity = 1;
+          el.nextSibling.classList.add("fadeIn");
+        }
+      }
+    }
+  };
 
   return (
     <div className="collapse navbar-collapse" id="navbar-menu">
-      <ul className="nav navbar-nav flex items-center">
-        {items.map((dropdown, i) => (
+      <ul className="nav navbar-nav" data-in="fadeIn" data-out="fadeOut">
+      {t('header', {returnObjects: true}).map((dropdown, i) => (
           <li
+            className={
+              "dropdown nav-item " + (dropdown.megaMenu === true ? "megamenu-fw" : "")
+            }
+            onClick={(e) => handleHover(e)}
             key={i}
-            className={`dropdown nav-item ${dropdown.megaMenu ? "megamenu-fw" : ""} ${activeDropdown === i ? "on" : ""}`}
-            onMouseEnter={() => window.innerWidth > 991 && setActiveDropdown(i)}
-            onMouseLeave={() => window.innerWidth > 991 && setActiveDropdown(null)}
           >
-            <Link 
-              to={dropdown.link} 
-              className={`nav-link ${dropdown.sub ? "dropdown-toggle" : ""}`}
-              onClick={(e) => {
-                if (window.innerWidth < 992 && dropdown.sub) {
-                  e.preventDefault();
-                  setActiveDropdown(activeDropdown === i ? null : i);
-                }
-              }}
-            >
-              {dropdown.title}
-            </Link>
-            
-            {dropdown.sub && activeDropdown === i && (
-              <ul className="dropdown-menu block opacity-100 visible animate-in fade-in duration-200 shadow-xl border-t-2 border-blue-600">
-                {dropdown.subMenu?.map((sub, idx) => (
-                  <li key={idx}>
-                    <Link to={sub.link} className="block px-4 py-2 hover:bg-gray-50 text-gray-700">
-                      {sub.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <a href={'/'}  className={"nav-link " + (dropdown.sub === true ? "dropdown-toggle" : "")}  data-toggle="dropdown">
+            <Link to={`${dropdown.link}`}>{dropdown.title}</Link>
+              
+              
+            </a>
+            {dropdown.sub ? (
+              <DropdownItem
+                item={dropdown.subMenu}
+              />
+            ) : (
+            ""
             )}
           </li>
         ))}
@@ -55,4 +69,4 @@ const DropdownMenuAsak = () => {
   );
 };
 
-export default DropdownMenuAsak;
+export default DropdownMenu;

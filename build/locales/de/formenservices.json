@@ -1,33 +1,60 @@
-{
+{   "head": "Unser Know-how in Materialien und Technologien",
+    "desc": "Als Familienunternehmen setzen wir auf fundiertes Wissen und jahrelange Erfahrung in der Auswahl und Anwendung von Materialien und Technologien. Wir wählen stets das passende Material für Ihr Projekt. Mit einem präzisen Blick für Details bieten wir zudem Lösungen für anspruchsvolle Formtechniken und Einspritzmethoden, um für jede Anforderung die optimale Methode zu finden.",
+    "desc2": "",
     "services":[
-    {
-      "id": 1,
-      "icon": "test-tube-alt",
-      "title": "Aluminium",
-      "text": "Bei Prototypen, kleineren Produktionsmengen und wenn eine schnellere Wärmeübertragung erforderlich ist.",
-      "text2": "Aluminium ist leichter und leitet Wärme effizienter als Stahl. Daher sind Aluminiumformen besonders geeignet, wenn schnelle Zykluszeiten erforderlich sind, etwa für Prototypen oder kleinere Produktionsläufe. Sie eignen sich jedoch nicht für hohe Stückzahlen, da Aluminium im Vergleich zu Stahl weniger verschleißfest ist."
-    },
+      {
+        "id": 1,
+        "icon": "test-tube-alt",
+        
+        "title": "Materialien",
+        "text1": "Wir setzen je nach Anforderung die idealen Materialien für Ihre Projekte ein und setzen hierbei auf hochqualitative Produkte der Firma Meusburger:",
+        "text": [
+          {
+            
+            "test": "Aluminium - Für Prototypen und kleinere Produktionsmengen"
+  
+          },
+          {
+            
+            "test": "Stahl - Ideal für hohe Stückzahlen"
+      
+          }
+        ]},
     {
       "id": 2,
       "icon": "",
-      "title": "Gehärteter Stahl",
-      "text": "Bei mittleren bis hohen Stückzahlen.",
-      "text2": "Edelstahlformen sind langlebig und widerstandsfähig gegenüber Verschleiß. Sie eignen sich gut für die Produktion größerer Mengen hochwertiger Kunststoffteile."
-    },
+      "title": "Hinterschneidungen",
+      "text1": "Spezialtechniken für anspruchsvolle Geometrien und Bauteilstrukturen:",
+      "text": [
+          {
+            
+            "test": "Mechanische Schieber - Kosteneffiziente Lösung für einfachere Formteile"
+  
+          },
+          {
+            
+            "test": "Hydraulische Schieber - Für komplexere Formteile mit präzise steuerbaren Schiebebewegungen"
+      
+          }
+        ]},
     {
       "id": 3,
       "icon": "",
-      "title": "Ungehärteter Stahl",
-      "text": "Bei niedrigeren Produktionsmengen und wenn die Kosteneffizienz wichtig ist.",
-      "text2" : "Ungehärteter Stahl ist kostengünstiger als gehärteter Stahl und kann in Situationen eingesetzt werden, in denen die Haltbarkeit und Verschleißfestigkeit von gehärtetem Stahl nicht unbedingt erforderlich sind. Es eignet sich gut für kleinere Produktionsmengen und Prototypen, bei denen die Kosteneffizienz eine größere Rolle spielt als die Lebensdauer der Form."
-    }
-    ,
-    {
-      "id": 4,
-      "icon": "Formen aus dem 3D Drucker",
-      "title": "Formen aus dem 3D Drucker",
-      "text": "Vor allem für Prototypen und kleinere Produktionsmengen.",
-      "text2": " 3D-gedruckte Formen bieten Flexibilität und ermöglichen schnelle Iterationen im Prototyping-Prozess. Sie eignen sich gut für die Herstellung von Formen für kleinere Produktionsläufe, insbesondere wenn die Stückzahlen nicht hoch sind."
-    }
+      "title": "Einspritzmethoden",
+      "text1": "Die optimale Einspritzmethode für unterschiedliche Stückzahlen und Anforderungen. Für eine präzise und effiziente Materialzufuhr setzen wir bei Heißkanalsystemen auf die hochwertigen Lösungen der Firma Thermoplay.",
+     "text": [
+          {
+            
+            "test": "Kaltkanalsystem"
+  
+          },
+          {
+            
+            "test": "Heißkanalsystem"
+      
+          }
+        ]}
+    
+    
 ]
 }

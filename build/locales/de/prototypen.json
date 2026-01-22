@@ -3,25 +3,29 @@
   "sub": "Von Idee zu Realität: Perfekte Prototypen durch fortschrittlichen 3D-Druck.",
   "aftersub": "Alle Details in der Übersicht",
 
+   "alt_text": "3D-Druck und Rapid Prototyping von Bauteilen in Sofia",
+  "alt_text2": "Professionelle 3D-Modellierung von Kunststoffprototypen",
+
+
   "text": "Geben Sie Ihrer Produktentwicklung mit unserer 3D-Drucktechnologie eine neue Dimension. Unser 3D-Druckservice ermöglicht die präzise und maßgeschneiderte Fertigung von Prototypen und Kleinserien aus verschiedensten Kunststoffen auf spezielle Anfrage auch aus Metall. Erleben Sie eine innovative Herangehensweise an Design und Produktion, die Ihre Visionen Wirklichkeit werden lässt.", 
   "services":
     [
       {
         "id": 1,
         "title": "Designentwicklung",
-        "text": "Unser angebotener Prozess für Kunden beginnt mit der Entwicklung des Prototypen-Designs. Unsere Ingenieure und Designer nutzen fortschrittliche CAD (Computer-Aided Design)-Software, um das gewünschte Produktmodell zu erstellen. Dabei legen sie besonderen Wert auf die Berücksichtigung funktionaler Anforderungen, die Auswahl des optimalen Materials und die Sicherstellung der Herstellbarkeit.",
+        "text": "Unsere Ingenieure und Designer nutzen fortschrittliche CAD (Computer-Aided Design)-Software, um das gewünschte Produktmodell zu erstellen. Dabei legen sie besonderen Wert auf die Berücksichtigung funktionaler Anforderungen, die Auswahl des optimalen Materials und die Sicherstellung der Herstellbarkeit.",
         "icon": "gears"
       },
       {
         "id": 2,
         "title": "Materialauswahl",
-        "text": "Die Materialauswahl erfolgt auf Basis der spezifischen Anforderungen des Prototyps. Hierbei wird sorgfältig das geeignete Kunststoffmaterial für den 3D-Druck ausgewählt. Unterschiedliche Materialien bieten verschiedene Eigenschaften wie Festigkeit, Flexibilität und Temperaturbeständigkeit, die exakt den Anforderungen des Prototyps entsprechen müssen.",
-        "icon": "gears"
+        "text": "Unterschiedliche Materialien bieten verschiedene Eigenschaften wie Festigkeit, Flexibilität und Temperaturbeständigkeit, die exakt den Anforderungen des Prototyps entsprechen müssen.",
+        "icon": "learn"
       },
       {
         "id": 3,
         "title": "Vorbereitung",
-        "text": "Unsere Experten bereiten den 3D-Drucker vor, indem sie das CAD-Modell in das vom Drucker verarbeitbare Format umwandeln. Dabei werden entscheidende Druckparameter wie Schichtdicke und Druckgeschwindigkeit festgelegt. Der 3D-Drucker wird anschließend entsprechend vorbereitet und mit dem ausgewählten Material beladen.",
+        "text": "Im nächsten Prozessschritt werden entscheidende Druckparameter wie Schichtdicke und Druckgeschwindigkeit festgelegt. Der 3D-Drucker wird anschließend entsprechend vorbereitet und mit dem ausgewählten Material beladen.",
         "icon": "light-bulb"
       },
       {
@@ -34,13 +38,13 @@
         "id": 5,
         "title": "Nachbearbeitung",
         "text": "Nach dem Druckvorgang kann eine individuelle Nachbearbeitung erforderlich sein. Dazu gehören das Entfernen von Stützstrukturen, das Glätten von Oberflächen oder weitere Feinabstimmungen, um das endgültige Aussehen und die Funktionalität zu optimieren.",
-        "icon": "industries-2"
+        "icon": "spanner"
       },
       {
         "id": 6,
         "title": "Test und Iteration",
-        "text": "Schließlich durchläuft der erstellte Prototyp umfassende Tests, um sicherzustellen, dass er den funktionalen Anforderungen entspricht. Basierend auf den Testergebnissen können Anpassungen am Design vorgenommen werden. Dieser iterative Zyklus von Druck, Test und Anpassung wird so lange wiederholt, bis der Prototyp den exakten Spezifikationen und Wünschen des Kunden entspricht.",
-        "icon": "spanner"
+        "text": "Schließlich durchläuft der erstellte Prototyp umfassende Tests, um sicherzustellen, dass er den funktionalen Anforderungen entspricht. Basierend auf den Testergebnissen können Anpassungen am Design vorgenommen werden.",
+        "icon": "hammer-alt"
       }
     ]   
 

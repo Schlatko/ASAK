@@ -1,5 +1,6 @@
 {
-  "header": "Formenbau bei A.S.A.K.",
+  "title": "Formenbau bei A.S.A.K.",
+  "alt_text": "Konstruktion und Herstellung von Spritzgussformen und Präzisionsmatrizen",
   "sub": "MASTERING MOLDS DELIVERING EXCELLENCE",
   "header2": "Auswahl des Materials",
   "sub2": "Die Wahl des Materias hängt von Faktoren wie Stückzahl, Material des Endprodukts, Produktgröße und gewünschter Genauigkeit ab. Es ist wichtig, die spezifischen Anforderungen jedes Projekts zu berücksichtigen, um die optimale Form zu wählen.",
@@ -10,7 +11,8 @@
 
   "aftersub": "Alle Details in der Übersicht",
   "tagline": "Innovation durch Formenbau: Perfekte Werkzeuge für Ihren Spritzguss-Erfolg.",
-  
+    "alt_text2": "Professionelle Werkzeugausstattung für die Kunststoffindustrie",
+  "alt_text3": "Service, Reparatur und Wartung von Formen und Matrizen",
   "text": "Der Spritzgussformenbau ist ein entscheidender Schritt in der Kunststoffverarbeitung. Hier entstehen die Werkzeuge, die für die Produktion von Kunststoffteilen durch Spritzgussverfahren verwendet werden. Spritzguss ermöglicht eine kostengünstige, schnelle und präzise Herstellung von Produkten in großen Stückzahlen. Die Qualität der Spritzgussformen beeinflusst maßgeblich die Endprodukte, daher ist eine professionelle Herstellung von höchster Bedeutung. Wir verstehen die Bedeutung eines effizienten und zuverlässigen Spritzgussformenbaus für Ihr Unternehmen.", 
   "services":
     [
@@ -24,7 +26,7 @@
         "id": 2,
         "title": "Betriebsinterner Formenbau",
         "text": "Durch unseren eigenen Formenbau verkürzen wir deutlich die Durchlaufzeiten von Neu- und Bestandwerkzeugen. Änderungen und Optimierungen der Spritzgusswerkzeuge können genau deshalb von uns kurzfristig und problemlos durchgeführt werden. Dadurch kann die Serienfertigung so schnell wie möglich fortgesetzt werden.",
-        "icon": "gears"
+        "icon": "bolt"
       },
       {
         "id": 3,

@@ -1,0 +1,52 @@
+{
+  "header": "3D printing & prototypes",
+  "sub": "From idea to reality: perfect prototypes thanks to advanced 3D printing.",
+  "aftersub": "All details at a glance",
+
+  "alt_text": "3D printing and rapid prototyping of components in Sofia",
+  "alt_text2": "Professional 3D modeling of plastic prototypes",
+
+  "text": "Give your product development a new dimension with our 3D printing technology. Our 3D printing service enables the precise and customised production of prototypes and small series from a wide range of plastics, including metal on special request. Experience an innovative approach to design and production that turns your visions into reality.", 
+  "services":
+    [
+      {
+        "id": 1,
+        "title": "Design development",
+        "text": "Our engineers and designers use advanced CAD (computer-aided design) software to create the desired product model. They place particular emphasis on taking functional requirements into account, selecting the optimum material and ensuring manufacturability.",
+        "icon": "gears"
+      },
+      {
+        "id": 2,
+        "title": "Material selection",
+        "text": "Different materials offer different properties such as strength, flexibility and temperature resistance, which must precisely match the requirements of the prototype.",
+        "icon": "gears"
+      },
+      {
+        "id": 3,
+        "title": "Preparation",
+        "text": "In the next process step, decisive printing parameters such as layer thickness and printing speed are defined. The 3D printer is then prepared accordingly and loaded with the selected material.",
+        "icon": "light-bulb"
+      },
+      {
+        "id": 4,
+        "title": "3D printing",
+        "text": "The actual 3D printing process starts, with the printer creating the object layer by layer. Melted plastic material is deposited precisely according to the shapes and structures defined in the CAD model. This layer structure is repeated until the entire prototype has been completed.",
+        "icon": "architecture-alt"
+      },
+      {
+        "id": 5,
+        "title": "Post-processing",
+        "text": "Customised post-processing may be required after the printing process. This includes the removal of support structures, the smoothing of surfaces or further fine-tuning to optimise the final appearance and functionality.",
+        "icon": "industries-2"
+      },
+      {
+        "id": 6,
+        "title": "Test and iteration",
+        "text": "Finally, the prototype undergoes extensive testing to ensure that it fulfils the functional requirements. Adjustments can be made to the design based on the test results.",
+        "icon": "spanner"
+      }
+    ]   
+
+    
+      
+}
