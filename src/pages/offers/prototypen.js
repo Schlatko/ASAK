@@ -16,7 +16,7 @@ import { Helmet } from "react-helmet";
 
 
 
-const spritzguss = () => {
+const printirane = () => {
     const [toggler, setToggler] = useState(false);
     useEffect(() => {
       AOS.init();
@@ -42,7 +42,7 @@ const spritzguss = () => {
   <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/prototypen" />
 <link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/3d-printirane" />
 <link rel="alternate" hreflang="en" href="https://asak-bg.com/en/3d-printing" />
-<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/prototypen" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/3d-printirane" />
 </Helmet>
 
         <HeaderASAK />
@@ -65,5 +65,5 @@ const spritzguss = () => {
     );
   };
   
-  export default spritzguss;
+  export default printirane;
   

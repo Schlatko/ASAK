@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-<!-- Home / Stamm-URL -->
+
+<!-- ========================================================== -->
+
+<!-- HOME (Startseite & Root) -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/</loc>
@@ -10,8 +15,33 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg"/>
 </url>
+<url>
+<loc>https://asak-bg.com/bg</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg"/>
+</url>
+<url>
+<loc>https://asak-bg.com/de</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg"/>
+</url>
 
-<!-- Uslugi / Leistungen / Services -->
+<!-- ========================================================== -->
+
+<!-- USLUGI / LEISTUNGEN / SERVICES -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/bg/uslugi</loc>
@@ -20,8 +50,26 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/services"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/uslugi"/>
 </url>
+<url>
+<loc>https://asak-bg.com/de/leistungen</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/uslugi"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/leistungen"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/services"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/uslugi"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en/services</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/uslugi"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/leistungen"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/services"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/uslugi"/>
+</url>
 
-<!-- Shpritsovane / Spritzguss / Injection Molding -->
+<!-- ========================================================== -->
+
+<!-- SHPRITSOVANE / SPRITZGUSS / INJECTION MOLDING -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/bg/shpritsovane</loc>
@@ -30,8 +78,26 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/injection-molding"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/shpritsovane"/>
 </url>
+<url>
+<loc>https://asak-bg.com/de/spritzguss</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/shpritsovane"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/spritzguss"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/injection-molding"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/shpritsovane"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en/injection-molding</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/shpritsovane"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/spritzguss"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/injection-molding"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/shpritsovane"/>
+</url>
 
-<!-- Matrici / Formenbau / Mold Making -->
+<!-- ========================================================== -->
+
+<!-- MATRICI / FORMENBAU / MOLD MAKING -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/bg/izrabotka-na-matrici</loc>
@@ -40,8 +106,26 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/mold-making"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/izrabotka-na-matrici"/>
 </url>
+<url>
+<loc>https://asak-bg.com/de/formenbau</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/izrabotka-na-matrici"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/formenbau"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/mold-making"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/izrabotka-na-matrici"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en/mold-making</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/izrabotka-na-matrici"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/formenbau"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/mold-making"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/izrabotka-na-matrici"/>
+</url>
 
-<!-- Laser -->
+<!-- ========================================================== -->
+
+<!-- LASER -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/bg/lazerno-gravirane</loc>
@@ -50,8 +134,26 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-engraving"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/lazerno-gravirane"/>
 </url>
+<url>
+<loc>https://asak-bg.com/de/laser</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/lazerno-gravirane"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/laser"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-engraving"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/lazerno-gravirane"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en/laser-engraving</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/lazerno-gravirane"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/laser"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-engraving"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/lazerno-gravirane"/>
+</url>
 
-<!-- 3D / Prototypen -->
+<!-- ========================================================== -->
+
+<!-- 3D / PROTOTYPEN / 3D PRINTING -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/bg/3d-printirane</loc>
@@ -60,8 +162,26 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/3d-printing"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/3d-printirane"/>
 </url>
+<url>
+<loc>https://asak-bg.com/de/prototypen</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/3d-printirane"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/prototypen"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/3d-printing"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/3d-printirane"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en/3d-printing</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/3d-printirane"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/prototypen"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/3d-printing"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/3d-printirane"/>
+</url>
 
-<!-- Za Nas / Über Uns / About Us -->
+<!-- ========================================================== -->
+
+<!-- ZA NAS / ÜBER UNS / ABOUT US -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/bg/za-nas</loc>
@@ -70,11 +190,43 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/about-us"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/za-nas"/>
 </url>
+<url>
+<loc>https://asak-bg.com/de/ueberuns</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/za-nas"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/ueberuns"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/about-us"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/za-nas"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en/about-us</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/za-nas"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/ueberuns"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/about-us"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/za-nas"/>
+</url>
 
-<!-- Referentsii / Referenzen / References -->
+<!-- ========================================================== -->
+
+<!-- REFERENTSII / REFERENZEN / REFERENCES -->
+
+<!-- ========================================================== -->
 
 <url>
 <loc>https://asak-bg.com/bg/referentsii</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/referentsii"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/referenzen"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/references"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/referentsii"/>
+</url>
+<url>
+<loc>https://asak-bg.com/de/referenzen</loc>
+<xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/referentsii"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/referenzen"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/references"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/referentsii"/>
+</url>
+<url>
+<loc>https://asak-bg.com/en/references</loc>
 <xhtml:link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/referentsii"/>
 <xhtml:link rel="alternate" hreflang="de" href="https://asak-bg.com/de/referenzen"/>
 <xhtml:link rel="alternate" hreflang="en" href="https://asak-bg.com/en/references"/>

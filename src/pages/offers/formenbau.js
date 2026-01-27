@@ -45,7 +45,7 @@ const spritzguss = () => {
   <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/formenbau" />
 <link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/izrabotka-na-matrici" />
 <link rel="alternate" hreflang="en" href="https://asak-bg.com/en/mold-making" />
-<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/formenbau" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/izrabotka-na-matrici" />
 </Helmet>
         <HeaderASAK />
         <TitelASAK title={t('title')} 

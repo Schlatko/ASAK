@@ -44,7 +44,7 @@ const spritzguss = () => {
   <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/laser" />
 <link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/lazerno-gravirane" />
 <link rel="alternate" hreflang="en" href="https://asak-bg.com/en/laser-engraving" />
-<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/laser" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/lazerno-gravirane" />
 </Helmet>
 
         <HeaderASAK />

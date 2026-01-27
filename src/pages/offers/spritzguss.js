@@ -49,7 +49,7 @@ const spritzguss = () => {
   <link rel="alternate" hreflang="de" href="https://asak-bg.com/de/spritzguss" />
 <link rel="alternate" hreflang="bg" href="https://asak-bg.com/bg/shpritsovane" />
 <link rel="alternate" hreflang="en" href="https://asak-bg.com/en/injection-molding" />
-<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/de/spritzguss" />
+<link rel="alternate" hreflang="x-default" href="https://asak-bg.com/bg/shpritsovane" />
 </Helmet>
         <HeaderASAK />
         
